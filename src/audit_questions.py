@@ -33,23 +33,19 @@ import json
 import re
 import sys
 from datetime import date
+from pathlib import Path
 
 # The day the working set was frozen and scored. Deadlines before this
 # date cannot be settled in the future anymore.
 TODAY = date(2026, 10, 26)
 
-DEFAULT_INPUT = (
-    "/home/hatch/workspace/goals/meta-global-ai-developer-hackathon-entry/"
-    "files/working-set-2026-10-26.json"
-)
-DEFAULT_JSON_OUT = (
-    "/home/hatch/workspace/goals/meta-global-ai-developer-hackathon-entry/"
-    "files/question-scores-2026-10-26.json"
-)
-DEFAULT_MD_OUT = (
-    "/home/hatch/workspace/goals/meta-global-ai-developer-hackathon-entry/"
-    "files/question-scores-2026-10-26.md"
-)
+# Defaults are repo-relative (fixed Oct 28, 2026): run from anywhere, the
+# scorer reads this repo's data/questions.json and writes
+# data/question_scores.json + data/question_scores.md.
+REPO = Path(__file__).resolve().parent.parent
+DEFAULT_INPUT = str(REPO / "data" / "questions.json")
+DEFAULT_JSON_OUT = str(REPO / "data" / "question_scores.json")
+DEFAULT_MD_OUT = str(REPO / "data" / "question_scores.md")
 
 # ---------------------------------------------------------------- dates
 
@@ -129,6 +125,10 @@ def pick_deadline(text, dates):
 # Explicit settling-authority cues. If NONE of these appear in the
 # wording, the question carries no visible statement of who or what
 # settles it. This flag is about the text only.
+# Matching is by substring, which is lenient by construction: a cue
+# anywhere in the text counts as a source cue. Sports questions settle on
+# outcomes, so outcome words (win, championship, super bowl, ...) count
+# as cues — a stated design choice, not an oversight.
 SOURCE_CUES = [
     "according to", "as reported by", "as certified by", "reported by",
     "official", "announce", "announcement", "declare", "certify",

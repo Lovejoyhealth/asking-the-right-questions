@@ -136,7 +136,10 @@ missing from the machine):
   coupling for all 72 pairs — 12 have 95% ranges excluding zero, and 9 of the
   10 pairs the classical shuffle test flagged at p < 0.01 are corroborated in
   direction with ranges excluding zero. Per-question position-effect ranges
-  in the full report are Pyro fits from this pass, not approximations.
+  in the second-pass report (data/engine-run-full-2026-10-27.json) are Pyro
+  fits from this pass, not approximations; the per-question records in
+  data/engine_results.json still carry the first pass's
+  normal-approximation intervals, labeled as such.
 - The fitted noncommutative (quantum-style) model ran two ways and is NOT
   evidence here: fitted jointly it fit badly, and fitted per pair it implied
   order effects about 2.5x the directly measured ones. Reported, not hidden —

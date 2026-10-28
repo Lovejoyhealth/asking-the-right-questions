@@ -1,62 +1,67 @@
 #!/usr/bin/env python3
 """Smallest faithful engine runner for the hackathon answer run (step 2).
 
-Reads files/answer-run-2026-10-27.json (300 Spark forecaster calls: 12 topics
-x 25 shuffled runs) and writes files/engine-run-2026-10-27.json.
+Reads data/answers.json (300 Spark forecaster calls: 12 topics x 25
+shuffled runs) and writes data/engine_results.json. All paths are
+repo-relative (fixed Oct 28, 2026; the committed copy before that fix
+also carried a correction note pasted as raw prose under the docstring,
+which made the file unparseable — the note is folded into this
+docstring, where it belongs). The audit engine core is prior work and
+is NOT in this repo (see ../PRIOR_WORK.md): set the SURVEY_ENGINE_SRC
+environment variable to the folder holding the engine's nulls.py and
+noncommutative.py, or this runner stops with that explanation.
 
-WHAT RAN (prior-work code, loaded directly from
-~/workspace/survey-bias-audit-extract/src/survey_bias_audit/ because the
-package __init__ needs reportlab, which is not installed):
-- nulls.permutation_null: column-shuffle permutation null for every pairwise
-  correlation between questions in a topic (destroys between-item coupling,
-  keeps each question's marginal distribution).
-- noncommutative.qq_residual and .order_effect: the projective-model order
-  statistics on dichotomized joint tables (probability >= 50 counts as YES;
-  stated plainly wherever used). order_effect is the total-variation distance
-  between the two question orders, on aligned labels.
-- noncommutative.null_order_effect: the 95th-percentile order-effect reading
-  expected when the true effect is zero, at the pair's arm size.
+WHAT THIS RUNNER DOES (first pass, Oct 27, 2026), using prior-work
+engine code loaded directly from the engine source:
+- nulls.permutation_null: column-shuffle permutation null for every
+  pairwise correlation between questions in a topic.
+- noncommutative.qq_residual, .order_effect, .null_order_effect: the
+  projective model's model-free order statistics on dichotomized joint
+  tables (probability >= 50 counts as YES) and the 95th-percentile
+  chance bar.
+- Its own position-effect shuffle test: for each question, the mean
+  probability when asked FIRST minus the mean when asked later, against
+  the same difference after shuffling the first/later labels (2,000
+  permutations, fixed seed). Position effects from this runner carry a
+  plain normal-approximation 95% interval, labeled as an approximation.
+- Verdict rule (fixed before looking at results): FLAGGED only if
+  p < 0.05 AND |effect| >= 10 points; p < 0.05 with a smaller effect is
+  SUGGESTIVE; everything else is NO EFFECT FOUND. With 48 questions at
+  0.05, about 2-3 false flags are expected by chance alone, and the
+  report says so.
 
-WHAT DID NOT RUN, and why:
-- The Pyro Bayesian track (bayes.py, LKJ + NUTS) did NOT run: torch and
-  pyro-ppl are not installed in this sandbox. In its place, each position
-  effect carries a plain normal-approximation 95% interval, LABELED as an
-  approximation, never as the Pyro fit.
-- The PennyLane noncommutative module did NOT run as a fitted model: no
-  pennylane, no torch. The qq_residual / order_effect statistics above are
-  the same module's model-free statistics, not a fitted quantum model.
-- No human respondents: the "respondents" here are 25 repeated calls to ONE
-  Muse Spark forecaster per topic. Results describe Spark's answering
-  behaviour, not human forecasters. That limit is stated in every output.
+SECOND PASS (Oct 27, separate scripts, run in the engine's own Python
+environment): the Pyro Bayesian track (LKJ prior + NUTS, 0
+divergences), the fitted noncommutative model, and the PennyLane
+circuit verification. The first pass originally reported those tracks
+as "did not run" because it executed under the wrong Python; the
+packages were installed all along, that claim was wrong, and it was
+corrected the same day. The fitted model ran and fit badly (it
+overstated effects and is reported, not used as evidence); PennyLane
+agreed with the main implementation to machine precision. Second-pass
+outputs: data/engine-run-full-2026-10-27.json and
+data/engine-run-pair-fits-2026-10-27.json. The committed
+data/engine_results.json is this runner's output with its machinery
+block updated after the second pass; per-question records still carry
+the labeled normal-approximation intervals, and the fitted Pyro ranges
+live in the second-pass file.
 
-Position effect (the headline order measurement): for each question, the mean
-probability when the question was asked FIRST minus the mean when it was asked
-later. Null: the same difference after shuffling which runs count as "first"
-(2000 permutations, fixed seed). Two-sided p.
-Verdict rule (fixed before looking at results, stated here): an order effect
-is FLAGGED only if p < 0.05 AND |effect| >= 10 points. p < 0.05 with a smaller
-effect is SUGGESTIVE. Everything else is NO EFFECT FOUND. With 48 questions
-tested at 0.05, about 2-3 false flags are expected by chance alone; the
-report says so rather than hiding it.
+No human respondents: the "respondents" are 25 repeated calls to ONE
+Muse Spark forecaster per topic. Results describe Spark's answering
+behaviour, not human forecasters.
 """
-
-CORRECTION (Oct 27, 2026): the "WHAT DID NOT RUN" section below is the
-first pass's original claim and it was wrong — torch, pyro and pennylane
-were installed all along in the survey engine's own venv; this runner
-executed under the system Python. A second pass the same day ran the Pyro
-Bayesian track, the fitted noncommutative model, and the PennyLane circuit
-verification for real (hidden_files/run_engine_full.py and
-run_pair_fits.py; outputs files/engine-run-full-2026-10-27.json and
-files/engine-run-pair-fits-2026-10-27.json). All reports were patched.
 
 import importlib.util
 import itertools
 import json
+import os
 import sys
+from pathlib import Path
 
 import numpy as np
 
-GOAL = "/home/hatch/workspace/goals/meta-global-ai-developer-hackathon-entry"
+REPO = Path(__file__).resolve().parent.parent
+DATA = REPO / "data"
 
 
 def load(name, path):
@@ -67,13 +72,21 @@ def load(name, path):
     return m
 
 
-BASE = "/home/hatch/workspace/survey-bias-audit-extract/src/survey_bias_audit/"
+BASE = os.environ.get("SURVEY_ENGINE_SRC")
+if not BASE:
+    raise SystemExit(
+        "SURVEY_ENGINE_SRC is not set: the audit engine core is prior work "
+        "and is not in this repo (see ../PRIOR_WORK.md). Point "
+        "SURVEY_ENGINE_SRC at the folder holding the engine's nulls.py and "
+        "noncommutative.py to run this first-pass runner."
+    )
+BASE = str(Path(BASE)) + "/"
 nulls = load("engine_nulls", BASE + "nulls.py")
 nc = load("engine_nc", BASE + "noncommutative.py")
 
-with open(f"{GOAL}/files/answer-run-2026-10-27.json") as f:
+with open(DATA / "answers.json") as f:
     run = json.load(f)
-with open(f"{GOAL}/files/working-set-2026-10-26.json") as f:
+with open(DATA / "questions.json") as f:
     working = json.load(f)
 qtext = {q["id"]: q["question"] for q in working}
 qtopic = {q["id"]: q["topic"] for q in working}
@@ -155,8 +168,6 @@ for ti, topic in enumerate(topics):
             "null_p": round(float(nr.p_value), 4),
         })
     # Ordered pairs: dichotomized joints, real QQ statistics.
-    for a, b in itertools.permutations(qids, 2):
-        pass
     for a, b in itertools.combinations(qids, 2):
         def joint(first_q, second_q):
             cells = {"yy": 0, "yn": 0, "ny": 0, "nn": 0}
@@ -212,7 +223,7 @@ results["summary"] = {
     "respondents_note": "Respondents are 25 repeated calls to ONE Muse Spark forecaster per topic, "
                          "not human forecasters. Results describe Spark's answering behaviour.",
 }
-with open(f"{GOAL}/files/engine-run-2026-10-27.json", "w") as f:
+with open(DATA / "engine_results.json", "w") as f:
     json.dump(results, f, indent=2)
 print(f"questions=48 flagged={len(flagged)} suggestive={len(suggestive)} "
       f"mean_abs_effect={results['summary']['mean_absolute_position_effect_points']} "

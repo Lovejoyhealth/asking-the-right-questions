@@ -153,9 +153,12 @@ See `PRIOR_WORK.md` and `RESULTS.md`:
    lead, currently resting on 7 first-position runs.
 2. **Human date and number checks** on all 14 rewrites and all 21
    number-check flags, recorded as a new data file when done.
-3. **A Bayesian-track run** in an environment with torch/pyro
-  installed, so the intervals in `RESULTS.md` can be replaced by
-  fitted Bayesian ranges and the difference stated.
+3. **Fold the second pass's fitted Bayesian ranges into the summary
+  data file** — the Bayesian-track run itself is DONE (Oct 27 second
+  pass; outputs in `data/engine-run-full-2026-10-27.json`). What
+  remains is carrying its fitted per-question ranges into
+  `data/engine_results.json`, whose per-question records still hold
+  the first pass's labeled normal-approximation intervals.
 4. **A pilot question set from a real platform or survey buyer** —
    the same pipeline, on questions that are not ours — which is the
    step that turns a demonstrated instrument into a demonstrated
