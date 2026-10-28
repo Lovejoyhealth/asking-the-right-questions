@@ -1,0 +1,4046 @@
+{
+  "topics": {
+    "AI models and releases": {
+      "questions": {
+        "Q01": {
+          "question_id": "Q01",
+          "topic": "AI models and releases",
+          "question": "Will OpenAI publicly release GPT-5 by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 98.92,
+          "sd_probability": 2.45,
+          "mean_when_first": 99.25,
+          "mean_when_later": 98.86,
+          "n_first": 4,
+          "position_effect_first_minus_later": 0.39,
+          "approx_95_interval": [
+            -0.85,
+            1.64
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.9925,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q02": {
+          "question_id": "Q02",
+          "topic": "AI models and releases",
+          "question": "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 51.36,
+          "sd_probability": 18.69,
+          "mean_when_first": 51.43,
+          "mean_when_later": 51.33,
+          "n_first": 7,
+          "position_effect_first_minus_later": 0.1,
+          "approx_95_interval": [
+            -15.72,
+            15.91
+          ],
+          "permutation_null_mean": 0.05,
+          "permutation_p": 1.0,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q03": {
+          "question_id": "Q03",
+          "topic": "AI models and releases",
+          "question": "Will Anthropic publicly release Claude Opus 5 by March 31, 2027?",
+          "n_runs": 25,
+          "mean_probability": 74.84,
+          "sd_probability": 6.34,
+          "mean_when_first": 77.57,
+          "mean_when_later": 73.78,
+          "n_first": 7,
+          "position_effect_first_minus_later": 3.79,
+          "approx_95_interval": [
+            -2.01,
+            9.6
+          ],
+          "permutation_null_mean": 0.08,
+          "permutation_p": 0.1954,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q04": {
+          "question_id": "Q04",
+          "topic": "AI models and releases",
+          "question": "Will Meta publicly release Llama 4 by November 15, 2026?",
+          "n_runs": 25,
+          "mean_probability": 98.84,
+          "sd_probability": 2.54,
+          "mean_when_first": 99.29,
+          "mean_when_later": 98.67,
+          "n_first": 7,
+          "position_effect_first_minus_later": 0.62,
+          "approx_95_interval": [
+            -0.86,
+            2.1
+          ],
+          "permutation_null_mean": 0.01,
+          "permutation_p": 0.7206,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q01",
+          "question_b": "Q02",
+          "correlation": 0.018,
+          "null_mean": -0.002,
+          "null_p": 0.4605
+        },
+        {
+          "question_a": "Q01",
+          "question_b": "Q03",
+          "correlation": 0.399,
+          "null_mean": -0.002,
+          "null_p": 0.019
+        },
+        {
+          "question_a": "Q01",
+          "question_b": "Q04",
+          "correlation": 0.847,
+          "null_mean": -0.006,
+          "null_p": 0.002
+        },
+        {
+          "question_a": "Q02",
+          "question_b": "Q03",
+          "correlation": -0.426,
+          "null_mean": 0.011,
+          "null_p": 0.988
+        },
+        {
+          "question_a": "Q02",
+          "question_b": "Q04",
+          "correlation": -0.183,
+          "null_mean": 0.001,
+          "null_p": 0.7692
+        },
+        {
+          "question_a": "Q03",
+          "question_b": "Q04",
+          "correlation": 0.446,
+          "null_mean": -0.004,
+          "null_p": 0.005
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q01",
+          "question_b": "Q02",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.084,
+          "qq_residual": 0.084,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q01",
+          "question_b": "Q03",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q01",
+          "question_b": "Q04",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q02",
+          "question_b": "Q03",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.186,
+          "qq_residual": 0.186,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q02",
+          "question_b": "Q04",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.133,
+          "qq_residual": -0.133,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "AI models and releases",
+          "question_a": "Q03",
+          "question_b": "Q04",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "US politics and the 2026 midterms": {
+      "questions": {
+        "Q05": {
+          "question_id": "Q05",
+          "topic": "US politics and the 2026 midterms",
+          "question": "Will the Democratic Party hold a majority of seats in the US House of Representatives on January 3, 2027?",
+          "n_runs": 25,
+          "mean_probability": 66.04,
+          "sd_probability": 2.39,
+          "mean_when_first": 65.0,
+          "mean_when_later": 66.24,
+          "n_first": 4,
+          "position_effect_first_minus_later": -1.24,
+          "approx_95_interval": [
+            -5.1,
+            2.62
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.3493,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q06": {
+          "question_id": "Q06",
+          "topic": "US politics and the 2026 midterms",
+          "question": "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027?",
+          "n_runs": 25,
+          "mean_probability": 78.84,
+          "sd_probability": 5.75,
+          "mean_when_first": 81.22,
+          "mean_when_later": 77.5,
+          "n_first": 9,
+          "position_effect_first_minus_later": 3.72,
+          "approx_95_interval": [
+            -0.35,
+            7.79
+          ],
+          "permutation_null_mean": 0.04,
+          "permutation_p": 0.1384,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q07": {
+          "question_id": "Q07",
+          "topic": "US politics and the 2026 midterms",
+          "question": "Will voter turnout in the November 3, 2026 midterm elections exceed 50 percent of eligible voters as reported by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 26.08,
+          "sd_probability": 4.35,
+          "mean_when_first": 26.0,
+          "mean_when_later": 26.11,
+          "n_first": 6,
+          "position_effect_first_minus_later": -0.11,
+          "approx_95_interval": [
+            -4.23,
+            4.02
+          ],
+          "permutation_null_mean": -0.03,
+          "permutation_p": 1.0,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q08": {
+          "question_id": "Q08",
+          "topic": "US politics and the 2026 midterms",
+          "question": "Will a woman be elected Governor of Texas in the November 3, 2026 election as certified by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 6.56,
+          "sd_probability": 2.0,
+          "mean_when_first": 8.17,
+          "mean_when_later": 6.05,
+          "n_first": 6,
+          "position_effect_first_minus_later": 2.11,
+          "approx_95_interval": [
+            0.18,
+            4.05
+          ],
+          "permutation_null_mean": -0.03,
+          "permutation_p": 0.0185,
+          "verdict": "SUGGESTIVE"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q05",
+          "question_b": "Q06",
+          "correlation": -0.415,
+          "null_mean": -0.005,
+          "null_p": 0.976
+        },
+        {
+          "question_a": "Q05",
+          "question_b": "Q07",
+          "correlation": 0.208,
+          "null_mean": -0.003,
+          "null_p": 0.1598
+        },
+        {
+          "question_a": "Q05",
+          "question_b": "Q08",
+          "correlation": 0.318,
+          "null_mean": 0.002,
+          "null_p": 0.0859
+        },
+        {
+          "question_a": "Q06",
+          "question_b": "Q07",
+          "correlation": 0.001,
+          "null_mean": 0.004,
+          "null_p": 0.5035
+        },
+        {
+          "question_a": "Q06",
+          "question_b": "Q08",
+          "correlation": -0.339,
+          "null_mean": -0.003,
+          "null_p": 0.9321
+        },
+        {
+          "question_a": "Q07",
+          "question_b": "Q08",
+          "correlation": 0.397,
+          "null_mean": -0.008,
+          "null_p": 0.023
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q05",
+          "question_b": "Q06",
+          "n_a_before_b": 9,
+          "n_b_before_a": 16,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q05",
+          "question_b": "Q07",
+          "n_a_before_b": 15,
+          "n_b_before_a": 10,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q05",
+          "question_b": "Q08",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q06",
+          "question_b": "Q07",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q06",
+          "question_b": "Q08",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "US politics and the 2026 midterms",
+          "question_a": "Q07",
+          "question_b": "Q08",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "the US economy and jobs": {
+      "questions": {
+        "Q09": {
+          "question_id": "Q09",
+          "topic": "the US economy and jobs",
+          "question": "Will the US unemployment rate be below 4 percent on December 31, 2026 as reported by the Bureau of Labor Statistics?",
+          "n_runs": 25,
+          "mean_probability": 19.84,
+          "sd_probability": 7.64,
+          "mean_when_first": 14.33,
+          "mean_when_later": 22.94,
+          "n_first": 9,
+          "position_effect_first_minus_later": -8.6,
+          "approx_95_interval": [
+            -13.26,
+            -3.95
+          ],
+          "permutation_null_mean": -0.05,
+          "permutation_p": 0.0055,
+          "verdict": "SUGGESTIVE"
+        },
+        "Q10": {
+          "question_id": "Q10",
+          "topic": "the US economy and jobs",
+          "question": "Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?",
+          "n_runs": 25,
+          "mean_probability": 64.28,
+          "sd_probability": 24.25,
+          "mean_when_first": 67.86,
+          "mean_when_later": 62.89,
+          "n_first": 7,
+          "position_effect_first_minus_later": 4.97,
+          "approx_95_interval": [
+            -14.39,
+            24.33
+          ],
+          "permutation_null_mean": -0.3,
+          "permutation_p": 0.6442,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q11": {
+          "question_id": "Q11",
+          "topic": "the US economy and jobs",
+          "question": "Will the US economy have added at least 2 million jobs by December 31, 2026 according to the Bureau of Labor Statistics?",
+          "n_runs": 25,
+          "mean_probability": 27.0,
+          "sd_probability": 18.02,
+          "mean_when_first": 20.0,
+          "mean_when_later": 28.33,
+          "n_first": 4,
+          "position_effect_first_minus_later": -8.33,
+          "approx_95_interval": [
+            -21.3,
+            4.63
+          ],
+          "permutation_null_mean": 0.22,
+          "permutation_p": 0.4298,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q12": {
+          "question_id": "Q12",
+          "topic": "the US economy and jobs",
+          "question": "Will the US labor force participation rate be above 62 percent on January 1, 2027 as reported by the Federal Reserve Economic Data?",
+          "n_runs": 25,
+          "mean_probability": 71.16,
+          "sd_probability": 10.98,
+          "mean_when_first": 78.0,
+          "mean_when_later": 69.45,
+          "n_first": 5,
+          "position_effect_first_minus_later": 8.55,
+          "approx_95_interval": [
+            2.51,
+            14.59
+          ],
+          "permutation_null_mean": 0.07,
+          "permutation_p": 0.1134,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q09",
+          "question_b": "Q10",
+          "correlation": 0.674,
+          "null_mean": -0.002,
+          "null_p": 0.001
+        },
+        {
+          "question_a": "Q09",
+          "question_b": "Q11",
+          "correlation": 0.81,
+          "null_mean": 0.0,
+          "null_p": 0.001
+        },
+        {
+          "question_a": "Q09",
+          "question_b": "Q12",
+          "correlation": 0.532,
+          "null_mean": 0.004,
+          "null_p": 0.004
+        },
+        {
+          "question_a": "Q10",
+          "question_b": "Q11",
+          "correlation": 0.724,
+          "null_mean": -0.004,
+          "null_p": 0.001
+        },
+        {
+          "question_a": "Q10",
+          "question_b": "Q12",
+          "correlation": 0.69,
+          "null_mean": -0.003,
+          "null_p": 0.001
+        },
+        {
+          "question_a": "Q11",
+          "question_b": "Q12",
+          "correlation": 0.505,
+          "null_mean": 0.002,
+          "null_p": 0.002
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q09",
+          "question_b": "Q10",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.338,
+          "qq_residual": 0.338,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q09",
+          "question_b": "Q11",
+          "n_a_before_b": 17,
+          "n_b_before_a": 8,
+          "order_effect_total_variation": 0.191,
+          "qq_residual": 0.191,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q09",
+          "question_b": "Q12",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.019,
+          "qq_residual": -0.019,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q10",
+          "question_b": "Q11",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.263,
+          "qq_residual": -0.192,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q10",
+          "question_b": "Q12",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.032,
+          "qq_residual": -0.032,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "the US economy and jobs",
+          "question_a": "Q11",
+          "question_b": "Q12",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.2,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "interest rates and the Federal Reserve": {
+      "questions": {
+        "Q13": {
+          "question_id": "Q13",
+          "topic": "interest rates and the Federal Reserve",
+          "question": "Will the Federal Reserve federal funds target rate be at or below 4 percent on December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 83.44,
+          "sd_probability": 9.44,
+          "mean_when_first": 85.2,
+          "mean_when_later": 83.0,
+          "n_first": 5,
+          "position_effect_first_minus_later": 2.2,
+          "approx_95_interval": [
+            -5.37,
+            9.77
+          ],
+          "permutation_null_mean": -0.05,
+          "permutation_p": 0.6737,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q14": {
+          "question_id": "Q14",
+          "topic": "interest rates and the Federal Reserve",
+          "question": "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?",
+          "n_runs": 25,
+          "mean_probability": 67.88,
+          "sd_probability": 15.54,
+          "mean_when_first": 61.75,
+          "mean_when_later": 70.76,
+          "n_first": 8,
+          "position_effect_first_minus_later": -9.01,
+          "approx_95_interval": [
+            -25.18,
+            7.15
+          ],
+          "permutation_null_mean": -0.23,
+          "permutation_p": 0.1834,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q15": {
+          "question_id": "Q15",
+          "topic": "interest rates and the Federal Reserve",
+          "question": "Will the Federal Reserve federal funds target rate be above 3 percent on January 1, 2027?",
+          "n_runs": 25,
+          "mean_probability": 82.84,
+          "sd_probability": 5.08,
+          "mean_when_first": 83.5,
+          "mean_when_later": 82.71,
+          "n_first": 4,
+          "position_effect_first_minus_later": 0.79,
+          "approx_95_interval": [
+            -3.04,
+            4.62
+          ],
+          "permutation_null_mean": 0.1,
+          "permutation_p": 0.7941,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q16": {
+          "question_id": "Q16",
+          "topic": "interest rates and the Federal Reserve",
+          "question": "Will the Federal Reserve hold its benchmark interest rate unchanged through September 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 8.4,
+          "sd_probability": 3.42,
+          "mean_when_first": 7.62,
+          "mean_when_later": 8.76,
+          "n_first": 8,
+          "position_effect_first_minus_later": -1.14,
+          "approx_95_interval": [
+            -3.97,
+            1.69
+          ],
+          "permutation_null_mean": 0.0,
+          "permutation_p": 0.4713,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q13",
+          "question_b": "Q14",
+          "correlation": 0.019,
+          "null_mean": -0.013,
+          "null_p": 0.4266
+        },
+        {
+          "question_a": "Q13",
+          "question_b": "Q15",
+          "correlation": -0.212,
+          "null_mean": 0.001,
+          "null_p": 0.8501
+        },
+        {
+          "question_a": "Q13",
+          "question_b": "Q16",
+          "correlation": -0.053,
+          "null_mean": -0.009,
+          "null_p": 0.5844
+        },
+        {
+          "question_a": "Q14",
+          "question_b": "Q15",
+          "correlation": 0.245,
+          "null_mean": -0.005,
+          "null_p": 0.1129
+        },
+        {
+          "question_a": "Q14",
+          "question_b": "Q16",
+          "correlation": -0.122,
+          "null_mean": -0.003,
+          "null_p": 0.7173
+        },
+        {
+          "question_a": "Q15",
+          "question_b": "Q16",
+          "correlation": 0.078,
+          "null_mean": 0.004,
+          "null_p": 0.3716
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q13",
+          "question_b": "Q14",
+          "n_a_before_b": 8,
+          "n_b_before_a": 17,
+          "order_effect_total_variation": 0.176,
+          "qq_residual": 0.176,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q13",
+          "question_b": "Q15",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q13",
+          "question_b": "Q16",
+          "n_a_before_b": 8,
+          "n_b_before_a": 17,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q14",
+          "question_b": "Q15",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.214,
+          "qq_residual": -0.214,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q14",
+          "question_b": "Q16",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.25,
+          "qq_residual": 0.25,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "interest rates and the Federal Reserve",
+          "question_a": "Q15",
+          "question_b": "Q16",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "housing and rent": {
+      "questions": {
+        "Q17": {
+          "question_id": "Q17",
+          "topic": "housing and rent",
+          "question": "Will the US national median rent be above $2000 in December 2026 according to Apartment List?",
+          "n_runs": 25,
+          "mean_probability": 1.64,
+          "sd_probability": 0.57,
+          "mean_when_first": 1.45,
+          "mean_when_later": 1.79,
+          "n_first": 11,
+          "position_effect_first_minus_later": -0.33,
+          "approx_95_interval": [
+            -0.76,
+            0.1
+          ],
+          "permutation_null_mean": -0.0,
+          "permutation_p": 0.1754,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q18": {
+          "question_id": "Q18",
+          "topic": "housing and rent",
+          "question": "Will the average asking rent in New York City exceed $3600 per month on December 31, 2026 according to StreetEasy?",
+          "n_runs": 25,
+          "mean_probability": 68.28,
+          "sd_probability": 13.41,
+          "mean_when_first": 75.0,
+          "mean_when_later": 66.6,
+          "n_first": 5,
+          "position_effect_first_minus_later": 8.4,
+          "approx_95_interval": [
+            -2.26,
+            19.06
+          ],
+          "permutation_null_mean": -0.08,
+          "permutation_p": 0.2069,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q19": {
+          "question_id": "Q19",
+          "topic": "housing and rent",
+          "question": "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 36.12,
+          "sd_probability": 5.6,
+          "mean_when_first": 32.0,
+          "mean_when_later": 37.15,
+          "n_first": 5,
+          "position_effect_first_minus_later": -5.15,
+          "approx_95_interval": [
+            -9.74,
+            -0.56
+          ],
+          "permutation_null_mean": 0.01,
+          "permutation_p": 0.0825,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q20": {
+          "question_id": "Q20",
+          "topic": "housing and rent",
+          "question": "Will US single-family housing starts exceed 11 million annualized units in any month before December 31, 2027 according to the Census Bureau?",
+          "n_runs": 25,
+          "mean_probability": 0.24,
+          "sd_probability": 0.44,
+          "mean_when_first": 0.5,
+          "mean_when_later": 0.19,
+          "n_first": 4,
+          "position_effect_first_minus_later": 0.31,
+          "approx_95_interval": [
+            -0.28,
+            0.9
+          ],
+          "permutation_null_mean": -0.0,
+          "permutation_p": 0.2274,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q17",
+          "question_b": "Q18",
+          "correlation": 0.068,
+          "null_mean": 0.011,
+          "null_p": 0.3886
+        },
+        {
+          "question_a": "Q17",
+          "question_b": "Q19",
+          "correlation": -0.104,
+          "null_mean": -0.004,
+          "null_p": 0.6843
+        },
+        {
+          "question_a": "Q17",
+          "question_b": "Q20",
+          "correlation": 0.363,
+          "null_mean": -0.001,
+          "null_p": 0.0749
+        },
+        {
+          "question_a": "Q18",
+          "question_b": "Q19",
+          "correlation": 0.097,
+          "null_mean": -0.004,
+          "null_p": 0.3217
+        },
+        {
+          "question_a": "Q18",
+          "question_b": "Q20",
+          "correlation": 0.088,
+          "null_mean": -0.004,
+          "null_p": 0.3596
+        },
+        {
+          "question_a": "Q19",
+          "question_b": "Q20",
+          "correlation": -0.063,
+          "null_mean": -0.001,
+          "null_p": 0.6494
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "housing and rent",
+          "question_a": "Q17",
+          "question_b": "Q18",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.167,
+          "qq_residual": 0.167,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "housing and rent",
+          "question_a": "Q17",
+          "question_b": "Q19",
+          "n_a_before_b": 15,
+          "n_b_before_a": 10,
+          "order_effect_total_variation": 0.067,
+          "qq_residual": -0.067,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "housing and rent",
+          "question_a": "Q17",
+          "question_b": "Q20",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "housing and rent",
+          "question_a": "Q18",
+          "question_b": "Q19",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.077,
+          "qq_residual": 0.071,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "housing and rent",
+          "question_a": "Q18",
+          "question_b": "Q20",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.167,
+          "qq_residual": -0.167,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "housing and rent",
+          "question_a": "Q19",
+          "question_b": "Q20",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.071,
+          "qq_residual": 0.071,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "climate and extreme weather": {
+      "questions": {
+        "Q21": {
+          "question_id": "Q21",
+          "topic": "climate and extreme weather",
+          "question": "Will NOAA declare 2026 the warmest calendar year on record globally by January 31 2027?",
+          "n_runs": 25,
+          "mean_probability": 20.84,
+          "sd_probability": 4.11,
+          "mean_when_first": 19.17,
+          "mean_when_later": 21.37,
+          "n_first": 6,
+          "position_effect_first_minus_later": -2.2,
+          "approx_95_interval": [
+            -5.75,
+            1.35
+          ],
+          "permutation_null_mean": -0.05,
+          "permutation_p": 0.2704,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q22": {
+          "question_id": "Q22",
+          "topic": "climate and extreme weather",
+          "question": "Will the Atlantic hurricane season in 2026 produce at least 20 named storms as reported by NOAA by December 1 2026?",
+          "n_runs": 25,
+          "mean_probability": 17.0,
+          "sd_probability": 4.64,
+          "mean_when_first": 14.4,
+          "mean_when_later": 17.65,
+          "n_first": 5,
+          "position_effect_first_minus_later": -3.25,
+          "approx_95_interval": [
+            -5.72,
+            -0.78
+          ],
+          "permutation_null_mean": 0.11,
+          "permutation_p": 0.1949,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q23": {
+          "question_id": "Q23",
+          "topic": "climate and extreme weather",
+          "question": "Will global average sea level rise exceed 105 millimeters above the 1993 baseline according to NASA by December 31 2026?",
+          "n_runs": 25,
+          "mean_probability": 93.16,
+          "sd_probability": 2.82,
+          "mean_when_first": 94.5,
+          "mean_when_later": 92.74,
+          "n_first": 6,
+          "position_effect_first_minus_later": 1.76,
+          "approx_95_interval": [
+            -1.83,
+            5.36
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.1949,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q24": {
+          "question_id": "Q24",
+          "topic": "climate and extreme weather",
+          "question": "Will California record at least 500000 acres burned by wildfires in 2026 according to Cal Fire by January 15 2027?",
+          "n_runs": 25,
+          "mean_probability": 59.12,
+          "sd_probability": 5.04,
+          "mean_when_first": 61.5,
+          "mean_when_later": 58.0,
+          "n_first": 8,
+          "position_effect_first_minus_later": 3.5,
+          "approx_95_interval": [
+            -1.03,
+            8.03
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.1259,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q21",
+          "question_b": "Q22",
+          "correlation": -0.227,
+          "null_mean": -0.015,
+          "null_p": 0.8402
+        },
+        {
+          "question_a": "Q21",
+          "question_b": "Q23",
+          "correlation": -0.026,
+          "null_mean": 0.012,
+          "null_p": 0.5734
+        },
+        {
+          "question_a": "Q21",
+          "question_b": "Q24",
+          "correlation": -0.035,
+          "null_mean": -0.004,
+          "null_p": 0.5574
+        },
+        {
+          "question_a": "Q22",
+          "question_b": "Q23",
+          "correlation": 0.089,
+          "null_mean": 0.001,
+          "null_p": 0.3367
+        },
+        {
+          "question_a": "Q22",
+          "question_b": "Q24",
+          "correlation": 0.323,
+          "null_mean": -0.006,
+          "null_p": 0.0609
+        },
+        {
+          "question_a": "Q23",
+          "question_b": "Q24",
+          "correlation": 0.309,
+          "null_mean": 0.003,
+          "null_p": 0.0579
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q21",
+          "question_b": "Q22",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q21",
+          "question_b": "Q23",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q21",
+          "question_b": "Q24",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q22",
+          "question_b": "Q23",
+          "n_a_before_b": 10,
+          "n_b_before_a": 15,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q22",
+          "question_b": "Q24",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "climate and extreme weather",
+          "question_a": "Q23",
+          "question_b": "Q24",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "public health": {
+      "questions": {
+        "Q25": {
+          "question_id": "Q25",
+          "topic": "public health",
+          "question": "Will the US CDC report that national adult smoking prevalence is below 10 percent as of December 31, 2026 according to published CDC data?",
+          "n_runs": 25,
+          "mean_probability": 32.2,
+          "sd_probability": 8.07,
+          "mean_when_first": 28.4,
+          "mean_when_later": 33.15,
+          "n_first": 5,
+          "position_effect_first_minus_later": -4.75,
+          "approx_95_interval": [
+            -10.52,
+            1.02
+          ],
+          "permutation_null_mean": 0.07,
+          "permutation_p": 0.2899,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q26": {
+          "question_id": "Q26",
+          "topic": "public health",
+          "question": "Will the WHO certify that Nigeria is malaria-free by June 30, 2027 according to official WHO announcements?",
+          "n_runs": 25,
+          "mean_probability": 0.24,
+          "sd_probability": 0.44,
+          "mean_when_first": 0.14,
+          "mean_when_later": 0.28,
+          "n_first": 7,
+          "position_effect_first_minus_later": -0.13,
+          "approx_95_interval": [
+            -0.49,
+            0.22
+          ],
+          "permutation_null_mean": 0.01,
+          "permutation_p": 0.6342,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q27": {
+          "question_id": "Q27",
+          "topic": "public health",
+          "question": "Will the US FDA approve a universal flu vaccine for public use by December 31, 2027 according to FDA records?",
+          "n_runs": 25,
+          "mean_probability": 2.44,
+          "sd_probability": 0.96,
+          "mean_when_first": 2.0,
+          "mean_when_later": 2.58,
+          "n_first": 6,
+          "position_effect_first_minus_later": -0.58,
+          "approx_95_interval": [
+            -1.06,
+            -0.1
+          ],
+          "permutation_null_mean": 0.02,
+          "permutation_p": 0.2349,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q28": {
+          "question_id": "Q28",
+          "topic": "public health",
+          "question": "Will global COVID-19 deaths reported by the WHO remain below 50000 during calendar year 2026 according to WHO data released by January 31, 2027?",
+          "n_runs": 25,
+          "mean_probability": 64.56,
+          "sd_probability": 11.33,
+          "mean_when_first": 64.71,
+          "mean_when_later": 64.5,
+          "n_first": 7,
+          "position_effect_first_minus_later": 0.21,
+          "approx_95_interval": [
+            -10.24,
+            10.66
+          ],
+          "permutation_null_mean": -0.18,
+          "permutation_p": 0.988,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q25",
+          "question_b": "Q26",
+          "correlation": -0.014,
+          "null_mean": -0.0,
+          "null_p": 0.5155
+        },
+        {
+          "question_a": "Q25",
+          "question_b": "Q27",
+          "correlation": -0.431,
+          "null_mean": 0.009,
+          "null_p": 0.985
+        },
+        {
+          "question_a": "Q25",
+          "question_b": "Q28",
+          "correlation": 0.027,
+          "null_mean": -0.005,
+          "null_p": 0.4416
+        },
+        {
+          "question_a": "Q26",
+          "question_b": "Q27",
+          "correlation": 0.434,
+          "null_mean": 0.009,
+          "null_p": 0.018
+        },
+        {
+          "question_a": "Q26",
+          "question_b": "Q28",
+          "correlation": 0.115,
+          "null_mean": -0.003,
+          "null_p": 0.3287
+        },
+        {
+          "question_a": "Q27",
+          "question_b": "Q28",
+          "correlation": 0.321,
+          "null_mean": 0.004,
+          "null_p": 0.0559
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "public health",
+          "question_a": "Q25",
+          "question_b": "Q26",
+          "n_a_before_b": 15,
+          "n_b_before_a": 10,
+          "order_effect_total_variation": 0.1,
+          "qq_residual": 0.1,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "public health",
+          "question_a": "Q25",
+          "question_b": "Q27",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.071,
+          "qq_residual": 0.071,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "public health",
+          "question_a": "Q25",
+          "question_b": "Q28",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.083,
+          "qq_residual": -0.013,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "public health",
+          "question_a": "Q26",
+          "question_b": "Q27",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "public health",
+          "question_a": "Q26",
+          "question_b": "Q28",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.052,
+          "qq_residual": 0.052,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "public health",
+          "question_a": "Q27",
+          "question_b": "Q28",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.11,
+          "qq_residual": -0.11,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "space and science": {
+      "questions": {
+        "Q29": {
+          "question_id": "Q29",
+          "topic": "space and science",
+          "question": "Will NASA announce successful launch of Artemis 2 by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 60.64,
+          "sd_probability": 13.59,
+          "mean_when_first": 60.5,
+          "mean_when_later": 60.68,
+          "n_first": 6,
+          "position_effect_first_minus_later": -0.18,
+          "approx_95_interval": [
+            -13.78,
+            13.41
+          ],
+          "permutation_null_mean": 0.03,
+          "permutation_p": 0.9975,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q30": {
+          "question_id": "Q30",
+          "topic": "space and science",
+          "question": "Will SpaceX announce a successful orbital refueling test of Starship by June 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 45.2,
+          "sd_probability": 7.81,
+          "mean_when_first": 39.75,
+          "mean_when_later": 47.76,
+          "n_first": 8,
+          "position_effect_first_minus_later": -8.01,
+          "approx_95_interval": [
+            -13.7,
+            -2.33
+          ],
+          "permutation_null_mean": 0.03,
+          "permutation_p": 0.015,
+          "verdict": "SUGGESTIVE"
+        },
+        "Q31": {
+          "question_id": "Q31",
+          "topic": "space and science",
+          "question": "Will the European Space Agency confirm first light from the Plato telescope by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 7.0,
+          "sd_probability": 2.4,
+          "mean_when_first": 4.75,
+          "mean_when_later": 7.43,
+          "n_first": 4,
+          "position_effect_first_minus_later": -2.68,
+          "approx_95_interval": [
+            -3.81,
+            -1.55
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.043,
+          "verdict": "SUGGESTIVE"
+        },
+        "Q32": {
+          "question_id": "Q32",
+          "topic": "space and science",
+          "question": "Will NASA confirm discovery of a new potentially habitable exoplanet by September 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 72.0,
+          "sd_probability": 9.66,
+          "mean_when_first": 63.29,
+          "mean_when_later": 75.39,
+          "n_first": 7,
+          "position_effect_first_minus_later": -12.1,
+          "approx_95_interval": [
+            -19.55,
+            -4.66
+          ],
+          "permutation_null_mean": -0.0,
+          "permutation_p": 0.0045,
+          "verdict": "FLAGGED"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q29",
+          "question_b": "Q30",
+          "correlation": -0.173,
+          "null_mean": -0.004,
+          "null_p": 0.7812
+        },
+        {
+          "question_a": "Q29",
+          "question_b": "Q31",
+          "correlation": 0.083,
+          "null_mean": -0.004,
+          "null_p": 0.3636
+        },
+        {
+          "question_a": "Q29",
+          "question_b": "Q32",
+          "correlation": 0.3,
+          "null_mean": 0.014,
+          "null_p": 0.0869
+        },
+        {
+          "question_a": "Q30",
+          "question_b": "Q31",
+          "correlation": -0.151,
+          "null_mean": -0.0,
+          "null_p": 0.7502
+        },
+        {
+          "question_a": "Q30",
+          "question_b": "Q32",
+          "correlation": 0.223,
+          "null_mean": -0.005,
+          "null_p": 0.1349
+        },
+        {
+          "question_a": "Q31",
+          "question_b": "Q32",
+          "correlation": -0.04,
+          "null_mean": 0.004,
+          "null_p": 0.6114
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "space and science",
+          "question_a": "Q29",
+          "question_b": "Q30",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.175,
+          "qq_residual": 0.175,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "space and science",
+          "question_a": "Q29",
+          "question_b": "Q31",
+          "n_a_before_b": 17,
+          "n_b_before_a": 8,
+          "order_effect_total_variation": 0.235,
+          "qq_residual": 0.235,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "space and science",
+          "question_a": "Q29",
+          "question_b": "Q32",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.201,
+          "qq_residual": 0.11,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "space and science",
+          "question_a": "Q30",
+          "question_b": "Q31",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.058,
+          "qq_residual": -0.058,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "space and science",
+          "question_a": "Q30",
+          "question_b": "Q32",
+          "n_a_before_b": 8,
+          "n_b_before_a": 17,
+          "order_effect_total_variation": 0.103,
+          "qq_residual": -0.103,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "space and science",
+          "question_a": "Q31",
+          "question_b": "Q32",
+          "n_a_before_b": 9,
+          "n_b_before_a": 16,
+          "order_effect_total_variation": 0.062,
+          "qq_residual": -0.062,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "pro sports championships": {
+      "questions": {
+        "Q33": {
+          "question_id": "Q33",
+          "topic": "pro sports championships",
+          "question": "Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?",
+          "n_runs": 25,
+          "mean_probability": 12.0,
+          "sd_probability": 4.55,
+          "mean_when_first": 11.83,
+          "mean_when_later": 12.05,
+          "n_first": 6,
+          "position_effect_first_minus_later": -0.22,
+          "approx_95_interval": [
+            -3.05,
+            2.61
+          ],
+          "permutation_null_mean": -0.07,
+          "permutation_p": 0.952,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q34": {
+          "question_id": "Q34",
+          "topic": "pro sports championships",
+          "question": "Will the New York Yankees win the 2026 World Series by November 2, 2026?",
+          "n_runs": 25,
+          "mean_probability": 10.16,
+          "sd_probability": 0.9,
+          "mean_when_first": 10.5,
+          "mean_when_later": 10.1,
+          "n_first": 4,
+          "position_effect_first_minus_later": 0.4,
+          "approx_95_interval": [
+            -0.29,
+            1.1
+          ],
+          "permutation_null_mean": -0.01,
+          "permutation_p": 0.5362,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q35": {
+          "question_id": "Q35",
+          "topic": "pro sports championships",
+          "question": "Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?",
+          "n_runs": 25,
+          "mean_probability": 5.72,
+          "sd_probability": 2.44,
+          "mean_when_first": 5.0,
+          "mean_when_later": 6.0,
+          "n_first": 7,
+          "position_effect_first_minus_later": -1.0,
+          "approx_95_interval": [
+            -2.54,
+            0.54
+          ],
+          "permutation_null_mean": 0.0,
+          "permutation_p": 0.3858,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q36": {
+          "question_id": "Q36",
+          "topic": "pro sports championships",
+          "question": "Will Manchester City win the 2026-2027 UEFA Champions League by May 31, 2027?",
+          "n_runs": 25,
+          "mean_probability": 15.68,
+          "sd_probability": 2.32,
+          "mean_when_first": 16.12,
+          "mean_when_later": 15.47,
+          "n_first": 8,
+          "position_effect_first_minus_later": 0.65,
+          "approx_95_interval": [
+            -1.21,
+            2.52
+          ],
+          "permutation_null_mean": 0.01,
+          "permutation_p": 0.5257,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q33",
+          "question_b": "Q34",
+          "correlation": 0.122,
+          "null_mean": 0.01,
+          "null_p": 0.3047
+        },
+        {
+          "question_a": "Q33",
+          "question_b": "Q35",
+          "correlation": 0.413,
+          "null_mean": -0.006,
+          "null_p": 0.01
+        },
+        {
+          "question_a": "Q33",
+          "question_b": "Q36",
+          "correlation": 0.024,
+          "null_mean": -0.007,
+          "null_p": 0.4466
+        },
+        {
+          "question_a": "Q34",
+          "question_b": "Q35",
+          "correlation": -0.264,
+          "null_mean": -0.002,
+          "null_p": 0.9001
+        },
+        {
+          "question_a": "Q34",
+          "question_b": "Q36",
+          "correlation": -0.094,
+          "null_mean": 0.01,
+          "null_p": 0.7013
+        },
+        {
+          "question_a": "Q35",
+          "question_b": "Q36",
+          "correlation": 0.263,
+          "null_mean": -0.003,
+          "null_p": 0.0949
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q33",
+          "question_b": "Q34",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q33",
+          "question_b": "Q35",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q33",
+          "question_b": "Q36",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q34",
+          "question_b": "Q35",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q34",
+          "question_b": "Q36",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "pro sports championships",
+          "question_a": "Q35",
+          "question_b": "Q36",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "movies and entertainment": {
+      "questions": {
+        "Q37": {
+          "question_id": "Q37",
+          "topic": "movies and entertainment",
+          "question": "Will Avengers Doomsday gross over one billion dollars worldwide by December 31, 2026 according to Box Office Mojo?",
+          "n_runs": 25,
+          "mean_probability": 30.92,
+          "sd_probability": 7.8,
+          "mean_when_first": 32.58,
+          "mean_when_later": 29.38,
+          "n_first": 12,
+          "position_effect_first_minus_later": 3.2,
+          "approx_95_interval": [
+            -2.96,
+            9.36
+          ],
+          "permutation_null_mean": -0.1,
+          "permutation_p": 0.3463,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q38": {
+          "question_id": "Q38",
+          "topic": "movies and entertainment",
+          "question": "Will Spider-Man Beyond the Spider-Verse be released in theaters by December 31, 2026 according to Sony Pictures?",
+          "n_runs": 25,
+          "mean_probability": 4.36,
+          "sd_probability": 1.35,
+          "mean_when_first": 5.0,
+          "mean_when_later": 4.11,
+          "n_first": 7,
+          "position_effect_first_minus_later": 0.89,
+          "approx_95_interval": [
+            0.18,
+            1.6
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.1984,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q39": {
+          "question_id": "Q39",
+          "topic": "movies and entertainment",
+          "question": "Will Stranger Things Season 5 become the most watched English language Netflix series by January 31, 2027 according to Netflix?",
+          "n_runs": 25,
+          "mean_probability": 17.64,
+          "sd_probability": 5.66,
+          "mean_when_first": 16.75,
+          "mean_when_later": 17.81,
+          "n_first": 4,
+          "position_effect_first_minus_later": -1.06,
+          "approx_95_interval": [
+            -5.96,
+            3.84
+          ],
+          "permutation_null_mean": 0.03,
+          "permutation_p": 0.7736,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q40": {
+          "question_id": "Q40",
+          "topic": "movies and entertainment",
+          "question": "Will The Super Mario Galaxy Movie win Best Animated Feature at the Academy Awards by March 31, 2027 according to the Academy of Motion Picture Arts and Sciences?",
+          "n_runs": 25,
+          "mean_probability": 6.72,
+          "sd_probability": 1.79,
+          "mean_when_first": 7.0,
+          "mean_when_later": 6.7,
+          "n_first": 2,
+          "position_effect_first_minus_later": 0.3,
+          "approx_95_interval": [
+            -1.8,
+            2.4
+          ],
+          "permutation_null_mean": -0.01,
+          "permutation_p": 0.8771,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q37",
+          "question_b": "Q38",
+          "correlation": 0.169,
+          "null_mean": 0.016,
+          "null_p": 0.2188
+        },
+        {
+          "question_a": "Q37",
+          "question_b": "Q39",
+          "correlation": 0.065,
+          "null_mean": -0.009,
+          "null_p": 0.3457
+        },
+        {
+          "question_a": "Q37",
+          "question_b": "Q40",
+          "correlation": 0.225,
+          "null_mean": -0.002,
+          "null_p": 0.1349
+        },
+        {
+          "question_a": "Q38",
+          "question_b": "Q39",
+          "correlation": 0.372,
+          "null_mean": 0.002,
+          "null_p": 0.024
+        },
+        {
+          "question_a": "Q38",
+          "question_b": "Q40",
+          "correlation": 0.319,
+          "null_mean": -0.003,
+          "null_p": 0.0649
+        },
+        {
+          "question_a": "Q39",
+          "question_b": "Q40",
+          "correlation": 0.437,
+          "null_mean": 0.001,
+          "null_p": 0.013
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q37",
+          "question_b": "Q38",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.071,
+          "qq_residual": -0.071,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q37",
+          "question_b": "Q39",
+          "n_a_before_b": 18,
+          "n_b_before_a": 7,
+          "order_effect_total_variation": 0.056,
+          "qq_residual": -0.056,
+          "null_95th_percentile_at_arm_size": 0.571,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q37",
+          "question_b": "Q40",
+          "n_a_before_b": 17,
+          "n_b_before_a": 8,
+          "order_effect_total_variation": 0.059,
+          "qq_residual": -0.059,
+          "null_95th_percentile_at_arm_size": 0.5,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q38",
+          "question_b": "Q39",
+          "n_a_before_b": 13,
+          "n_b_before_a": 12,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q38",
+          "question_b": "Q40",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "movies and entertainment",
+          "question_a": "Q39",
+          "question_b": "Q40",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "energy and gas prices": {
+      "questions": {
+        "Q41": {
+          "question_id": "Q41",
+          "topic": "energy and gas prices",
+          "question": "Will the US national average price for regular gasoline exceed 4 dollars per gallon on December 31, 2026 according to AAA?",
+          "n_runs": 25,
+          "mean_probability": 10.0,
+          "sd_probability": 2.84,
+          "mean_when_first": 8.2,
+          "mean_when_later": 10.45,
+          "n_first": 5,
+          "position_effect_first_minus_later": -2.25,
+          "approx_95_interval": [
+            -4.27,
+            -0.23
+          ],
+          "permutation_null_mean": -0.03,
+          "permutation_p": 0.1354,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q42": {
+          "question_id": "Q42",
+          "topic": "energy and gas prices",
+          "question": "Will the Henry Hub natural gas spot price close above 5 dollars per MMBtu on June 30, 2027 according to the US Energy Information Administration?",
+          "n_runs": 25,
+          "mean_probability": 14.28,
+          "sd_probability": 3.7,
+          "mean_when_first": 13.71,
+          "mean_when_later": 14.5,
+          "n_first": 7,
+          "position_effect_first_minus_later": -0.79,
+          "approx_95_interval": [
+            -3.09,
+            1.52
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.6767,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q43": {
+          "question_id": "Q43",
+          "topic": "energy and gas prices",
+          "question": "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?",
+          "n_runs": 25,
+          "mean_probability": 7.28,
+          "sd_probability": 2.51,
+          "mean_when_first": 6.43,
+          "mean_when_later": 7.61,
+          "n_first": 7,
+          "position_effect_first_minus_later": -1.18,
+          "approx_95_interval": [
+            -3.58,
+            1.21
+          ],
+          "permutation_null_mean": -0.01,
+          "permutation_p": 0.3278,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q44": {
+          "question_id": "Q44",
+          "topic": "energy and gas prices",
+          "question": "Will the average US residential electricity price exceed 18 cents per kilowatt hour on December 31, 2026 according to the US Energy Information Administration?",
+          "n_runs": 25,
+          "mean_probability": 34.84,
+          "sd_probability": 8.98,
+          "mean_when_first": 34.67,
+          "mean_when_later": 34.89,
+          "n_first": 6,
+          "position_effect_first_minus_later": -0.23,
+          "approx_95_interval": [
+            -13.33,
+            12.87
+          ],
+          "permutation_null_mean": -0.07,
+          "permutation_p": 0.9675,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q41",
+          "question_b": "Q42",
+          "correlation": -0.02,
+          "null_mean": -0.006,
+          "null_p": 0.5265
+        },
+        {
+          "question_a": "Q41",
+          "question_b": "Q43",
+          "correlation": 0.473,
+          "null_mean": -0.009,
+          "null_p": 0.009
+        },
+        {
+          "question_a": "Q41",
+          "question_b": "Q44",
+          "correlation": 0.419,
+          "null_mean": 0.005,
+          "null_p": 0.026
+        },
+        {
+          "question_a": "Q42",
+          "question_b": "Q43",
+          "correlation": 0.211,
+          "null_mean": 0.014,
+          "null_p": 0.1778
+        },
+        {
+          "question_a": "Q42",
+          "question_b": "Q44",
+          "correlation": 0.256,
+          "null_mean": -0.011,
+          "null_p": 0.0909
+        },
+        {
+          "question_a": "Q43",
+          "question_b": "Q44",
+          "correlation": 0.052,
+          "null_mean": 0.005,
+          "null_p": 0.3996
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q41",
+          "question_b": "Q42",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q41",
+          "question_b": "Q43",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q41",
+          "question_b": "Q44",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.071,
+          "qq_residual": 0.071,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q42",
+          "question_b": "Q43",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q42",
+          "question_b": "Q44",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.077,
+          "qq_residual": 0.077,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "energy and gas prices",
+          "question_a": "Q43",
+          "question_b": "Q44",
+          "n_a_before_b": 14,
+          "n_b_before_a": 11,
+          "order_effect_total_variation": 0.091,
+          "qq_residual": 0.091,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        }
+      ]
+    },
+    "big tech companies": {
+      "questions": {
+        "Q45": {
+          "question_id": "Q45",
+          "topic": "big tech companies",
+          "question": "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 65.68,
+          "sd_probability": 14.09,
+          "mean_when_first": 71.14,
+          "mean_when_later": 63.56,
+          "n_first": 7,
+          "position_effect_first_minus_later": 7.59,
+          "approx_95_interval": [
+            -1.14,
+            16.31
+          ],
+          "permutation_null_mean": 0.07,
+          "permutation_p": 0.2449,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q46": {
+          "question_id": "Q46",
+          "topic": "big tech companies",
+          "question": "Will Microsoft report quarterly revenue above 75 billion dollars in any earnings announcement made on or before June 30, 2027?",
+          "n_runs": 25,
+          "mean_probability": 94.04,
+          "sd_probability": 4.32,
+          "mean_when_first": 96.43,
+          "mean_when_later": 93.11,
+          "n_first": 7,
+          "position_effect_first_minus_later": 3.32,
+          "approx_95_interval": [
+            0.14,
+            6.5
+          ],
+          "permutation_null_mean": 0.02,
+          "permutation_p": 0.1,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q47": {
+          "question_id": "Q47",
+          "topic": "big tech companies",
+          "question": "Will Alphabet report more than 3 billion monthly active YouTube users in any public disclosure by December 31, 2026?",
+          "n_runs": 25,
+          "mean_probability": 6.84,
+          "sd_probability": 2.84,
+          "mean_when_first": 4.8,
+          "mean_when_later": 7.35,
+          "n_first": 5,
+          "position_effect_first_minus_later": -2.55,
+          "approx_95_interval": [
+            -4.64,
+            -0.46
+          ],
+          "permutation_null_mean": -0.02,
+          "permutation_p": 0.086,
+          "verdict": "NO EFFECT FOUND"
+        },
+        "Q48": {
+          "question_id": "Q48",
+          "topic": "big tech companies",
+          "question": "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027?",
+          "n_runs": 25,
+          "mean_probability": 15.96,
+          "sd_probability": 5.37,
+          "mean_when_first": 12.33,
+          "mean_when_later": 17.11,
+          "n_first": 6,
+          "position_effect_first_minus_later": -4.77,
+          "approx_95_interval": [
+            -8.82,
+            -0.73
+          ],
+          "permutation_null_mean": 0.03,
+          "permutation_p": 0.052,
+          "verdict": "NO EFFECT FOUND"
+        }
+      },
+      "correlations": [
+        {
+          "question_a": "Q45",
+          "question_b": "Q46",
+          "correlation": -0.207,
+          "null_mean": -0.007,
+          "null_p": 0.8312
+        },
+        {
+          "question_a": "Q45",
+          "question_b": "Q47",
+          "correlation": 0.056,
+          "null_mean": 0.003,
+          "null_p": 0.4386
+        },
+        {
+          "question_a": "Q45",
+          "question_b": "Q48",
+          "correlation": 0.09,
+          "null_mean": -0.005,
+          "null_p": 0.3586
+        },
+        {
+          "question_a": "Q46",
+          "question_b": "Q47",
+          "correlation": -0.448,
+          "null_mean": -0.003,
+          "null_p": 0.987
+        },
+        {
+          "question_a": "Q46",
+          "question_b": "Q48",
+          "correlation": -0.241,
+          "null_mean": -0.006,
+          "null_p": 0.8781
+        },
+        {
+          "question_a": "Q47",
+          "question_b": "Q48",
+          "correlation": 0.59,
+          "null_mean": -0.003,
+          "null_p": 0.003
+        }
+      ],
+      "pairs": [
+        {
+          "topic": "big tech companies",
+          "question_a": "Q45",
+          "question_b": "Q46",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.222,
+          "qq_residual": 0.222,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "big tech companies",
+          "question_a": "Q45",
+          "question_b": "Q47",
+          "n_a_before_b": 16,
+          "n_b_before_a": 9,
+          "order_effect_total_variation": 0.049,
+          "qq_residual": -0.049,
+          "null_95th_percentile_at_arm_size": 0.556,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "big tech companies",
+          "question_a": "Q45",
+          "question_b": "Q48",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.154,
+          "qq_residual": -0.154,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "big tech companies",
+          "question_a": "Q46",
+          "question_b": "Q47",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "big tech companies",
+          "question_a": "Q46",
+          "question_b": "Q48",
+          "n_a_before_b": 11,
+          "n_b_before_a": 14,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.455,
+          "clears_null_bar": false
+        },
+        {
+          "topic": "big tech companies",
+          "question_a": "Q47",
+          "question_b": "Q48",
+          "n_a_before_b": 12,
+          "n_b_before_a": 13,
+          "order_effect_total_variation": 0.0,
+          "qq_residual": 0.0,
+          "null_95th_percentile_at_arm_size": 0.417,
+          "clears_null_bar": false
+        }
+      ]
+    }
+  },
+  "per_question": [
+    {
+      "question_id": "Q01",
+      "topic": "AI models and releases",
+      "question": "Will OpenAI publicly release GPT-5 by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 98.92,
+      "sd_probability": 2.45,
+      "mean_when_first": 99.25,
+      "mean_when_later": 98.86,
+      "n_first": 4,
+      "position_effect_first_minus_later": 0.39,
+      "approx_95_interval": [
+        -0.85,
+        1.64
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.9925,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q02",
+      "topic": "AI models and releases",
+      "question": "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 51.36,
+      "sd_probability": 18.69,
+      "mean_when_first": 51.43,
+      "mean_when_later": 51.33,
+      "n_first": 7,
+      "position_effect_first_minus_later": 0.1,
+      "approx_95_interval": [
+        -15.72,
+        15.91
+      ],
+      "permutation_null_mean": 0.05,
+      "permutation_p": 1.0,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q03",
+      "topic": "AI models and releases",
+      "question": "Will Anthropic publicly release Claude Opus 5 by March 31, 2027?",
+      "n_runs": 25,
+      "mean_probability": 74.84,
+      "sd_probability": 6.34,
+      "mean_when_first": 77.57,
+      "mean_when_later": 73.78,
+      "n_first": 7,
+      "position_effect_first_minus_later": 3.79,
+      "approx_95_interval": [
+        -2.01,
+        9.6
+      ],
+      "permutation_null_mean": 0.08,
+      "permutation_p": 0.1954,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q04",
+      "topic": "AI models and releases",
+      "question": "Will Meta publicly release Llama 4 by November 15, 2026?",
+      "n_runs": 25,
+      "mean_probability": 98.84,
+      "sd_probability": 2.54,
+      "mean_when_first": 99.29,
+      "mean_when_later": 98.67,
+      "n_first": 7,
+      "position_effect_first_minus_later": 0.62,
+      "approx_95_interval": [
+        -0.86,
+        2.1
+      ],
+      "permutation_null_mean": 0.01,
+      "permutation_p": 0.7206,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q05",
+      "topic": "US politics and the 2026 midterms",
+      "question": "Will the Democratic Party hold a majority of seats in the US House of Representatives on January 3, 2027?",
+      "n_runs": 25,
+      "mean_probability": 66.04,
+      "sd_probability": 2.39,
+      "mean_when_first": 65.0,
+      "mean_when_later": 66.24,
+      "n_first": 4,
+      "position_effect_first_minus_later": -1.24,
+      "approx_95_interval": [
+        -5.1,
+        2.62
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.3493,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q06",
+      "topic": "US politics and the 2026 midterms",
+      "question": "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027?",
+      "n_runs": 25,
+      "mean_probability": 78.84,
+      "sd_probability": 5.75,
+      "mean_when_first": 81.22,
+      "mean_when_later": 77.5,
+      "n_first": 9,
+      "position_effect_first_minus_later": 3.72,
+      "approx_95_interval": [
+        -0.35,
+        7.79
+      ],
+      "permutation_null_mean": 0.04,
+      "permutation_p": 0.1384,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q07",
+      "topic": "US politics and the 2026 midterms",
+      "question": "Will voter turnout in the November 3, 2026 midterm elections exceed 50 percent of eligible voters as reported by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 26.08,
+      "sd_probability": 4.35,
+      "mean_when_first": 26.0,
+      "mean_when_later": 26.11,
+      "n_first": 6,
+      "position_effect_first_minus_later": -0.11,
+      "approx_95_interval": [
+        -4.23,
+        4.02
+      ],
+      "permutation_null_mean": -0.03,
+      "permutation_p": 1.0,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q08",
+      "topic": "US politics and the 2026 midterms",
+      "question": "Will a woman be elected Governor of Texas in the November 3, 2026 election as certified by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 6.56,
+      "sd_probability": 2.0,
+      "mean_when_first": 8.17,
+      "mean_when_later": 6.05,
+      "n_first": 6,
+      "position_effect_first_minus_later": 2.11,
+      "approx_95_interval": [
+        0.18,
+        4.05
+      ],
+      "permutation_null_mean": -0.03,
+      "permutation_p": 0.0185,
+      "verdict": "SUGGESTIVE"
+    },
+    {
+      "question_id": "Q09",
+      "topic": "the US economy and jobs",
+      "question": "Will the US unemployment rate be below 4 percent on December 31, 2026 as reported by the Bureau of Labor Statistics?",
+      "n_runs": 25,
+      "mean_probability": 19.84,
+      "sd_probability": 7.64,
+      "mean_when_first": 14.33,
+      "mean_when_later": 22.94,
+      "n_first": 9,
+      "position_effect_first_minus_later": -8.6,
+      "approx_95_interval": [
+        -13.26,
+        -3.95
+      ],
+      "permutation_null_mean": -0.05,
+      "permutation_p": 0.0055,
+      "verdict": "SUGGESTIVE"
+    },
+    {
+      "question_id": "Q10",
+      "topic": "the US economy and jobs",
+      "question": "Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?",
+      "n_runs": 25,
+      "mean_probability": 64.28,
+      "sd_probability": 24.25,
+      "mean_when_first": 67.86,
+      "mean_when_later": 62.89,
+      "n_first": 7,
+      "position_effect_first_minus_later": 4.97,
+      "approx_95_interval": [
+        -14.39,
+        24.33
+      ],
+      "permutation_null_mean": -0.3,
+      "permutation_p": 0.6442,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q11",
+      "topic": "the US economy and jobs",
+      "question": "Will the US economy have added at least 2 million jobs by December 31, 2026 according to the Bureau of Labor Statistics?",
+      "n_runs": 25,
+      "mean_probability": 27.0,
+      "sd_probability": 18.02,
+      "mean_when_first": 20.0,
+      "mean_when_later": 28.33,
+      "n_first": 4,
+      "position_effect_first_minus_later": -8.33,
+      "approx_95_interval": [
+        -21.3,
+        4.63
+      ],
+      "permutation_null_mean": 0.22,
+      "permutation_p": 0.4298,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q12",
+      "topic": "the US economy and jobs",
+      "question": "Will the US labor force participation rate be above 62 percent on January 1, 2027 as reported by the Federal Reserve Economic Data?",
+      "n_runs": 25,
+      "mean_probability": 71.16,
+      "sd_probability": 10.98,
+      "mean_when_first": 78.0,
+      "mean_when_later": 69.45,
+      "n_first": 5,
+      "position_effect_first_minus_later": 8.55,
+      "approx_95_interval": [
+        2.51,
+        14.59
+      ],
+      "permutation_null_mean": 0.07,
+      "permutation_p": 0.1134,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q13",
+      "topic": "interest rates and the Federal Reserve",
+      "question": "Will the Federal Reserve federal funds target rate be at or below 4 percent on December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 83.44,
+      "sd_probability": 9.44,
+      "mean_when_first": 85.2,
+      "mean_when_later": 83.0,
+      "n_first": 5,
+      "position_effect_first_minus_later": 2.2,
+      "approx_95_interval": [
+        -5.37,
+        9.77
+      ],
+      "permutation_null_mean": -0.05,
+      "permutation_p": 0.6737,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q14",
+      "topic": "interest rates and the Federal Reserve",
+      "question": "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?",
+      "n_runs": 25,
+      "mean_probability": 67.88,
+      "sd_probability": 15.54,
+      "mean_when_first": 61.75,
+      "mean_when_later": 70.76,
+      "n_first": 8,
+      "position_effect_first_minus_later": -9.01,
+      "approx_95_interval": [
+        -25.18,
+        7.15
+      ],
+      "permutation_null_mean": -0.23,
+      "permutation_p": 0.1834,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q15",
+      "topic": "interest rates and the Federal Reserve",
+      "question": "Will the Federal Reserve federal funds target rate be above 3 percent on January 1, 2027?",
+      "n_runs": 25,
+      "mean_probability": 82.84,
+      "sd_probability": 5.08,
+      "mean_when_first": 83.5,
+      "mean_when_later": 82.71,
+      "n_first": 4,
+      "position_effect_first_minus_later": 0.79,
+      "approx_95_interval": [
+        -3.04,
+        4.62
+      ],
+      "permutation_null_mean": 0.1,
+      "permutation_p": 0.7941,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q16",
+      "topic": "interest rates and the Federal Reserve",
+      "question": "Will the Federal Reserve hold its benchmark interest rate unchanged through September 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 8.4,
+      "sd_probability": 3.42,
+      "mean_when_first": 7.62,
+      "mean_when_later": 8.76,
+      "n_first": 8,
+      "position_effect_first_minus_later": -1.14,
+      "approx_95_interval": [
+        -3.97,
+        1.69
+      ],
+      "permutation_null_mean": 0.0,
+      "permutation_p": 0.4713,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q17",
+      "topic": "housing and rent",
+      "question": "Will the US national median rent be above $2000 in December 2026 according to Apartment List?",
+      "n_runs": 25,
+      "mean_probability": 1.64,
+      "sd_probability": 0.57,
+      "mean_when_first": 1.45,
+      "mean_when_later": 1.79,
+      "n_first": 11,
+      "position_effect_first_minus_later": -0.33,
+      "approx_95_interval": [
+        -0.76,
+        0.1
+      ],
+      "permutation_null_mean": -0.0,
+      "permutation_p": 0.1754,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q18",
+      "topic": "housing and rent",
+      "question": "Will the average asking rent in New York City exceed $3600 per month on December 31, 2026 according to StreetEasy?",
+      "n_runs": 25,
+      "mean_probability": 68.28,
+      "sd_probability": 13.41,
+      "mean_when_first": 75.0,
+      "mean_when_later": 66.6,
+      "n_first": 5,
+      "position_effect_first_minus_later": 8.4,
+      "approx_95_interval": [
+        -2.26,
+        19.06
+      ],
+      "permutation_null_mean": -0.08,
+      "permutation_p": 0.2069,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q19",
+      "topic": "housing and rent",
+      "question": "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 36.12,
+      "sd_probability": 5.6,
+      "mean_when_first": 32.0,
+      "mean_when_later": 37.15,
+      "n_first": 5,
+      "position_effect_first_minus_later": -5.15,
+      "approx_95_interval": [
+        -9.74,
+        -0.56
+      ],
+      "permutation_null_mean": 0.01,
+      "permutation_p": 0.0825,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q20",
+      "topic": "housing and rent",
+      "question": "Will US single-family housing starts exceed 11 million annualized units in any month before December 31, 2027 according to the Census Bureau?",
+      "n_runs": 25,
+      "mean_probability": 0.24,
+      "sd_probability": 0.44,
+      "mean_when_first": 0.5,
+      "mean_when_later": 0.19,
+      "n_first": 4,
+      "position_effect_first_minus_later": 0.31,
+      "approx_95_interval": [
+        -0.28,
+        0.9
+      ],
+      "permutation_null_mean": -0.0,
+      "permutation_p": 0.2274,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q21",
+      "topic": "climate and extreme weather",
+      "question": "Will NOAA declare 2026 the warmest calendar year on record globally by January 31 2027?",
+      "n_runs": 25,
+      "mean_probability": 20.84,
+      "sd_probability": 4.11,
+      "mean_when_first": 19.17,
+      "mean_when_later": 21.37,
+      "n_first": 6,
+      "position_effect_first_minus_later": -2.2,
+      "approx_95_interval": [
+        -5.75,
+        1.35
+      ],
+      "permutation_null_mean": -0.05,
+      "permutation_p": 0.2704,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q22",
+      "topic": "climate and extreme weather",
+      "question": "Will the Atlantic hurricane season in 2026 produce at least 20 named storms as reported by NOAA by December 1 2026?",
+      "n_runs": 25,
+      "mean_probability": 17.0,
+      "sd_probability": 4.64,
+      "mean_when_first": 14.4,
+      "mean_when_later": 17.65,
+      "n_first": 5,
+      "position_effect_first_minus_later": -3.25,
+      "approx_95_interval": [
+        -5.72,
+        -0.78
+      ],
+      "permutation_null_mean": 0.11,
+      "permutation_p": 0.1949,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q23",
+      "topic": "climate and extreme weather",
+      "question": "Will global average sea level rise exceed 105 millimeters above the 1993 baseline according to NASA by December 31 2026?",
+      "n_runs": 25,
+      "mean_probability": 93.16,
+      "sd_probability": 2.82,
+      "mean_when_first": 94.5,
+      "mean_when_later": 92.74,
+      "n_first": 6,
+      "position_effect_first_minus_later": 1.76,
+      "approx_95_interval": [
+        -1.83,
+        5.36
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.1949,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q24",
+      "topic": "climate and extreme weather",
+      "question": "Will California record at least 500000 acres burned by wildfires in 2026 according to Cal Fire by January 15 2027?",
+      "n_runs": 25,
+      "mean_probability": 59.12,
+      "sd_probability": 5.04,
+      "mean_when_first": 61.5,
+      "mean_when_later": 58.0,
+      "n_first": 8,
+      "position_effect_first_minus_later": 3.5,
+      "approx_95_interval": [
+        -1.03,
+        8.03
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.1259,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q25",
+      "topic": "public health",
+      "question": "Will the US CDC report that national adult smoking prevalence is below 10 percent as of December 31, 2026 according to published CDC data?",
+      "n_runs": 25,
+      "mean_probability": 32.2,
+      "sd_probability": 8.07,
+      "mean_when_first": 28.4,
+      "mean_when_later": 33.15,
+      "n_first": 5,
+      "position_effect_first_minus_later": -4.75,
+      "approx_95_interval": [
+        -10.52,
+        1.02
+      ],
+      "permutation_null_mean": 0.07,
+      "permutation_p": 0.2899,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q26",
+      "topic": "public health",
+      "question": "Will the WHO certify that Nigeria is malaria-free by June 30, 2027 according to official WHO announcements?",
+      "n_runs": 25,
+      "mean_probability": 0.24,
+      "sd_probability": 0.44,
+      "mean_when_first": 0.14,
+      "mean_when_later": 0.28,
+      "n_first": 7,
+      "position_effect_first_minus_later": -0.13,
+      "approx_95_interval": [
+        -0.49,
+        0.22
+      ],
+      "permutation_null_mean": 0.01,
+      "permutation_p": 0.6342,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q27",
+      "topic": "public health",
+      "question": "Will the US FDA approve a universal flu vaccine for public use by December 31, 2027 according to FDA records?",
+      "n_runs": 25,
+      "mean_probability": 2.44,
+      "sd_probability": 0.96,
+      "mean_when_first": 2.0,
+      "mean_when_later": 2.58,
+      "n_first": 6,
+      "position_effect_first_minus_later": -0.58,
+      "approx_95_interval": [
+        -1.06,
+        -0.1
+      ],
+      "permutation_null_mean": 0.02,
+      "permutation_p": 0.2349,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q28",
+      "topic": "public health",
+      "question": "Will global COVID-19 deaths reported by the WHO remain below 50000 during calendar year 2026 according to WHO data released by January 31, 2027?",
+      "n_runs": 25,
+      "mean_probability": 64.56,
+      "sd_probability": 11.33,
+      "mean_when_first": 64.71,
+      "mean_when_later": 64.5,
+      "n_first": 7,
+      "position_effect_first_minus_later": 0.21,
+      "approx_95_interval": [
+        -10.24,
+        10.66
+      ],
+      "permutation_null_mean": -0.18,
+      "permutation_p": 0.988,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q29",
+      "topic": "space and science",
+      "question": "Will NASA announce successful launch of Artemis 2 by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 60.64,
+      "sd_probability": 13.59,
+      "mean_when_first": 60.5,
+      "mean_when_later": 60.68,
+      "n_first": 6,
+      "position_effect_first_minus_later": -0.18,
+      "approx_95_interval": [
+        -13.78,
+        13.41
+      ],
+      "permutation_null_mean": 0.03,
+      "permutation_p": 0.9975,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q30",
+      "topic": "space and science",
+      "question": "Will SpaceX announce a successful orbital refueling test of Starship by June 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 45.2,
+      "sd_probability": 7.81,
+      "mean_when_first": 39.75,
+      "mean_when_later": 47.76,
+      "n_first": 8,
+      "position_effect_first_minus_later": -8.01,
+      "approx_95_interval": [
+        -13.7,
+        -2.33
+      ],
+      "permutation_null_mean": 0.03,
+      "permutation_p": 0.015,
+      "verdict": "SUGGESTIVE"
+    },
+    {
+      "question_id": "Q31",
+      "topic": "space and science",
+      "question": "Will the European Space Agency confirm first light from the Plato telescope by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 7.0,
+      "sd_probability": 2.4,
+      "mean_when_first": 4.75,
+      "mean_when_later": 7.43,
+      "n_first": 4,
+      "position_effect_first_minus_later": -2.68,
+      "approx_95_interval": [
+        -3.81,
+        -1.55
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.043,
+      "verdict": "SUGGESTIVE"
+    },
+    {
+      "question_id": "Q32",
+      "topic": "space and science",
+      "question": "Will NASA confirm discovery of a new potentially habitable exoplanet by September 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 72.0,
+      "sd_probability": 9.66,
+      "mean_when_first": 63.29,
+      "mean_when_later": 75.39,
+      "n_first": 7,
+      "position_effect_first_minus_later": -12.1,
+      "approx_95_interval": [
+        -19.55,
+        -4.66
+      ],
+      "permutation_null_mean": -0.0,
+      "permutation_p": 0.0045,
+      "verdict": "FLAGGED"
+    },
+    {
+      "question_id": "Q33",
+      "topic": "pro sports championships",
+      "question": "Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?",
+      "n_runs": 25,
+      "mean_probability": 12.0,
+      "sd_probability": 4.55,
+      "mean_when_first": 11.83,
+      "mean_when_later": 12.05,
+      "n_first": 6,
+      "position_effect_first_minus_later": -0.22,
+      "approx_95_interval": [
+        -3.05,
+        2.61
+      ],
+      "permutation_null_mean": -0.07,
+      "permutation_p": 0.952,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q34",
+      "topic": "pro sports championships",
+      "question": "Will the New York Yankees win the 2026 World Series by November 2, 2026?",
+      "n_runs": 25,
+      "mean_probability": 10.16,
+      "sd_probability": 0.9,
+      "mean_when_first": 10.5,
+      "mean_when_later": 10.1,
+      "n_first": 4,
+      "position_effect_first_minus_later": 0.4,
+      "approx_95_interval": [
+        -0.29,
+        1.1
+      ],
+      "permutation_null_mean": -0.01,
+      "permutation_p": 0.5362,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q35",
+      "topic": "pro sports championships",
+      "question": "Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?",
+      "n_runs": 25,
+      "mean_probability": 5.72,
+      "sd_probability": 2.44,
+      "mean_when_first": 5.0,
+      "mean_when_later": 6.0,
+      "n_first": 7,
+      "position_effect_first_minus_later": -1.0,
+      "approx_95_interval": [
+        -2.54,
+        0.54
+      ],
+      "permutation_null_mean": 0.0,
+      "permutation_p": 0.3858,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q36",
+      "topic": "pro sports championships",
+      "question": "Will Manchester City win the 2026-2027 UEFA Champions League by May 31, 2027?",
+      "n_runs": 25,
+      "mean_probability": 15.68,
+      "sd_probability": 2.32,
+      "mean_when_first": 16.12,
+      "mean_when_later": 15.47,
+      "n_first": 8,
+      "position_effect_first_minus_later": 0.65,
+      "approx_95_interval": [
+        -1.21,
+        2.52
+      ],
+      "permutation_null_mean": 0.01,
+      "permutation_p": 0.5257,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q37",
+      "topic": "movies and entertainment",
+      "question": "Will Avengers Doomsday gross over one billion dollars worldwide by December 31, 2026 according to Box Office Mojo?",
+      "n_runs": 25,
+      "mean_probability": 30.92,
+      "sd_probability": 7.8,
+      "mean_when_first": 32.58,
+      "mean_when_later": 29.38,
+      "n_first": 12,
+      "position_effect_first_minus_later": 3.2,
+      "approx_95_interval": [
+        -2.96,
+        9.36
+      ],
+      "permutation_null_mean": -0.1,
+      "permutation_p": 0.3463,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q38",
+      "topic": "movies and entertainment",
+      "question": "Will Spider-Man Beyond the Spider-Verse be released in theaters by December 31, 2026 according to Sony Pictures?",
+      "n_runs": 25,
+      "mean_probability": 4.36,
+      "sd_probability": 1.35,
+      "mean_when_first": 5.0,
+      "mean_when_later": 4.11,
+      "n_first": 7,
+      "position_effect_first_minus_later": 0.89,
+      "approx_95_interval": [
+        0.18,
+        1.6
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.1984,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q39",
+      "topic": "movies and entertainment",
+      "question": "Will Stranger Things Season 5 become the most watched English language Netflix series by January 31, 2027 according to Netflix?",
+      "n_runs": 25,
+      "mean_probability": 17.64,
+      "sd_probability": 5.66,
+      "mean_when_first": 16.75,
+      "mean_when_later": 17.81,
+      "n_first": 4,
+      "position_effect_first_minus_later": -1.06,
+      "approx_95_interval": [
+        -5.96,
+        3.84
+      ],
+      "permutation_null_mean": 0.03,
+      "permutation_p": 0.7736,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q40",
+      "topic": "movies and entertainment",
+      "question": "Will The Super Mario Galaxy Movie win Best Animated Feature at the Academy Awards by March 31, 2027 according to the Academy of Motion Picture Arts and Sciences?",
+      "n_runs": 25,
+      "mean_probability": 6.72,
+      "sd_probability": 1.79,
+      "mean_when_first": 7.0,
+      "mean_when_later": 6.7,
+      "n_first": 2,
+      "position_effect_first_minus_later": 0.3,
+      "approx_95_interval": [
+        -1.8,
+        2.4
+      ],
+      "permutation_null_mean": -0.01,
+      "permutation_p": 0.8771,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q41",
+      "topic": "energy and gas prices",
+      "question": "Will the US national average price for regular gasoline exceed 4 dollars per gallon on December 31, 2026 according to AAA?",
+      "n_runs": 25,
+      "mean_probability": 10.0,
+      "sd_probability": 2.84,
+      "mean_when_first": 8.2,
+      "mean_when_later": 10.45,
+      "n_first": 5,
+      "position_effect_first_minus_later": -2.25,
+      "approx_95_interval": [
+        -4.27,
+        -0.23
+      ],
+      "permutation_null_mean": -0.03,
+      "permutation_p": 0.1354,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q42",
+      "topic": "energy and gas prices",
+      "question": "Will the Henry Hub natural gas spot price close above 5 dollars per MMBtu on June 30, 2027 according to the US Energy Information Administration?",
+      "n_runs": 25,
+      "mean_probability": 14.28,
+      "sd_probability": 3.7,
+      "mean_when_first": 13.71,
+      "mean_when_later": 14.5,
+      "n_first": 7,
+      "position_effect_first_minus_later": -0.79,
+      "approx_95_interval": [
+        -3.09,
+        1.52
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.6767,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q43",
+      "topic": "energy and gas prices",
+      "question": "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?",
+      "n_runs": 25,
+      "mean_probability": 7.28,
+      "sd_probability": 2.51,
+      "mean_when_first": 6.43,
+      "mean_when_later": 7.61,
+      "n_first": 7,
+      "position_effect_first_minus_later": -1.18,
+      "approx_95_interval": [
+        -3.58,
+        1.21
+      ],
+      "permutation_null_mean": -0.01,
+      "permutation_p": 0.3278,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q44",
+      "topic": "energy and gas prices",
+      "question": "Will the average US residential electricity price exceed 18 cents per kilowatt hour on December 31, 2026 according to the US Energy Information Administration?",
+      "n_runs": 25,
+      "mean_probability": 34.84,
+      "sd_probability": 8.98,
+      "mean_when_first": 34.67,
+      "mean_when_later": 34.89,
+      "n_first": 6,
+      "position_effect_first_minus_later": -0.23,
+      "approx_95_interval": [
+        -13.33,
+        12.87
+      ],
+      "permutation_null_mean": -0.07,
+      "permutation_p": 0.9675,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q45",
+      "topic": "big tech companies",
+      "question": "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 65.68,
+      "sd_probability": 14.09,
+      "mean_when_first": 71.14,
+      "mean_when_later": 63.56,
+      "n_first": 7,
+      "position_effect_first_minus_later": 7.59,
+      "approx_95_interval": [
+        -1.14,
+        16.31
+      ],
+      "permutation_null_mean": 0.07,
+      "permutation_p": 0.2449,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q46",
+      "topic": "big tech companies",
+      "question": "Will Microsoft report quarterly revenue above 75 billion dollars in any earnings announcement made on or before June 30, 2027?",
+      "n_runs": 25,
+      "mean_probability": 94.04,
+      "sd_probability": 4.32,
+      "mean_when_first": 96.43,
+      "mean_when_later": 93.11,
+      "n_first": 7,
+      "position_effect_first_minus_later": 3.32,
+      "approx_95_interval": [
+        0.14,
+        6.5
+      ],
+      "permutation_null_mean": 0.02,
+      "permutation_p": 0.1,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q47",
+      "topic": "big tech companies",
+      "question": "Will Alphabet report more than 3 billion monthly active YouTube users in any public disclosure by December 31, 2026?",
+      "n_runs": 25,
+      "mean_probability": 6.84,
+      "sd_probability": 2.84,
+      "mean_when_first": 4.8,
+      "mean_when_later": 7.35,
+      "n_first": 5,
+      "position_effect_first_minus_later": -2.55,
+      "approx_95_interval": [
+        -4.64,
+        -0.46
+      ],
+      "permutation_null_mean": -0.02,
+      "permutation_p": 0.086,
+      "verdict": "NO EFFECT FOUND"
+    },
+    {
+      "question_id": "Q48",
+      "topic": "big tech companies",
+      "question": "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027?",
+      "n_runs": 25,
+      "mean_probability": 15.96,
+      "sd_probability": 5.37,
+      "mean_when_first": 12.33,
+      "mean_when_later": 17.11,
+      "n_first": 6,
+      "position_effect_first_minus_later": -4.77,
+      "approx_95_interval": [
+        -8.82,
+        -0.73
+      ],
+      "permutation_null_mean": 0.03,
+      "permutation_p": 0.052,
+      "verdict": "NO EFFECT FOUND"
+    }
+  ],
+  "pairs": [
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q02",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.084,
+      "qq_residual": 0.084,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q03",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q04",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q03",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.186,
+      "qq_residual": 0.186,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q04",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.133,
+      "qq_residual": -0.133,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q03",
+      "question_b": "Q04",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q06",
+      "n_a_before_b": 9,
+      "n_b_before_a": 16,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q07",
+      "n_a_before_b": 15,
+      "n_b_before_a": 10,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q08",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q07",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q08",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q07",
+      "question_b": "Q08",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q10",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.338,
+      "qq_residual": 0.338,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q11",
+      "n_a_before_b": 17,
+      "n_b_before_a": 8,
+      "order_effect_total_variation": 0.191,
+      "qq_residual": 0.191,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q12",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.019,
+      "qq_residual": -0.019,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q11",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.263,
+      "qq_residual": -0.192,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q12",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.032,
+      "qq_residual": -0.032,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q11",
+      "question_b": "Q12",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.2,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q14",
+      "n_a_before_b": 8,
+      "n_b_before_a": 17,
+      "order_effect_total_variation": 0.176,
+      "qq_residual": 0.176,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q15",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q16",
+      "n_a_before_b": 8,
+      "n_b_before_a": 17,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q15",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.214,
+      "qq_residual": -0.214,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q16",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.25,
+      "qq_residual": 0.25,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q15",
+      "question_b": "Q16",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q18",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.167,
+      "qq_residual": 0.167,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q19",
+      "n_a_before_b": 15,
+      "n_b_before_a": 10,
+      "order_effect_total_variation": 0.067,
+      "qq_residual": -0.067,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q20",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q19",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.077,
+      "qq_residual": 0.071,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q20",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.167,
+      "qq_residual": -0.167,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q19",
+      "question_b": "Q20",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.071,
+      "qq_residual": 0.071,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q22",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q23",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q24",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q23",
+      "n_a_before_b": 10,
+      "n_b_before_a": 15,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q24",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q23",
+      "question_b": "Q24",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q26",
+      "n_a_before_b": 15,
+      "n_b_before_a": 10,
+      "order_effect_total_variation": 0.1,
+      "qq_residual": 0.1,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q27",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.071,
+      "qq_residual": 0.071,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q28",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.083,
+      "qq_residual": -0.013,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q27",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q28",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.052,
+      "qq_residual": 0.052,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q27",
+      "question_b": "Q28",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.11,
+      "qq_residual": -0.11,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q30",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.175,
+      "qq_residual": 0.175,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q31",
+      "n_a_before_b": 17,
+      "n_b_before_a": 8,
+      "order_effect_total_variation": 0.235,
+      "qq_residual": 0.235,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q32",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.201,
+      "qq_residual": 0.11,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q31",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.058,
+      "qq_residual": -0.058,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q32",
+      "n_a_before_b": 8,
+      "n_b_before_a": 17,
+      "order_effect_total_variation": 0.103,
+      "qq_residual": -0.103,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q31",
+      "question_b": "Q32",
+      "n_a_before_b": 9,
+      "n_b_before_a": 16,
+      "order_effect_total_variation": 0.062,
+      "qq_residual": -0.062,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q34",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q35",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q36",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q35",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q36",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q35",
+      "question_b": "Q36",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q38",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.071,
+      "qq_residual": -0.071,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q39",
+      "n_a_before_b": 18,
+      "n_b_before_a": 7,
+      "order_effect_total_variation": 0.056,
+      "qq_residual": -0.056,
+      "null_95th_percentile_at_arm_size": 0.571,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q40",
+      "n_a_before_b": 17,
+      "n_b_before_a": 8,
+      "order_effect_total_variation": 0.059,
+      "qq_residual": -0.059,
+      "null_95th_percentile_at_arm_size": 0.5,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q39",
+      "n_a_before_b": 13,
+      "n_b_before_a": 12,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q40",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q39",
+      "question_b": "Q40",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q42",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q43",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q44",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.071,
+      "qq_residual": 0.071,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q43",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q44",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.077,
+      "qq_residual": 0.077,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q43",
+      "question_b": "Q44",
+      "n_a_before_b": 14,
+      "n_b_before_a": 11,
+      "order_effect_total_variation": 0.091,
+      "qq_residual": 0.091,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q46",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.222,
+      "qq_residual": 0.222,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q47",
+      "n_a_before_b": 16,
+      "n_b_before_a": 9,
+      "order_effect_total_variation": 0.049,
+      "qq_residual": -0.049,
+      "null_95th_percentile_at_arm_size": 0.556,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q48",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.154,
+      "qq_residual": -0.154,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q47",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q48",
+      "n_a_before_b": 11,
+      "n_b_before_a": 14,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.455,
+      "clears_null_bar": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q47",
+      "question_b": "Q48",
+      "n_a_before_b": 12,
+      "n_b_before_a": 13,
+      "order_effect_total_variation": 0.0,
+      "qq_residual": 0.0,
+      "null_95th_percentile_at_arm_size": 0.417,
+      "clears_null_bar": false
+    }
+  ],
+  "summary": {
+    "n_questions": 48,
+    "n_topics": 12,
+    "runs_per_topic": 25,
+    "flagged_order_effects": 1,
+    "suggestive_order_effects": 4,
+    "no_effect_found": 43,
+    "mean_absolute_position_effect_points": 2.91,
+    "max_absolute_position_effect_points": 12.1,
+    "pairs_tested": 72,
+    "pairs_clearing_null_bar": 0,
+    "expected_false_flags_at_0.05": "about 2-3 of 48 tests by chance alone",
+    "machinery": {
+      "ran_first_pass": [
+        "nulls.permutation_null (column-shuffle nulls for correlations)",
+        "noncommutative.qq_residual, .order_effect, .null_order_effect (model-free order statistics)",
+        "position-effect permutation null (2000 shuffles of first/later labels, this runner)"
+      ],
+      "ran_second_pass_oct27": [
+        "bayes.fit (Pyro, LKJ prior + NUTS) per topic: posterior coupling for all 72 pairs, 0 divergences",
+        "Pyro position-effect posteriors per question (small Pyro model, new integration code): credible ranges replace the normal approximations",
+        "noncommutative.NonCommutativeBeliefModel fitted jointly per topic: FAILED fit (worse NLL than the commutative comparator on 12/12 topics) \u2014 reported, not used",
+        "noncommutative per-pair fits: fitted order effects mean 0.163 vs 0.066 measured; beat commutative NLL on 28/72 pairs \u2014 reported, not used as evidence",
+        "quantum.cross_check (PennyLane circuit vs torch): 12/12 topics agree, max diff 6.7e-16"
+      ],
+      "correction": "The first pass claimed torch/pyro/pennylane were 'not installed in this sandbox'. They were installed all along in the survey engine's own venv (torch 2.14.1, pyro 1.9.2, pennylane 0.45.1); the first pass ran under the system Python. Second-pass outputs: engine-run-full-2026-10-27.json, engine-run-pair-fits-2026-10-27.json.",
+      "did_not_run": []
+    },
+    "respondents_note": "Respondents are 25 repeated calls to ONE Muse Spark forecaster per topic, not human forecasters. Results describe Spark's answering behaviour."
+  }
+}

@@ -1,0 +1,2292 @@
+{
+  "topics": {
+    "AI models and releases": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.588
+      },
+      "fitted_model_final_nll_noncommutative": 192.55,
+      "fitted_model_final_nll_commutative": 47.13
+    },
+    "US politics and the 2026 midterms": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.636
+      },
+      "fitted_model_final_nll_noncommutative": 234.47,
+      "fitted_model_final_nll_commutative": 0.15
+    },
+    "the US economy and jobs": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.505
+      },
+      "fitted_model_final_nll_noncommutative": 271.59,
+      "fitted_model_final_nll_commutative": 92.94
+    },
+    "interest rates and the Federal Reserve": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.696
+      },
+      "fitted_model_final_nll_noncommutative": 283.63,
+      "fitted_model_final_nll_commutative": 27.63
+    },
+    "housing and rent": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.716
+      },
+      "fitted_model_final_nll_noncommutative": 45.87,
+      "fitted_model_final_nll_commutative": 33.58
+    },
+    "climate and extreme weather": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.709
+      },
+      "fitted_model_final_nll_noncommutative": 234.26,
+      "fitted_model_final_nll_commutative": 0.15
+    },
+    "public health": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.688
+      },
+      "fitted_model_final_nll_noncommutative": 317.98,
+      "fitted_model_final_nll_commutative": 40.19
+    },
+    "space and science": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.683
+      },
+      "fitted_model_final_nll_noncommutative": 145.41,
+      "fitted_model_final_nll_commutative": 90.08
+    },
+    "pro sports championships": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.689
+      },
+      "fitted_model_final_nll_noncommutative": 299.74,
+      "fitted_model_final_nll_commutative": 0.15
+    },
+    "movies and entertainment": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.685
+      },
+      "fitted_model_final_nll_noncommutative": 30.59,
+      "fitted_model_final_nll_commutative": 12.71
+    },
+    "energy and gas prices": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.671
+      },
+      "fitted_model_final_nll_noncommutative": 343.6,
+      "fitted_model_final_nll_commutative": 12.71
+    },
+    "big tech companies": {
+      "bayes_coupling": {
+        "n_samples": 500,
+        "divergences": 0,
+        "mean_interval_width": 0.672
+      },
+      "fitted_model_final_nll_noncommutative": 314.26,
+      "fitted_model_final_nll_commutative": 21.02
+    }
+  },
+  "position_posteriors": [
+    {
+      "posterior_mean": 0.37,
+      "credible_95": [
+        -2.65,
+        3.08
+      ],
+      "prob_positive": 0.624,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q01",
+      "topic": "AI models and releases"
+    },
+    {
+      "posterior_mean": -0.54,
+      "credible_95": [
+        -15.73,
+        14.87
+      ],
+      "prob_positive": 0.482,
+      "prob_abs_at_least_10": 0.21,
+      "interval_excludes_zero": false,
+      "question_id": "Q02",
+      "topic": "AI models and releases"
+    },
+    {
+      "posterior_mean": 3.85,
+      "credible_95": [
+        -1.96,
+        9.94
+      ],
+      "prob_positive": 0.904,
+      "prob_abs_at_least_10": 0.024,
+      "interval_excludes_zero": false,
+      "question_id": "Q03",
+      "topic": "AI models and releases"
+    },
+    {
+      "posterior_mean": 0.48,
+      "credible_95": [
+        -1.66,
+        2.42
+      ],
+      "prob_positive": 0.676,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q04",
+      "topic": "AI models and releases"
+    },
+    {
+      "posterior_mean": -1.23,
+      "credible_95": [
+        -3.9,
+        1.57
+      ],
+      "prob_positive": 0.18,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q05",
+      "topic": "US politics and the 2026 midterms"
+    },
+    {
+      "posterior_mean": 3.78,
+      "credible_95": [
+        -0.86,
+        8.37
+      ],
+      "prob_positive": 0.938,
+      "prob_abs_at_least_10": 0.01,
+      "interval_excludes_zero": false,
+      "question_id": "Q06",
+      "topic": "US politics and the 2026 midterms"
+    },
+    {
+      "posterior_mean": -0.18,
+      "credible_95": [
+        -4.42,
+        4.2
+      ],
+      "prob_positive": 0.446,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q07",
+      "topic": "US politics and the 2026 midterms"
+    },
+    {
+      "posterior_mean": 2.1,
+      "credible_95": [
+        0.33,
+        3.85
+      ],
+      "prob_positive": 0.994,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": true,
+      "question_id": "Q08",
+      "topic": "US politics and the 2026 midterms"
+    },
+    {
+      "posterior_mean": -8.42,
+      "credible_95": [
+        -14.3,
+        -2.8
+      ],
+      "prob_positive": 0.006,
+      "prob_abs_at_least_10": 0.276,
+      "interval_excludes_zero": true,
+      "question_id": "Q09",
+      "topic": "the US economy and jobs"
+    },
+    {
+      "posterior_mean": 4.29,
+      "credible_95": [
+        -15.49,
+        22.95
+      ],
+      "prob_positive": 0.672,
+      "prob_abs_at_least_10": 0.326,
+      "interval_excludes_zero": false,
+      "question_id": "Q10",
+      "topic": "the US economy and jobs"
+    },
+    {
+      "posterior_mean": -7.13,
+      "credible_95": [
+        -24.48,
+        10.74
+      ],
+      "prob_positive": 0.228,
+      "prob_abs_at_least_10": 0.428,
+      "interval_excludes_zero": false,
+      "question_id": "Q11",
+      "topic": "the US economy and jobs"
+    },
+    {
+      "posterior_mean": 8.33,
+      "credible_95": [
+        -3.08,
+        18.47
+      ],
+      "prob_positive": 0.924,
+      "prob_abs_at_least_10": 0.398,
+      "interval_excludes_zero": false,
+      "question_id": "Q12",
+      "topic": "the US economy and jobs"
+    },
+    {
+      "posterior_mean": 2.07,
+      "credible_95": [
+        -7.49,
+        11.2
+      ],
+      "prob_positive": 0.666,
+      "prob_abs_at_least_10": 0.07,
+      "interval_excludes_zero": false,
+      "question_id": "Q13",
+      "topic": "interest rates and the Federal Reserve"
+    },
+    {
+      "posterior_mean": -7.68,
+      "credible_95": [
+        -19.69,
+        4.38
+      ],
+      "prob_positive": 0.108,
+      "prob_abs_at_least_10": 0.364,
+      "interval_excludes_zero": false,
+      "question_id": "Q14",
+      "topic": "interest rates and the Federal Reserve"
+    },
+    {
+      "posterior_mean": 0.72,
+      "credible_95": [
+        -5.11,
+        5.68
+      ],
+      "prob_positive": 0.63,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q15",
+      "topic": "interest rates and the Federal Reserve"
+    },
+    {
+      "posterior_mean": -1.15,
+      "credible_95": [
+        -4.45,
+        2.0
+      ],
+      "prob_positive": 0.228,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q16",
+      "topic": "interest rates and the Federal Reserve"
+    },
+    {
+      "posterior_mean": -0.34,
+      "credible_95": [
+        -0.81,
+        0.09
+      ],
+      "prob_positive": 0.076,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q17",
+      "topic": "housing and rent"
+    },
+    {
+      "posterior_mean": 7.24,
+      "credible_95": [
+        -6.4,
+        20.64
+      ],
+      "prob_positive": 0.864,
+      "prob_abs_at_least_10": 0.358,
+      "interval_excludes_zero": false,
+      "question_id": "Q18",
+      "topic": "housing and rent"
+    },
+    {
+      "posterior_mean": -5.35,
+      "credible_95": [
+        -9.94,
+        0.13
+      ],
+      "prob_positive": 0.03,
+      "prob_abs_at_least_10": 0.022,
+      "interval_excludes_zero": false,
+      "question_id": "Q19",
+      "topic": "housing and rent"
+    },
+    {
+      "posterior_mean": 0.32,
+      "credible_95": [
+        -0.17,
+        0.76
+      ],
+      "prob_positive": 0.896,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q20",
+      "topic": "housing and rent"
+    },
+    {
+      "posterior_mean": -2.28,
+      "credible_95": [
+        -6.65,
+        2.07
+      ],
+      "prob_positive": 0.138,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q21",
+      "topic": "climate and extreme weather"
+    },
+    {
+      "posterior_mean": -3.38,
+      "credible_95": [
+        -8.48,
+        1.37
+      ],
+      "prob_positive": 0.078,
+      "prob_abs_at_least_10": 0.008,
+      "interval_excludes_zero": false,
+      "question_id": "Q22",
+      "topic": "climate and extreme weather"
+    },
+    {
+      "posterior_mean": 1.84,
+      "credible_95": [
+        -0.96,
+        4.25
+      ],
+      "prob_positive": 0.926,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q23",
+      "topic": "climate and extreme weather"
+    },
+    {
+      "posterior_mean": 3.6,
+      "credible_95": [
+        -0.52,
+        7.7
+      ],
+      "prob_positive": 0.954,
+      "prob_abs_at_least_10": 0.004,
+      "interval_excludes_zero": false,
+      "question_id": "Q24",
+      "topic": "climate and extreme weather"
+    },
+    {
+      "posterior_mean": -4.58,
+      "credible_95": [
+        -11.7,
+        2.98
+      ],
+      "prob_positive": 0.134,
+      "prob_abs_at_least_10": 0.094,
+      "interval_excludes_zero": false,
+      "question_id": "Q25",
+      "topic": "public health"
+    },
+    {
+      "posterior_mean": -0.12,
+      "credible_95": [
+        -0.48,
+        0.3
+      ],
+      "prob_positive": 0.27,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q26",
+      "topic": "public health"
+    },
+    {
+      "posterior_mean": -0.57,
+      "credible_95": [
+        -1.68,
+        0.41
+      ],
+      "prob_positive": 0.122,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q27",
+      "topic": "public health"
+    },
+    {
+      "posterior_mean": 0.44,
+      "credible_95": [
+        -10.09,
+        10.16
+      ],
+      "prob_positive": 0.536,
+      "prob_abs_at_least_10": 0.054,
+      "interval_excludes_zero": false,
+      "question_id": "Q28",
+      "topic": "public health"
+    },
+    {
+      "posterior_mean": 0.09,
+      "credible_95": [
+        -11.94,
+        12.5
+      ],
+      "prob_positive": 0.508,
+      "prob_abs_at_least_10": 0.092,
+      "interval_excludes_zero": false,
+      "question_id": "Q29",
+      "topic": "space and science"
+    },
+    {
+      "posterior_mean": -7.89,
+      "credible_95": [
+        -14.14,
+        -2.39
+      ],
+      "prob_positive": 0.006,
+      "prob_abs_at_least_10": 0.214,
+      "interval_excludes_zero": true,
+      "question_id": "Q30",
+      "topic": "space and science"
+    },
+    {
+      "posterior_mean": -2.6,
+      "credible_95": [
+        -5.01,
+        -0.11
+      ],
+      "prob_positive": 0.016,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": true,
+      "question_id": "Q31",
+      "topic": "space and science"
+    },
+    {
+      "posterior_mean": -11.31,
+      "credible_95": [
+        -18.68,
+        -4.04
+      ],
+      "prob_positive": 0.0,
+      "prob_abs_at_least_10": 0.62,
+      "interval_excludes_zero": true,
+      "question_id": "Q32",
+      "topic": "space and science"
+    },
+    {
+      "posterior_mean": -0.29,
+      "credible_95": [
+        -5.0,
+        4.25
+      ],
+      "prob_positive": 0.442,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q33",
+      "topic": "pro sports championships"
+    },
+    {
+      "posterior_mean": 0.4,
+      "credible_95": [
+        -0.61,
+        1.51
+      ],
+      "prob_positive": 0.796,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q34",
+      "topic": "pro sports championships"
+    },
+    {
+      "posterior_mean": -0.93,
+      "credible_95": [
+        -3.39,
+        1.32
+      ],
+      "prob_positive": 0.214,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q35",
+      "topic": "pro sports championships"
+    },
+    {
+      "posterior_mean": 0.68,
+      "credible_95": [
+        -1.34,
+        2.71
+      ],
+      "prob_positive": 0.728,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q36",
+      "topic": "pro sports championships"
+    },
+    {
+      "posterior_mean": 2.74,
+      "credible_95": [
+        -3.62,
+        8.97
+      ],
+      "prob_positive": 0.818,
+      "prob_abs_at_least_10": 0.004,
+      "interval_excludes_zero": false,
+      "question_id": "Q37",
+      "topic": "movies and entertainment"
+    },
+    {
+      "posterior_mean": 0.93,
+      "credible_95": [
+        -0.25,
+        2.12
+      ],
+      "prob_positive": 0.936,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q38",
+      "topic": "movies and entertainment"
+    },
+    {
+      "posterior_mean": -1.06,
+      "credible_95": [
+        -7.24,
+        5.4
+      ],
+      "prob_positive": 0.374,
+      "prob_abs_at_least_10": 0.002,
+      "interval_excludes_zero": false,
+      "question_id": "Q39",
+      "topic": "movies and entertainment"
+    },
+    {
+      "posterior_mean": 0.35,
+      "credible_95": [
+        -2.29,
+        3.19
+      ],
+      "prob_positive": 0.592,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q40",
+      "topic": "movies and entertainment"
+    },
+    {
+      "posterior_mean": -2.1,
+      "credible_95": [
+        -5.23,
+        0.93
+      ],
+      "prob_positive": 0.08,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q41",
+      "topic": "energy and gas prices"
+    },
+    {
+      "posterior_mean": -0.59,
+      "credible_95": [
+        -4.13,
+        2.81
+      ],
+      "prob_positive": 0.396,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q42",
+      "topic": "energy and gas prices"
+    },
+    {
+      "posterior_mean": -1.14,
+      "credible_95": [
+        -3.42,
+        1.06
+      ],
+      "prob_positive": 0.174,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q43",
+      "topic": "energy and gas prices"
+    },
+    {
+      "posterior_mean": -0.04,
+      "credible_95": [
+        -9.33,
+        8.29
+      ],
+      "prob_positive": 0.508,
+      "prob_abs_at_least_10": 0.014,
+      "interval_excludes_zero": false,
+      "question_id": "Q44",
+      "topic": "energy and gas prices"
+    },
+    {
+      "posterior_mean": 6.89,
+      "credible_95": [
+        -4.77,
+        18.82
+      ],
+      "prob_positive": 0.86,
+      "prob_abs_at_least_10": 0.308,
+      "interval_excludes_zero": false,
+      "question_id": "Q45",
+      "topic": "big tech companies"
+    },
+    {
+      "posterior_mean": 3.57,
+      "credible_95": [
+        0.08,
+        7.6
+      ],
+      "prob_positive": 0.978,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": true,
+      "question_id": "Q46",
+      "topic": "big tech companies"
+    },
+    {
+      "posterior_mean": -2.66,
+      "credible_95": [
+        -5.54,
+        0.08
+      ],
+      "prob_positive": 0.03,
+      "prob_abs_at_least_10": 0.0,
+      "interval_excludes_zero": false,
+      "question_id": "Q47",
+      "topic": "big tech companies"
+    },
+    {
+      "posterior_mean": -4.76,
+      "credible_95": [
+        -9.84,
+        0.55
+      ],
+      "prob_positive": 0.038,
+      "prob_abs_at_least_10": 0.024,
+      "interval_excludes_zero": false,
+      "question_id": "Q48",
+      "topic": "big tech companies"
+    }
+  ],
+  "coupling_posteriors": [
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q02",
+      "posterior_mean": 0.057,
+      "credible_95": [
+        -0.315,
+        0.407
+      ],
+      "prob_positive": 0.63,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q03",
+      "posterior_mean": 0.296,
+      "credible_95": [
+        -0.037,
+        0.582
+      ],
+      "prob_positive": 0.964,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q04",
+      "posterior_mean": 0.774,
+      "credible_95": [
+        0.583,
+        0.897
+      ],
+      "prob_positive": 1.0,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q03",
+      "posterior_mean": -0.353,
+      "credible_95": [
+        -0.64,
+        -0.021
+      ],
+      "prob_positive": 0.02,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q04",
+      "posterior_mean": -0.14,
+      "credible_95": [
+        -0.436,
+        0.168
+      ],
+      "prob_positive": 0.214,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q03",
+      "question_b": "Q04",
+      "posterior_mean": 0.329,
+      "credible_95": [
+        -0.041,
+        0.607
+      ],
+      "prob_positive": 0.966,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q06",
+      "posterior_mean": -0.303,
+      "credible_95": [
+        -0.636,
+        0.07
+      ],
+      "prob_positive": 0.046,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q07",
+      "posterior_mean": 0.164,
+      "credible_95": [
+        -0.151,
+        0.449
+      ],
+      "prob_positive": 0.832,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q08",
+      "posterior_mean": 0.227,
+      "credible_95": [
+        -0.093,
+        0.522
+      ],
+      "prob_positive": 0.906,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q07",
+      "posterior_mean": 0.031,
+      "credible_95": [
+        -0.297,
+        0.357
+      ],
+      "prob_positive": 0.564,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q08",
+      "posterior_mean": -0.255,
+      "credible_95": [
+        -0.558,
+        0.087
+      ],
+      "prob_positive": 0.086,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q07",
+      "question_b": "Q08",
+      "posterior_mean": 0.324,
+      "credible_95": [
+        0.015,
+        0.612
+      ],
+      "prob_positive": 0.978,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q10",
+      "posterior_mean": 0.516,
+      "credible_95": [
+        0.235,
+        0.75
+      ],
+      "prob_positive": 1.0,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q11",
+      "posterior_mean": 0.698,
+      "credible_95": [
+        0.495,
+        0.855
+      ],
+      "prob_positive": 1.0,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q12",
+      "posterior_mean": 0.37,
+      "credible_95": [
+        0.065,
+        0.636
+      ],
+      "prob_positive": 0.988,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q11",
+      "posterior_mean": 0.588,
+      "credible_95": [
+        0.336,
+        0.783
+      ],
+      "prob_positive": 1.0,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q12",
+      "posterior_mean": 0.56,
+      "credible_95": [
+        0.255,
+        0.8
+      ],
+      "prob_positive": 1.0,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q11",
+      "question_b": "Q12",
+      "posterior_mean": 0.337,
+      "credible_95": [
+        0.032,
+        0.623
+      ],
+      "prob_positive": 0.984,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q14",
+      "posterior_mean": 0.028,
+      "credible_95": [
+        -0.304,
+        0.372
+      ],
+      "prob_positive": 0.572,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q15",
+      "posterior_mean": -0.163,
+      "credible_95": [
+        -0.526,
+        0.179
+      ],
+      "prob_positive": 0.172,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q16",
+      "posterior_mean": -0.043,
+      "credible_95": [
+        -0.372,
+        0.284
+      ],
+      "prob_positive": 0.396,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q15",
+      "posterior_mean": 0.189,
+      "credible_95": [
+        -0.182,
+        0.537
+      ],
+      "prob_positive": 0.846,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q16",
+      "posterior_mean": -0.094,
+      "credible_95": [
+        -0.442,
+        0.306
+      ],
+      "prob_positive": 0.308,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q15",
+      "question_b": "Q16",
+      "posterior_mean": 0.064,
+      "credible_95": [
+        -0.29,
+        0.381
+      ],
+      "prob_positive": 0.634,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q18",
+      "posterior_mean": 0.065,
+      "credible_95": [
+        -0.267,
+        0.429
+      ],
+      "prob_positive": 0.658,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q19",
+      "posterior_mean": -0.073,
+      "credible_95": [
+        -0.424,
+        0.33
+      ],
+      "prob_positive": 0.344,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q20",
+      "posterior_mean": 0.272,
+      "credible_95": [
+        -0.103,
+        0.602
+      ],
+      "prob_positive": 0.924,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q19",
+      "posterior_mean": 0.097,
+      "credible_95": [
+        -0.28,
+        0.462
+      ],
+      "prob_positive": 0.684,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q20",
+      "posterior_mean": 0.067,
+      "credible_95": [
+        -0.273,
+        0.393
+      ],
+      "prob_positive": 0.648,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q19",
+      "question_b": "Q20",
+      "posterior_mean": -0.043,
+      "credible_95": [
+        -0.406,
+        0.329
+      ],
+      "prob_positive": 0.426,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q22",
+      "posterior_mean": -0.176,
+      "credible_95": [
+        -0.494,
+        0.214
+      ],
+      "prob_positive": 0.192,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q23",
+      "posterior_mean": -0.023,
+      "credible_95": [
+        -0.36,
+        0.323
+      ],
+      "prob_positive": 0.436,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q24",
+      "posterior_mean": -0.03,
+      "credible_95": [
+        -0.38,
+        0.345
+      ],
+      "prob_positive": 0.446,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q23",
+      "posterior_mean": 0.055,
+      "credible_95": [
+        -0.297,
+        0.405
+      ],
+      "prob_positive": 0.608,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q24",
+      "posterior_mean": 0.25,
+      "credible_95": [
+        -0.104,
+        0.567
+      ],
+      "prob_positive": 0.914,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q23",
+      "question_b": "Q24",
+      "posterior_mean": 0.249,
+      "credible_95": [
+        -0.202,
+        0.565
+      ],
+      "prob_positive": 0.898,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q26",
+      "posterior_mean": 0.014,
+      "credible_95": [
+        -0.34,
+        0.372
+      ],
+      "prob_positive": 0.506,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q27",
+      "posterior_mean": -0.347,
+      "credible_95": [
+        -0.643,
+        0.019
+      ],
+      "prob_positive": 0.034,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q28",
+      "posterior_mean": 0.048,
+      "credible_95": [
+        -0.339,
+        0.401
+      ],
+      "prob_positive": 0.614,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q27",
+      "posterior_mean": 0.346,
+      "credible_95": [
+        -0.008,
+        0.644
+      ],
+      "prob_positive": 0.97,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q28",
+      "posterior_mean": 0.076,
+      "credible_95": [
+        -0.289,
+        0.41
+      ],
+      "prob_positive": 0.658,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q27",
+      "question_b": "Q28",
+      "posterior_mean": 0.253,
+      "credible_95": [
+        -0.103,
+        0.559
+      ],
+      "prob_positive": 0.93,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q30",
+      "posterior_mean": -0.137,
+      "credible_95": [
+        -0.462,
+        0.23
+      ],
+      "prob_positive": 0.214,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q31",
+      "posterior_mean": 0.05,
+      "credible_95": [
+        -0.318,
+        0.393
+      ],
+      "prob_positive": 0.604,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q32",
+      "posterior_mean": 0.244,
+      "credible_95": [
+        -0.093,
+        0.567
+      ],
+      "prob_positive": 0.902,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q31",
+      "posterior_mean": -0.122,
+      "credible_95": [
+        -0.441,
+        0.241
+      ],
+      "prob_positive": 0.256,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q32",
+      "posterior_mean": 0.191,
+      "credible_95": [
+        -0.151,
+        0.511
+      ],
+      "prob_positive": 0.844,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q31",
+      "question_b": "Q32",
+      "posterior_mean": -0.026,
+      "credible_95": [
+        -0.383,
+        0.306
+      ],
+      "prob_positive": 0.438,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q34",
+      "posterior_mean": 0.122,
+      "credible_95": [
+        -0.205,
+        0.453
+      ],
+      "prob_positive": 0.742,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q35",
+      "posterior_mean": 0.319,
+      "credible_95": [
+        -0.059,
+        0.612
+      ],
+      "prob_positive": 0.95,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q36",
+      "posterior_mean": -0.003,
+      "credible_95": [
+        -0.368,
+        0.348
+      ],
+      "prob_positive": 0.524,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q35",
+      "posterior_mean": -0.209,
+      "credible_95": [
+        -0.531,
+        0.138
+      ],
+      "prob_positive": 0.108,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q36",
+      "posterior_mean": -0.062,
+      "credible_95": [
+        -0.409,
+        0.306
+      ],
+      "prob_positive": 0.37,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q35",
+      "question_b": "Q36",
+      "posterior_mean": 0.219,
+      "credible_95": [
+        -0.148,
+        0.556
+      ],
+      "prob_positive": 0.876,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q38",
+      "posterior_mean": 0.123,
+      "credible_95": [
+        -0.262,
+        0.475
+      ],
+      "prob_positive": 0.736,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q39",
+      "posterior_mean": 0.023,
+      "credible_95": [
+        -0.353,
+        0.393
+      ],
+      "prob_positive": 0.558,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q40",
+      "posterior_mean": 0.169,
+      "credible_95": [
+        -0.162,
+        0.484
+      ],
+      "prob_positive": 0.834,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q39",
+      "posterior_mean": 0.271,
+      "credible_95": [
+        -0.082,
+        0.578
+      ],
+      "prob_positive": 0.916,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q40",
+      "posterior_mean": 0.235,
+      "credible_95": [
+        -0.135,
+        0.541
+      ],
+      "prob_positive": 0.904,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q39",
+      "question_b": "Q40",
+      "posterior_mean": 0.351,
+      "credible_95": [
+        -0.008,
+        0.637
+      ],
+      "prob_positive": 0.974,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q42",
+      "posterior_mean": -0.054,
+      "credible_95": [
+        -0.433,
+        0.334
+      ],
+      "prob_positive": 0.382,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q43",
+      "posterior_mean": 0.387,
+      "credible_95": [
+        0.077,
+        0.655
+      ],
+      "prob_positive": 0.988,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q44",
+      "posterior_mean": 0.338,
+      "credible_95": [
+        0.0,
+        0.624
+      ],
+      "prob_positive": 0.974,
+      "credible_nonzero": true
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q43",
+      "posterior_mean": 0.175,
+      "credible_95": [
+        -0.165,
+        0.495
+      ],
+      "prob_positive": 0.862,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q44",
+      "posterior_mean": 0.189,
+      "credible_95": [
+        -0.173,
+        0.533
+      ],
+      "prob_positive": 0.854,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q43",
+      "question_b": "Q44",
+      "posterior_mean": -0.006,
+      "credible_95": [
+        -0.366,
+        0.323
+      ],
+      "prob_positive": 0.478,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q46",
+      "posterior_mean": -0.14,
+      "credible_95": [
+        -0.46,
+        0.206
+      ],
+      "prob_positive": 0.224,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q47",
+      "posterior_mean": 0.03,
+      "credible_95": [
+        -0.313,
+        0.374
+      ],
+      "prob_positive": 0.574,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q48",
+      "posterior_mean": 0.064,
+      "credible_95": [
+        -0.253,
+        0.402
+      ],
+      "prob_positive": 0.65,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q47",
+      "posterior_mean": -0.342,
+      "credible_95": [
+        -0.642,
+        0.048
+      ],
+      "prob_positive": 0.036,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q48",
+      "posterior_mean": -0.154,
+      "credible_95": [
+        -0.468,
+        0.249
+      ],
+      "prob_positive": 0.202,
+      "credible_nonzero": false
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q47",
+      "question_b": "Q48",
+      "posterior_mean": 0.466,
+      "credible_95": [
+        0.113,
+        0.732
+      ],
+      "prob_positive": 0.998,
+      "credible_nonzero": true
+    }
+  ],
+  "fitted_pairs": [
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q02",
+      "observed_order_effect": 0.084,
+      "fitted_order_effect": 0.202,
+      "commutator_norm": 0.286,
+      "qq_residual_observed": 0.084
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q03",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.499,
+      "commutator_norm": 0.706,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q04",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.499,
+      "commutator_norm": 0.706,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q03",
+      "observed_order_effect": 0.186,
+      "fitted_order_effect": 0.399,
+      "commutator_norm": 0.628,
+      "qq_residual_observed": 0.186
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q02",
+      "question_b": "Q04",
+      "observed_order_effect": 0.133,
+      "fitted_order_effect": 0.399,
+      "commutator_norm": 0.628,
+      "qq_residual_observed": -0.133
+    },
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q03",
+      "question_b": "Q04",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.0,
+      "commutator_norm": 0.001,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q06",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.0,
+      "commutator_norm": 0.002,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q07",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.463,
+      "commutator_norm": 0.686,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q08",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.483,
+      "commutator_norm": 0.691,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q07",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.462,
+      "commutator_norm": 0.685,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q06",
+      "question_b": "Q08",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.483,
+      "commutator_norm": 0.691,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q07",
+      "question_b": "Q08",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.22,
+      "commutator_norm": 0.315,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q10",
+      "observed_order_effect": 0.338,
+      "fitted_order_effect": 0.492,
+      "commutator_norm": 0.705,
+      "qq_residual_observed": 0.338
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q11",
+      "observed_order_effect": 0.191,
+      "fitted_order_effect": 0.321,
+      "commutator_norm": 0.587,
+      "qq_residual_observed": 0.191
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q12",
+      "observed_order_effect": 0.019,
+      "fitted_order_effect": 0.476,
+      "commutator_norm": 0.683,
+      "qq_residual_observed": -0.019
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q11",
+      "observed_order_effect": 0.263,
+      "fitted_order_effect": 0.245,
+      "commutator_norm": 0.352,
+      "qq_residual_observed": -0.192
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q10",
+      "question_b": "Q12",
+      "observed_order_effect": 0.032,
+      "fitted_order_effect": 0.161,
+      "commutator_norm": 0.231,
+      "qq_residual_observed": -0.032
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q11",
+      "question_b": "Q12",
+      "observed_order_effect": 0.2,
+      "fitted_order_effect": 0.372,
+      "commutator_norm": 0.533,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q14",
+      "observed_order_effect": 0.176,
+      "fitted_order_effect": 0.467,
+      "commutator_norm": 0.7,
+      "qq_residual_observed": 0.176
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q15",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.426,
+      "commutator_norm": 0.604,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q16",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.414,
+      "commutator_norm": 0.589,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q15",
+      "observed_order_effect": 0.214,
+      "fitted_order_effect": 0.195,
+      "commutator_norm": 0.276,
+      "qq_residual_observed": -0.214
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q14",
+      "question_b": "Q16",
+      "observed_order_effect": 0.25,
+      "fitted_order_effect": 0.213,
+      "commutator_norm": 0.302,
+      "qq_residual_observed": 0.25
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q15",
+      "question_b": "Q16",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.02,
+      "commutator_norm": 0.028,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q18",
+      "observed_order_effect": 0.167,
+      "fitted_order_effect": 0.034,
+      "commutator_norm": 0.191,
+      "qq_residual_observed": 0.167
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q19",
+      "observed_order_effect": 0.067,
+      "fitted_order_effect": 0.032,
+      "commutator_norm": 0.173,
+      "qq_residual_observed": -0.067
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q20",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.094,
+      "commutator_norm": 0.312,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q19",
+      "observed_order_effect": 0.077,
+      "fitted_order_effect": 0.065,
+      "commutator_norm": 0.352,
+      "qq_residual_observed": 0.071
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q18",
+      "question_b": "Q20",
+      "observed_order_effect": 0.167,
+      "fitted_order_effect": 0.039,
+      "commutator_norm": 0.129,
+      "qq_residual_observed": -0.167
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q19",
+      "question_b": "Q20",
+      "observed_order_effect": 0.071,
+      "fitted_order_effect": 0.137,
+      "commutator_norm": 0.457,
+      "qq_residual_observed": 0.071
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q22",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.221,
+      "commutator_norm": 0.315,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q23",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.485,
+      "commutator_norm": 0.692,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q24",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.485,
+      "commutator_norm": 0.692,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q23",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.459,
+      "commutator_norm": 0.685,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q22",
+      "question_b": "Q24",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.459,
+      "commutator_norm": 0.684,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q23",
+      "question_b": "Q24",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.0,
+      "commutator_norm": 0.001,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q26",
+      "observed_order_effect": 0.1,
+      "fitted_order_effect": 0.451,
+      "commutator_norm": 0.676,
+      "qq_residual_observed": 0.1
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q27",
+      "observed_order_effect": 0.071,
+      "fitted_order_effect": 0.075,
+      "commutator_norm": 0.108,
+      "qq_residual_observed": 0.071
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q28",
+      "observed_order_effect": 0.083,
+      "fitted_order_effect": 0.221,
+      "commutator_norm": 0.315,
+      "qq_residual_observed": -0.013
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q27",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.442,
+      "commutator_norm": 0.636,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q26",
+      "question_b": "Q28",
+      "observed_order_effect": 0.052,
+      "fitted_order_effect": 0.36,
+      "commutator_norm": 0.513,
+      "qq_residual_observed": 0.052
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q27",
+      "question_b": "Q28",
+      "observed_order_effect": 0.11,
+      "fitted_order_effect": 0.151,
+      "commutator_norm": 0.215,
+      "qq_residual_observed": -0.11
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q30",
+      "observed_order_effect": 0.175,
+      "fitted_order_effect": 0.466,
+      "commutator_norm": 0.659,
+      "qq_residual_observed": 0.175
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q31",
+      "observed_order_effect": 0.235,
+      "fitted_order_effect": 0.154,
+      "commutator_norm": 0.295,
+      "qq_residual_observed": 0.235
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q32",
+      "observed_order_effect": 0.201,
+      "fitted_order_effect": 0.076,
+      "commutator_norm": 0.177,
+      "qq_residual_observed": 0.11
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q31",
+      "observed_order_effect": 0.058,
+      "fitted_order_effect": 0.348,
+      "commutator_norm": 0.492,
+      "qq_residual_observed": -0.058
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q30",
+      "question_b": "Q32",
+      "observed_order_effect": 0.103,
+      "fitted_order_effect": 0.406,
+      "commutator_norm": 0.574,
+      "qq_residual_observed": -0.103
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q31",
+      "question_b": "Q32",
+      "observed_order_effect": 0.062,
+      "fitted_order_effect": 0.065,
+      "commutator_norm": 0.125,
+      "qq_residual_observed": -0.062
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q34",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.499,
+      "commutator_norm": 0.706,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q35",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.301,
+      "commutator_norm": 0.549,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q36",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.499,
+      "commutator_norm": 0.706,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q35",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.334,
+      "commutator_norm": 0.473,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q34",
+      "question_b": "Q36",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.0,
+      "commutator_norm": 0.0,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q35",
+      "question_b": "Q36",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.334,
+      "commutator_norm": 0.473,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q38",
+      "observed_order_effect": 0.071,
+      "fitted_order_effect": 0.022,
+      "commutator_norm": 0.073,
+      "qq_residual_observed": -0.071
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q39",
+      "observed_order_effect": 0.056,
+      "fitted_order_effect": 0.044,
+      "commutator_norm": 0.192,
+      "qq_residual_observed": -0.056
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q40",
+      "observed_order_effect": 0.059,
+      "fitted_order_effect": 0.044,
+      "commutator_norm": 0.192,
+      "qq_residual_observed": -0.059
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q39",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.078,
+      "commutator_norm": 0.261,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q38",
+      "question_b": "Q40",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.078,
+      "commutator_norm": 0.262,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q39",
+      "question_b": "Q40",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.0,
+      "commutator_norm": 0.001,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q42",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.388,
+      "commutator_norm": 0.659,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q43",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.023,
+      "commutator_norm": 0.037,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q44",
+      "observed_order_effect": 0.071,
+      "fitted_order_effect": 0.402,
+      "commutator_norm": 0.683,
+      "qq_residual_observed": 0.071
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q43",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.392,
+      "commutator_norm": 0.645,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q42",
+      "question_b": "Q44",
+      "observed_order_effect": 0.077,
+      "fitted_order_effect": 0.044,
+      "commutator_norm": 0.077,
+      "qq_residual_observed": 0.077
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q43",
+      "question_b": "Q44",
+      "observed_order_effect": 0.091,
+      "fitted_order_effect": 0.409,
+      "commutator_norm": 0.672,
+      "qq_residual_observed": 0.091
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q46",
+      "observed_order_effect": 0.222,
+      "fitted_order_effect": 0.086,
+      "commutator_norm": 0.121,
+      "qq_residual_observed": 0.222
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q47",
+      "observed_order_effect": 0.049,
+      "fitted_order_effect": 0.488,
+      "commutator_norm": 0.698,
+      "qq_residual_observed": -0.049
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q48",
+      "observed_order_effect": 0.154,
+      "fitted_order_effect": 0.355,
+      "commutator_norm": 0.508,
+      "qq_residual_observed": -0.154
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q47",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.5,
+      "commutator_norm": 0.707,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q46",
+      "question_b": "Q48",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.295,
+      "commutator_norm": 0.417,
+      "qq_residual_observed": 0.0
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q47",
+      "question_b": "Q48",
+      "observed_order_effect": 0.0,
+      "fitted_order_effect": 0.318,
+      "commutator_norm": 0.565,
+      "qq_residual_observed": 0.0
+    }
+  ],
+  "pennylane_cross_checks": [
+    {
+      "topic": "AI models and releases",
+      "question_a": "Q01",
+      "question_b": "Q02",
+      "max_abs_diff_torch_vs_pennylane": 2.7755575615628914e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "US politics and the 2026 midterms",
+      "question_a": "Q05",
+      "question_b": "Q06",
+      "max_abs_diff_torch_vs_pennylane": 1.1102230246251565e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "the US economy and jobs",
+      "question_a": "Q09",
+      "question_b": "Q10",
+      "max_abs_diff_torch_vs_pennylane": 1.1102230246251565e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "interest rates and the Federal Reserve",
+      "question_a": "Q13",
+      "question_b": "Q14",
+      "max_abs_diff_torch_vs_pennylane": 2.220446049250313e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "housing and rent",
+      "question_a": "Q17",
+      "question_b": "Q18",
+      "max_abs_diff_torch_vs_pennylane": 4.440892098500626e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "climate and extreme weather",
+      "question_a": "Q21",
+      "question_b": "Q22",
+      "max_abs_diff_torch_vs_pennylane": 3.3306690738754696e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "public health",
+      "question_a": "Q25",
+      "question_b": "Q26",
+      "max_abs_diff_torch_vs_pennylane": 2.7755575615628914e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "space and science",
+      "question_a": "Q29",
+      "question_b": "Q30",
+      "max_abs_diff_torch_vs_pennylane": 2.220446049250313e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "pro sports championships",
+      "question_a": "Q33",
+      "question_b": "Q34",
+      "max_abs_diff_torch_vs_pennylane": 4.996003610813204e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "movies and entertainment",
+      "question_a": "Q37",
+      "question_b": "Q38",
+      "max_abs_diff_torch_vs_pennylane": 6.661338147750939e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "energy and gas prices",
+      "question_a": "Q41",
+      "question_b": "Q42",
+      "max_abs_diff_torch_vs_pennylane": 1.1102230246251565e-16,
+      "agree_within_1e-9": true
+    },
+    {
+      "topic": "big tech companies",
+      "question_a": "Q45",
+      "question_b": "Q46",
+      "max_abs_diff_torch_vs_pennylane": 3.3306690738754696e-16,
+      "agree_within_1e-9": true
+    }
+  ]
+}

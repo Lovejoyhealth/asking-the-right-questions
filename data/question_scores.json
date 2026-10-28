@@ -1,0 +1,496 @@
+[
+  {
+    "id": "Q01",
+    "topic": "AI models and releases",
+    "question": "Will OpenAI publicly release GPT-5 by December 31, 2026?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "topic": "AI models and releases",
+    "question": "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "topic": "AI models and releases",
+    "question": "Will Anthropic publicly release Claude Opus 5 by March 31, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "topic": "AI models and releases",
+    "question": "Will Meta publicly release Llama 4 by November 15, 2026?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "topic": "US politics and the 2026 midterms",
+    "question": "Will the Democratic Party hold a majority of seats in the US House of Representatives on January 3, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "topic": "US politics and the 2026 midterms",
+    "question": "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "topic": "US politics and the 2026 midterms",
+    "question": "Will voter turnout in the November 3, 2026 midterm elections exceed 50 percent of eligible voters as reported by December 31, 2026?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "50 percent of eligible"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "topic": "US politics and the 2026 midterms",
+    "question": "Will a woman be elected Governor of Texas in the November 3, 2026 election as certified by December 31, 2026?",
+    "flags": []
+  },
+  {
+    "id": "Q09",
+    "topic": "the US economy and jobs",
+    "question": "Will the US unemployment rate be below 4 percent on December 31, 2026 as reported by the Bureau of Labor Statistics?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 percent on December"
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "topic": "the US economy and jobs",
+    "question": "Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?",
+    "flags": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "July 31, 2026 (parsed as 2026-07-31)"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "160 million by July"
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "topic": "the US economy and jobs",
+    "question": "Will the US economy have added at least 2 million jobs by December 31, 2026 according to the Bureau of Labor Statistics?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "2 million jobs by"
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "topic": "the US economy and jobs",
+    "question": "Will the US labor force participation rate be above 62 percent on January 1, 2027 as reported by the Federal Reserve Economic Data?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "62 percent on January"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "topic": "interest rates and the Federal Reserve",
+    "question": "Will the Federal Reserve federal funds target rate be at or below 4 percent on December 31, 2026?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 percent on December"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "topic": "interest rates and the Federal Reserve",
+    "question": "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?",
+    "flags": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "June 30, 2026 (parsed as 2026-06-30)"
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "topic": "interest rates and the Federal Reserve",
+    "question": "Will the Federal Reserve federal funds target rate be above 3 percent on January 1, 2027?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "3 percent on January"
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "topic": "interest rates and the Federal Reserve",
+    "question": "Will the Federal Reserve hold its benchmark interest rate unchanged through September 30, 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q17",
+    "topic": "housing and rent",
+    "question": "Will the US national median rent be above $2000 in December 2026 according to Apartment List?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "$2000"
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "topic": "housing and rent",
+    "question": "Will the average asking rent in New York City exceed $3600 per month on December 31, 2026 according to StreetEasy?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "$3600"
+      }
+    ]
+  },
+  {
+    "id": "Q19",
+    "topic": "housing and rent",
+    "question": "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "6 percent on June"
+      }
+    ]
+  },
+  {
+    "id": "Q20",
+    "topic": "housing and rent",
+    "question": "Will US single-family housing starts exceed 11 million annualized units in any month before December 31, 2027 according to the Census Bureau?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "11 million annualized units"
+      }
+    ]
+  },
+  {
+    "id": "Q21",
+    "topic": "climate and extreme weather",
+    "question": "Will NOAA declare 2026 the warmest calendar year on record globally by January 31 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q22",
+    "topic": "climate and extreme weather",
+    "question": "Will the Atlantic hurricane season in 2026 produce at least 20 named storms as reported by NOAA by December 1 2026?",
+    "flags": []
+  },
+  {
+    "id": "Q23",
+    "topic": "climate and extreme weather",
+    "question": "Will global average sea level rise exceed 105 millimeters above the 1993 baseline according to NASA by December 31 2026?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "105 millimeters above the"
+      }
+    ]
+  },
+  {
+    "id": "Q24",
+    "topic": "climate and extreme weather",
+    "question": "Will California record at least 500000 acres burned by wildfires in 2026 according to Cal Fire by January 15 2027?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "500000 acres burned by"
+      }
+    ]
+  },
+  {
+    "id": "Q25",
+    "topic": "public health",
+    "question": "Will the US CDC report that national adult smoking prevalence is below 10 percent as of December 31, 2026 according to published CDC data?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "10 percent as of"
+      }
+    ]
+  },
+  {
+    "id": "Q26",
+    "topic": "public health",
+    "question": "Will the WHO certify that Nigeria is malaria-free by June 30, 2027 according to official WHO announcements?",
+    "flags": []
+  },
+  {
+    "id": "Q27",
+    "topic": "public health",
+    "question": "Will the US FDA approve a universal flu vaccine for public use by December 31, 2027 according to FDA records?",
+    "flags": []
+  },
+  {
+    "id": "Q28",
+    "topic": "public health",
+    "question": "Will global COVID-19 deaths reported by the WHO remain below 50000 during calendar year 2026 according to WHO data released by January 31, 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q29",
+    "topic": "space and science",
+    "question": "Will NASA announce successful launch of Artemis 2 by December 31, 2026?",
+    "flags": []
+  },
+  {
+    "id": "Q30",
+    "topic": "space and science",
+    "question": "Will SpaceX announce a successful orbital refueling test of Starship by June 30, 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q31",
+    "topic": "space and science",
+    "question": "Will the European Space Agency confirm first light from the Plato telescope by December 31, 2026?",
+    "flags": []
+  },
+  {
+    "id": "Q32",
+    "topic": "space and science",
+    "question": "Will NASA confirm discovery of a new potentially habitable exoplanet by September 30, 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q33",
+    "topic": "pro sports championships",
+    "question": "Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?",
+    "flags": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "February 8, 2026 (parsed as 2026-02-08)"
+      }
+    ]
+  },
+  {
+    "id": "Q34",
+    "topic": "pro sports championships",
+    "question": "Will the New York Yankees win the 2026 World Series by November 2, 2026?",
+    "flags": []
+  },
+  {
+    "id": "Q35",
+    "topic": "pro sports championships",
+    "question": "Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?",
+    "flags": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "June 30, 2026 (parsed as 2026-06-30)"
+      }
+    ]
+  },
+  {
+    "id": "Q36",
+    "topic": "pro sports championships",
+    "question": "Will Manchester City win the 2026-2027 UEFA Champions League by May 31, 2027?",
+    "flags": []
+  },
+  {
+    "id": "Q37",
+    "topic": "movies and entertainment",
+    "question": "Will Avengers Doomsday gross over one billion dollars worldwide by December 31, 2026 according to Box Office Mojo?",
+    "flags": []
+  },
+  {
+    "id": "Q38",
+    "topic": "movies and entertainment",
+    "question": "Will Spider-Man Beyond the Spider-Verse be released in theaters by December 31, 2026 according to Sony Pictures?",
+    "flags": []
+  },
+  {
+    "id": "Q39",
+    "topic": "movies and entertainment",
+    "question": "Will Stranger Things Season 5 become the most watched English language Netflix series by January 31, 2027 according to Netflix?",
+    "flags": []
+  },
+  {
+    "id": "Q40",
+    "topic": "movies and entertainment",
+    "question": "Will The Super Mario Galaxy Movie win Best Animated Feature at the Academy Awards by March 31, 2027 according to the Academy of Motion Picture Arts and Sciences?",
+    "flags": []
+  },
+  {
+    "id": "Q41",
+    "topic": "energy and gas prices",
+    "question": "Will the US national average price for regular gasoline exceed 4 dollars per gallon on December 31, 2026 according to AAA?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 dollars per gallon"
+      }
+    ]
+  },
+  {
+    "id": "Q42",
+    "topic": "energy and gas prices",
+    "question": "Will the Henry Hub natural gas spot price close above 5 dollars per MMBtu on June 30, 2027 according to the US Energy Information Administration?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "5 dollars per MMBtu"
+      }
+    ]
+  },
+  {
+    "id": "Q43",
+    "topic": "energy and gas prices",
+    "question": "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?",
+    "flags": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "September 30, 2026 (parsed as 2026-09-30)"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "100 dollars per barrel"
+      }
+    ]
+  },
+  {
+    "id": "Q44",
+    "topic": "energy and gas prices",
+    "question": "Will the average US residential electricity price exceed 18 cents per kilowatt hour on December 31, 2026 according to the US Energy Information Administration?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "18 cents per kilowatt"
+      }
+    ]
+  },
+  {
+    "id": "Q45",
+    "topic": "big tech companies",
+    "question": "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 trillion dollars at"
+      }
+    ]
+  },
+  {
+    "id": "Q46",
+    "topic": "big tech companies",
+    "question": "Will Microsoft report quarterly revenue above 75 billion dollars in any earnings announcement made on or before June 30, 2027?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "75 billion dollars in"
+      }
+    ]
+  },
+  {
+    "id": "Q47",
+    "topic": "big tech companies",
+    "question": "Will Alphabet report more than 3 billion monthly active YouTube users in any public disclosure by December 31, 2026?",
+    "flags": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "3 billion monthly active"
+      }
+    ]
+  },
+  {
+    "id": "Q48",
+    "topic": "big tech companies",
+    "question": "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027?",
+    "flags": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Are You Asking the Right Questions? — Demo</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:0 auto;padding:1.2em;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7em} h2{margin-top:1.6em;border-top:2px solid #ddd;padding-top:.4em}
+  .banner{border:3px solid #222;padding:1em;background:#f7f7f7}
+  .stat{font-size:1.4em;font-weight:bold}
+  table{border-collapse:collapse;width:100%} th,td{border:1px solid #bbb;padding:.4em;text-align:left;vertical-align:top}
+  .flag{color:#8a0000;font-weight:bold} .ok{color:#0a5c00;font-weight:bold}
+  .note{background:#fff8e1;border-left:4px solid #d4a017;padding:.7em;margin:1em 0}
+  blockquote{border-left:4px solid #888;margin:.6em 0;padding:.4em .8em;background:#fafafa}
+  small{color:#555}
+</style>
+</head>
+<body>
+
+<h1>Are You Asking the Right Questions?</h1>
+<p>An independent check for questions written by AI. Machines now write
+prediction-market questions at scale — a question people bet on, where the answer
+is YES or NO. Nobody independent was checking whether those questions were fair,
+clear, and settleable. This page shows the check, run on real questions, with
+real numbers. Nothing here is invented.</p>
+
+<div class="banner">
+<h2 style="margin-top:0;border:none;padding:0">What was built during this event — and what was not</h2>
+<p><strong>Built during this event (Oct 26 – Nov 4, 2026):</strong> the 48-question
+generation set, the checklist scorer, the answer-generation run, the engine-run
+integration on those answers, the rewrite loop, and this demo page.</p>
+<p><strong>Prior work — declared, never presented as event work:</strong> the audit
+engine core (the Bayesian model and the quantum-style order module), its 145 tests,
+and the Oct 20 Octagon audit of 100 real AI-written questions. The engine core
+stays private; this public page shows only what it measured, not the code itself.
+Full disclosure: <a href="https://github.com/Lovejoyhealth/asking-the-right-questions">github.com/Lovejoyhealth/asking-the-right-questions</a> (PRIOR_WORK.md).</p>
+<p><strong>The one-line difference:</strong> SurveyMonkey-style tools check the
+questions. We check the answers — what the questions did to the people (here, one
+AI forecaster) answering them.</p>
+</div>
+
+<h2>How the check works, in plain words</h2>
+<ol>
+<li><strong>Muse Spark writes the questions.</strong> Spark, using the Meta Model
+API, wrote 48 prediction-market questions: 12 topics, 4 questions each.</li>
+<li><strong>The checklist scorer grades the wording.</strong> A plain, fixed
+program (no AI) reads each question and flags problems it can see in the text:
+a deadline already in the past, no source named to settle the answer, or a
+specific number a human must verify.</li>
+<li><strong>Spark answers the questions many times, in shuffled order.</strong>
+One plain Spark forecaster answered each topic's 4 questions 25 times, with the
+order shuffled every time: 300 calls, 1,200 probabilities (a number from 0 to 100
+for how likely YES is).</li>
+<li><strong>The audit engine measures what the order did to the answers.</strong>
+If a question scores differently just because it was asked first instead of
+later, the list itself is pushing the result. Every effect is compared against
+shuffled data, so a reading can be judged against what pure chance produces.</li>
+<li><strong>Flagged questions get rewritten and re-scored.</strong> Spark rewrites
+only the flagged problems; the scorer checks the rewrite. Before and after, side
+by side, is the demo moment.</li>
+</ol>
+
+<h2>Step 1 — The 48 questions: what the checklist found</h2>
+<p><span class="stat">31 of 48 questions flagged.</span> The counts below add up to
+more than 31 because some questions carry two flags.</p>
+<table>
+<tr><th>Flag, in plain words</th><th>Count</th><th>What it means</th></tr>
+<tr><td><span class="flag">PAST_DATE</span> — deadline already passed</td><td>5</td><td>The question's deadline was already in the past on Oct 26, 2026, so it can no longer be settled in the future.</td></tr>
+<tr><td><span class="flag">NO_SOURCE_CUE</span> — no settling source named</td><td>9</td><td>The wording names no source or authority that decides the answer (no "according to…", official body, or result cue).</td></tr>
+<tr><td>NUMERIC_CLAIM_REVIEW — number needs a human check</td><td>21</td><td>A specific number appears in the question. This is a REVIEW, not a verdict: a human must verify the figure against a source. The scorer does not judge the figure itself.</td></tr>
+</table>
+<p><strong>Wording, honestly:</strong> no loaded-wording flag fired on this set
+(0 LOADED_CUE flags, and no double-barreled flags). The 31 flags above are all
+about whether a question can be settled cleanly — not about one-sided wording.
+17 of the 48 questions carried no flag at all.</p>
+
+<h2>The five dead-date questions</h2>
+<p>These five questions set deadlines that had already passed when they were
+written on Oct 26, 2026. A question that cannot be settled in the future is not
+a usable market question.</p>
+<ol>
+<li><strong>Q10</strong> (the US economy and jobs) — "Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?"</li>
+<li><strong>Q14</strong> (interest rates and the Federal Reserve) — "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?"</li>
+<li><strong>Q33</strong> (pro sports championships) — "Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?"</li>
+<li><strong>Q35</strong> (pro sports championships) — "Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?"</li>
+<li><strong>Q43</strong> (energy and gas prices) — "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?"</li>
+</ol>
+
+<h2>Step 2 — The worked example: Q14, before and after</h2>
+<p>This is the primary demo example: one bad question, flagged, rewritten, re-scored.</p>
+<blockquote><strong>Before:</strong> "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?"<br>
+<span class="flag">Flag: PAST_DATE</span> — June 30, 2026 had already passed.</blockquote>
+<blockquote><strong>After:</strong> "Will the Federal Reserve announce at least one interest rate cut before June 30, 2027, according to the Federal Reserve?"<br>
+<span class="ok">Re-scored: no flags.</span></blockquote>
+<div class="note"><strong>Human date check:</strong> a rewrite clears the past-date flag
+by naming a future date, which fixes the <em>form</em> of the question. The scorer
+checks that a date is present and in the future — it does <em>not</em> verify the
+new date is the correct real-world date. Every new date below is marked
+<strong>needs human date check</strong>.</div>
+
+<h2>Step 3 — All 14 rewrite pairs</h2>
+<p>13 of the 14 rewrites cleared the flag they were rewritten for. Q05 is the
+exception: it is still flagged after its rewrite. Questions that still carry a
+NUMERIC_CLAIM_REVIEW after rewriting still need a human to verify their number —
+that review is not a failure of the rewrite, it is a job left for a human.</p>
+<table>
+<tr><th>Question</th><th>Before → After</th><th>Result</th></tr>
+<tr><td>Q01</td><td>"Will OpenAI publicly release GPT-5 by December 31, 2026?" → "Will OpenAI publicly release GPT-6 by December 31, 2026, according to an official announcement from OpenAI?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q02</td><td>"Will Google DeepMind release Gemini 3 Ultra before June 30, 2027?" → "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027, as confirmed by Google DeepMind?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q03</td><td>"Will Anthropic publicly release Claude Opus 5 by March 31, 2027?" → "Will Anthropic publicly release Claude Opus 5 by March 31, 2027, as confirmed on Anthropic's official website?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q04</td><td>"Will Meta publicly release Llama 4 by November 15, 2026?" → "Will Meta publicly release Llama 5 by November 15, 2026, as confirmed by Meta's official newsroom?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q05</td><td>"Will the Democratic Party hold a majority of seats in the US House of Representatives on January 3, 2027?" → "Will the Democratic Party hold a majority of seats in the U.S. House of Representatives on January 3, 2027, as determined by the Clerk of the U.S. House of Representatives?"</td><td class="flag">Still flagged: NO_SOURCE_CUE</td></tr>
+<tr><td>Q06</td><td>"Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027?" → "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027, according to the United States Senate?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q10</td><td>"Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?" → "Will US nonfarm payroll employment exceed 160 million by July 31, 2027 according to the Bureau of Labor Statistics?"</td><td class="ok">Past-date cleared; number still needs a human check (needs human date check)</td></tr>
+<tr><td>Q14</td><td>"Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?" → "Will the Federal Reserve announce at least one interest rate cut before June 30, 2027, according to the Federal Reserve?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q19</td><td>"Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027?" → "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027, according to Freddie Mac?"</td><td class="ok">Source cleared; number still needs a human check (needs human date check)</td></tr>
+<tr><td>Q33</td><td>"Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?" → "Will the Kansas City Chiefs win Super Bowl LXI by February 14, 2027, as confirmed by the NFL?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q35</td><td>"Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?" → "Will the Boston Celtics win the 2027 NBA Championship by June 30, 2027, as confirmed by the NBA?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+<tr><td>Q43</td><td>"Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?" → "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2027 according to ICE?"</td><td class="ok">Past-date cleared; number still needs a human check (needs human date check)</td></tr>
+<tr><td>Q45</td><td>"Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026?" → "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026, according to Nasdaq?"</td><td class="ok">Source cleared; number still needs a human check (needs human date check)</td></tr>
+<tr><td>Q48</td><td>"Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027?" → "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027, according to Amazon?"</td><td class="ok">Cleared (needs human date check)</td></tr>
+</table>
+
+<h2>Step 4 — The engine run: what the answers did</h2>
+<p><span class="stat">No broad order effect.</span> Across all 48 questions, the
+average size of the first-vs-later difference was <strong>2.91 points</strong>
+(on a 0–100 scale). 43 questions showed no effect, 1 was flagged, and 4 were
+suggestive. No question pair cleared the chance bar on the pair-order check
+(0 of 72 pairs).</p>
+<p><strong>How to read "effect":</strong> the position effect is the average
+probability when a question was asked first, minus the average when it was asked
+later. A value of −12 means "12 points lower when asked first." The flag rule was
+fixed before the run: flagged needs a shuffle-test p-value below 0.05
+(shuffling rarely produces a difference that big) <em>and</em> an effect of at
+least 10 points.</p>
+
+<h3>The one flagged question: Q32</h3>
+<blockquote>"Will NASA confirm discovery of a new potentially habitable exoplanet by September 30, 2027?"<br>
+Average overall: 72.0. Asked first: 63.29 (7 runs). Asked later: 75.39.
+Effect: <span class="flag">−12.1 points</span>, shuffle p = 0.0045.</blockquote>
+<p>Read honestly: with 48 questions tested, about 2 to 3 false alarms are
+expected from pure chance alone. Q32 is a lead worth re-testing with more runs,
+not a proven flaw — only 7 runs had it first, so one or two unusual answers can
+move the average a lot.</p>
+
+<h3>Suggestive, but too small to flag</h3>
+<ul>
+<li><strong>Q08</strong> — effect +2.11 points, p = 0.0185.</li>
+<li><strong>Q09</strong> — effect −8.6 points, p = 0.0055.</li>
+<li><strong>Q30</strong> — effect −8.01 points, p = 0.015.</li>
+<li><strong>Q31</strong> — effect −2.68 points, p = 0.043.</li>
+</ul>
+
+<h3>Answers that moved together</h3>
+<p>Some pairs' probabilities moved together across runs far more than shuffled
+data does. That is not an order effect — it says the forecaster's mood on one
+question tracked its mood on the other inside the same call. Strongest pairs:
+Q01/Q04 (correlation 0.847), Q09/Q11 (0.81), Q10/Q11 (0.724), Q09/Q10 (0.674),
+Q10/Q12 (0.69), Q47/Q48 (0.59), Q09/Q12 (0.532), Q11/Q12 (0.505).</p>
+
+<h2>What ran — and what did not — stated plainly</h2>
+<ul>
+<li><strong>Ran:</strong> the permutation shuffle tests and the model-free
+order statistics from the prior engine's code, plus this run's own first-vs-later
+shuffle test (2,000 shuffles per question).</li>
+<li><strong>Second pass (Oct 27) — the full engine ran:</strong> the Pyro
+Bayesian track (coupling ranges for all 72 pairs; 9 of the 10 strongest
+classical couplings confirmed; Q32's Bayesian range excludes zero) and the
+PennyLane circuit check (12 of 12 agreements at machine precision), run in the
+engine's own Python environment — the first pass used the wrong Python. The
+fitted quantum-style model also ran and is reported plainly: it overstates
+order effects on this data, so nothing on this page rests on it.</li>
+<li><strong>Limits:</strong> one AI forecaster, not humans. First-position
+samples are small (2–12 runs per question). Pair checks split probabilities at
+50, so 49 and 51 land on opposite sides though they are nearly the same belief.
+48 tests invite chance hits. And a question can be clean in the answer run and
+still be badly worded, or vice versa — the checklist and the answer run are
+separate layers.</li>
+</ul>
+
+<p><small>Sources, all in the public repo: data/questions.json (the 48 questions),
+data/question_scores.json (the checklist), data/rewrite_pairs.json (the 14 pairs),
+data/answers.json (1,200 probabilities), data/engine_results.json and RESULTS.md
+(the engine verdicts). Demo page built during the event; engine core is prior work,
+declared in PRIOR_WORK.md. DRAFT demo — nothing here has been submitted anywhere.</small></p>
+
+</body>
+</html>

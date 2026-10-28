@@ -46,4 +46,4 @@
   Parts 2–3. Phone recording is fine; captions on.
 - No claims in the video that a run didn't produce. The demo question and
   its scores come from the real build (freeze the exact run used).
-- Record Mon Nov 2 per the build plan; Tue Nov 3 is the buffer.
+- Record Wed Oct 28 morning per the revised schedule (Brian's window before the Oct 29–Nov 2 work stretch); Nov 2 is inside that stretch and is NOT a recording day. Tue Nov 3 is review; Wed Nov 4 is buffer only.

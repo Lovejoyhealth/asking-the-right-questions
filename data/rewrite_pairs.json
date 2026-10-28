@@ -1,0 +1,248 @@
+[
+  {
+    "id": "Q01",
+    "topic": "AI models and releases",
+    "original": "Will OpenAI publicly release GPT-5 by December 31, 2026?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will OpenAI publicly release GPT-6 by December 31, 2026, according to an official announcement from OpenAI?",
+    "flags_after": []
+  },
+  {
+    "id": "Q02",
+    "topic": "AI models and releases",
+    "original": "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will Google DeepMind release Gemini 3 Ultra before June 30, 2027, as confirmed by Google DeepMind?",
+    "flags_after": []
+  },
+  {
+    "id": "Q03",
+    "topic": "AI models and releases",
+    "original": "Will Anthropic publicly release Claude Opus 5 by March 31, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will Anthropic publicly release Claude Opus 5 by March 31, 2027, as confirmed on Anthropic's official website?",
+    "flags_after": []
+  },
+  {
+    "id": "Q04",
+    "topic": "AI models and releases",
+    "original": "Will Meta publicly release Llama 4 by November 15, 2026?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will Meta publicly release Llama 5 by November 15, 2026, as confirmed by Meta's official newsroom?",
+    "flags_after": []
+  },
+  {
+    "id": "Q05",
+    "topic": "US politics and the 2026 midterms",
+    "original": "Will the Democratic Party hold a majority of seats in the US House of Representatives on January 3, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will the Democratic Party hold a majority of seats in the U.S. House of Representatives on January 3, 2027, as determined by the Clerk of the U.S. House of Representatives?",
+    "flags_after": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "topic": "US politics and the 2026 midterms",
+    "original": "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will the Republican Party hold a majority of seats in the US Senate on January 3, 2027, according to the United States Senate?",
+    "flags_after": []
+  },
+  {
+    "id": "Q10",
+    "topic": "the US economy and jobs",
+    "original": "Will US nonfarm payroll employment exceed 160 million by July 31, 2026 according to the Bureau of Labor Statistics?",
+    "flags_before": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "July 31, 2026 (parsed as 2026-07-31)"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "160 million by July"
+      }
+    ],
+    "rewrite": "Will US nonfarm payroll employment exceed 160 million by July 31, 2027 according to the Bureau of Labor Statistics?",
+    "flags_after": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "160 million by July"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "topic": "interest rates and the Federal Reserve",
+    "original": "Will the Federal Reserve announce at least one interest rate cut before June 30, 2026?",
+    "flags_before": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "June 30, 2026 (parsed as 2026-06-30)"
+      }
+    ],
+    "rewrite": "Will the Federal Reserve announce at least one interest rate cut before June 30, 2027, according to the Federal Reserve?",
+    "flags_after": []
+  },
+  {
+    "id": "Q19",
+    "topic": "housing and rent",
+    "original": "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "6 percent on June"
+      }
+    ],
+    "rewrite": "Will the Freddie Mac 30-year fixed mortgage rate be below 6 percent on June 30, 2027, according to Freddie Mac?",
+    "flags_after": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "6 percent on June"
+      }
+    ]
+  },
+  {
+    "id": "Q33",
+    "topic": "pro sports championships",
+    "original": "Will the Kansas City Chiefs win Super Bowl LX by February 8, 2026?",
+    "flags_before": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "February 8, 2026 (parsed as 2026-02-08)"
+      }
+    ],
+    "rewrite": "Will the Kansas City Chiefs win Super Bowl LXI by February 14, 2027, as confirmed by the NFL?",
+    "flags_after": []
+  },
+  {
+    "id": "Q35",
+    "topic": "pro sports championships",
+    "original": "Will the Boston Celtics win the 2026 NBA Championship by June 30, 2026?",
+    "flags_before": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "June 30, 2026 (parsed as 2026-06-30)"
+      }
+    ],
+    "rewrite": "Will the Boston Celtics win the 2027 NBA Championship by June 30, 2027, as confirmed by the NBA?",
+    "flags_after": []
+  },
+  {
+    "id": "Q43",
+    "topic": "energy and gas prices",
+    "original": "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2026 according to ICE?",
+    "flags_before": [
+      {
+        "code": "PAST_DATE",
+        "level": "FLAG",
+        "evidence": "September 30, 2026 (parsed as 2026-09-30)"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "100 dollars per barrel"
+      }
+    ],
+    "rewrite": "Will Brent crude oil futures settle above 100 dollars per barrel on September 30, 2027 according to ICE?",
+    "flags_after": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "100 dollars per barrel"
+      }
+    ]
+  },
+  {
+    "id": "Q45",
+    "topic": "big tech companies",
+    "original": "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      },
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 trillion dollars at"
+      }
+    ],
+    "rewrite": "Will Apple reach a market capitalization of over 4 trillion dollars at any time before December 31, 2026, according to Nasdaq?",
+    "flags_after": [
+      {
+        "code": "NUMERIC_CLAIM_REVIEW",
+        "level": "REVIEW",
+        "evidence": "4 trillion dollars at"
+      }
+    ]
+  },
+  {
+    "id": "Q48",
+    "topic": "big tech companies",
+    "original": "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027?",
+    "flags_before": [
+      {
+        "code": "NO_SOURCE_CUE",
+        "level": "FLAG",
+        "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+      }
+    ],
+    "rewrite": "Will Amazon launch a fully autonomous delivery drone service for commercial customers in the United States before July 1, 2027, according to Amazon?",
+    "flags_after": []
+  }
+]
