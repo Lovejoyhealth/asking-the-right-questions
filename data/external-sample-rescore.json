@@ -1,0 +1,1439 @@
+{
+  "run_date": "2026-10-28",
+  "run": 2,
+  "method": "Same 50 questions as run 1, rescored with each market's listed close date (in prose) and its own published resolution-rules text attached \u2014 the moderator view. Scorer unmodified except TODAY = run date.",
+  "rows": [
+    {
+      "sample_id": "X01",
+      "platform": "Manifold",
+      "question": "Will 0xDe89112492A292c194D2501b2721D4Bc6cED2A75 RECEIVE more than 69.00 USDC Base by October 30th 11:59 pm UTC",
+      "url": "https://manifold.markets/JasonMendoza2008/will-0xde89112492a292c194d2501b2721-llsQnQt0nq",
+      "close_time": "2026-10-30T23:58:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will 0xDe89112492A292c194D2501b2721D4Bc6cED2A75 RECEIVE more than 69.00 USDC Base by October 30th 11:59 pm UTC\nThis market closes on October 30, 2026.\nResolution rules: Resolution criteria This market will resolve to YES if the native USDC balance of the specified wallet address on the Base network is strictly greater than 69.00 USDC at ANY POINT BEFORE October the 30th at 11:59 pm UTC. Otherwise, this market will resolve to NO . Target Wallet Address: 0xDe89112492A292c194D2501b2721D4Bc6cED2A75 Source of Truth: The balance will be verified via BaseScan. Only native USDC (USD Coin) qualifies; bridged USDbC or other tokens are excluded... https://basescan.org/address/0xDe89112492A292c194D2501b2721D4Bc6cED2A75",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X02",
+      "platform": "Manifold",
+      "question": "Ethan Klein's affair is a cover for something worse.",
+      "url": "https://manifold.markets/Technocrat/ethan-kleins-affair-is-a-cover-for",
+      "close_time": "2027-11-02T14:50:00+00:00",
+      "rules_found": true,
+      "scored_text": "Ethan Klein's affair is a cover for something worse.\nThis market closes on November 2, 2027.\nResolution rules: It's possible that this affair is a strategic move to isolate the Klein's assets from a catastrophe. If such a situation does prove to be, this market resolves yes.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X03",
+      "platform": "Manifold",
+      "question": "Will there be a massive internet outage before 2028?",
+      "url": "https://manifold.markets/Plant/will-there-be-a-massive-internet-ou",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will there be a massive internet outage before 2028?\nThis market closes on December 31, 2027.\nResolution rules: Resolution criteria This market resolves to YES if, at any point before January 1, 2028, 00:00 UTC, a massive global internet disruption occurs meeting at least one of the following verifiable conditions: Global Traffic Collapse: Independent internet observatories\u2014such as Cloudflare Radar , IODA , or NetBlocks \u2014record a sustained decline of \u226520% in aggregate global internet traffic lasting continuously for at least 2 consecutive hours. Infrastructure Correlated Failure: Simultaneous unplanned downtime lasting at least 2 consecutive hours across three or more major global cloud or edge infrastructure providers ( Amazon Web Services , Microsoft Azure , Google Cloud , Cloudflare or other global providers of similar size), resulting in verified outages across at least 25 of the top 100 most-visited global websites according to Cloudflare Radar or Similarweb . Core Protocol/BGP/DNS Root Failure: Either: The withdrawal or unreachability of \u226515% of globally active BGP prefixes sustained for at least 2 consecutive hours, as measured by Route Views , RIPE RIS , or Cloudflare Radar ; or Two or more major public recursive resolvers (e.g., Google 8.8.8.8, Cloudflare 1.1.1.1, Quad9) officially reporting an aggregate query failure rate or packet loss of \u226530% sustained for at least 2 consecutive hours. Major Chinese Internet Systemic Outage: A disruption largely or entirely localized to mainland China that meets either of the following: A sustained decline of \u226550% in aggregate traffic/connectivity within mainland China lasting continuously for at least 3 consecutive hours, as verified by Cloudflare Radar , IODA , or NetBlocks ; or Simultaneous, continuous unplanned downtime lasting at least 2 consecutive hours across at least two major Chinese cloud providers ( Alibaba Cloud , Tencent Cloud , or Huawei Cloud ) resulting in verified unreachability across at least 15 of the top 50 Chinese domains/web properties according to Cloudflare Radar or Similarweb; or The sustained unreachability or withdrawal of \u226540% of China-routed BGP prefixes (AS numbers registered under CNNIC/APNIC) for at least 2 consecutive hours according to RIPE RIS or Route Views. Clarifications & Edge Cases: The root cause can be cyberattacks, AI-agent worm propagation, cascading software flaws (e.g., CrowdStrike-style logic bugs), physical undersea cable cuts, or core protocol exploits. Technically something like a massive CME would also cause a YES resolution. Country-specific national blackouts (e.g., state-mandated shutdowns or single-nation infrastructure failure) do not qualify unless the 20% global traffic threshold is satisfied. If no qualifying event occurs before January 1, 2028, 00:00 UTC, the market resolves to NO . Background Frontier AI models have accelerated the asymmetric offense-defense balance in software security. Anthropic formed Project Glasswing after observing that Claude Mythos Preview possessed autonomous zero-day discovery and exploit generation capabilities, uncoverin",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "Either: The withdrawal or unreachability of \u226515% of globally active BGP prefixes sustained for at least 2 consecutive hours, as measured by Route Views , RIPE RIS , or Cloudflare Radar ; or Two or more major public recursive resolvers (e.g., Google 8.8.8.8, Cloudflare 1.1.1.1, Quad9) officially reporting an aggregate query failure rate or packet loss of \u226530% sustained for at least 2 consecutive hours. Major Chinese Internet Systemic Outage: A disruption largely or entirely localized to mainland China that meets either of the following: A sustained decline of \u226550% in aggregate traffic/connectivity within mainland China lasting continuously for at least 3 consecutive hours, as verified by Cloudflare Radar , IODA , or NetBlocks ; or Simultaneous, continuous unplanned downtime lasting at least 2 consecutive hours across at least two major Chinese cloud providers ( Alibaba Cloud , Tencent Cloud , or Huawei Cloud ) resulting in verified unreachability across at least 15 of the top 50 Chinese domains/web properties according to Cloudflare Radar or Similarweb; or The sustained unreachability or withdrawal of \u226540% of China-routed BGP prefixes (AS numbers registered under CNNIC/APNIC) for at least 2 consecutive hours according to RIPE RIS or Route Views. Clarifications & Edge Cases: The root cause can be cyberattacks, AI-agent worm propagation, cascading software flaws (e.g., CrowdStrike-style logic bugs), physical undersea cable cuts, or core protocol exploits. Technically something like a massive CME would also cause a YES resolution. Country-specific national blackouts (e.g., state-mandated shutdowns or"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "20% in aggregate"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "15% of globally"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "30% sustained for"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "50% in aggregate"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "40% of China"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "20% global traffic"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X04",
+      "platform": "Manifold",
+      "question": "In three months, will I think setting up this Manifold news reader was worth it?",
+      "url": "https://manifold.markets/TonyBaloney/in-three-months-will-i-think-settin",
+      "close_time": "2027-01-21T02:54:00+00:00",
+      "rules_found": true,
+      "scored_text": "In three months, will I think setting up this Manifold news reader was worth it?\nThis market closes on January 21, 2027.\nResolution rules: I made a website that pairs news stories with related Manifold markets, so you can read the news alongside what traders think might happen: https://thedailyfold.net It works, mostly. I was surprised that ChatGPT just sort of did this for me based on an exploratory question. I tweaked it a couple of times, but that's it. There are definitely things that are still janky and suboptimal, but I like it enough that I spent ten bucks on a URL. Will I still think this was worth doing three months from now? This resolves YES if, around January 20, 2027, I look at the project and feel glad I set it up. Things that would count toward that include: I\u2019m still using it regularly myself. I\u2019m still interested enough to try to make it better. It has regular readership of more than 100 people a day. Someone improves it, builds upon it, or steals the idea completely. A couple of people tell me it\u2019s a good idea, and I feel like it was worth putting out there. These are examples, not a checklist. I don\u2019t need all of them, and 100 daily readers is not a requirement. If nobody else reads it but I use it all the time, that could easily be a YES. This resolves NO if, in three months, I\u2019m not using it regularly and my general feeling is, \u201cWhy the hell did I spend ten bucks on a URL for that stupid site?\u201d Essentially, this is a vibes-based market on my future opinion of my own project. I\u2019ll resolve it honestly, but you are betting on my subjective judgment. I won't bet on this market.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": " that's it. there are definitely things that are still janky and suboptimal, but i like it enough that i spent ten bucks on a"
+        },
+        {
+          "code": "LOADED_CUE",
+          "level": "REVIEW",
+          "evidence": "still"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X05",
+      "platform": "Manifold",
+      "question": "Is Cheryl Scott from ABC CHICAGO pregnant????!?!??? \ud83e\udd30",
+      "url": "https://manifold.markets/Pedro6LNOI/is-cheryl-scott-from-abc-chicago-pr-CtdC9sL5Oh",
+      "close_time": "2026-12-31T23:30:00+00:00",
+      "rules_found": true,
+      "scored_text": "Is Cheryl Scott from ABC CHICAGO pregnant????!?!??? \ud83e\udd30\nThis market closes on December 31, 2026.\nResolution rules: \u2764",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X06",
+      "platform": "Manifold",
+      "question": "Will this story end up on \"Last Week Tonight\"?",
+      "url": "https://manifold.markets/MikeLewis/will-this-story-end-up-on-last-week",
+      "close_time": "2026-11-21T23:59:00+00:00",
+      "rules_found": false,
+      "scored_text": "Will this story end up on \"Last Week Tonight\"?\nThis market closes on November 21, 2026.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X07",
+      "platform": "Manifold",
+      "question": "Will Sun get a girlfriend before October 12, 2027?",
+      "url": "https://manifold.markets/sun0/will-sun-enter-into-a-relationship",
+      "close_time": "2027-10-11T15:00:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Sun get a girlfriend before October 12, 2027?\nThis market closes on October 11, 2027.\nResolution rules: This market is about Sun, a straight 27 year-old Chinese American man living in Seoul, South Korea. See \"About Sun\" below. He appeared in this YouTube video, in which he discusses his thoughts on dating (among other things): https://youtu.be/Mm_NmYdcb9I -- Real-money betting market information -- There is a corresponding real money-market on this question among Sun's friends, with identical rules below. As of 10/17/2026, that market is currently trading at 25% -- $59 USD on Yes vs. $177 on No -- About Sun -- Sun is a straight 27-year old Chinese American man. Height: 5'9\" (175 cm) Weight: 162 lb (73.6 kg) Bio and job Born and raised in the United States. Attended university in the US for computer science (bachelor's + Master's). Worked at Meta as a software engineer for 4 years. Moved to Seoul 2 years ago. Worked at Seoul National University for 1.5 years as an AI researcher. Currently working as an independent researcher in Seoul. Dating history Only 1 relationship, in high school, lasting 2 months. During 2 years in Korea so far, has been on 7 dates with 4 different women. Met them via introduction by mutual friends (2), was approached at a bar (1), and via dating app (1). Dating app performance Went on 1 date after spending 1 month on Coffee Meets Bagel. No dates from other dating apps (Bumble, Hinge, Tinder), after ~2 weeks of effort. Has quit dating apps. Dating effort Sun is currently open to dating but not making active efforts. Not using dating apps, not going to dating events, not asking out strangers in public. Language Sun is a native English speaker He is currently taking Korean classes (level 3) and can have basic conversations in Korean, but is not comfortable dating in Korean. He will probably never be comfortable having a long-term relationship in Korean only, and this has so far been a significant barrier in the Seoul dating market. Hobbies Running - member of a university running club, currently preparing for a marathon. Going to art galleries with friends. Social circles Meets about 10 new women per month (at networking events, running club, Korean class, etc.). Has 20-30 female friends in Seoul, 5-10 male friends. Has mostly Korean friends, with a few foreigner friends. Type Sun is primarily attracted to East Asians (Korean, Chinese, Japanese). Religion Agnostic atheist Mental health Diagnosed with ADHD. Recently diagnosed with bipolar disorder and starting medication. Has been seeing a therapist in Seoul for 1.5 years. Previously saw 3 therapists in the US at different points in time. MBTI Originally INTJ. But now sometimes tests as ENTJ/ENTP after moving to Korea. OCEAN personality: https://bigfive-test.com/result/6a8dccd4690f8f936124da91 93/100 Openness to experience 79/100 Conscientiousness 76/100 Extraversion 92/100 Agreeableness 66/100 Neuroticism Aella's Sexual Market Value quiz: bottom 15th percentile https://x.com/Aella_Girl/status/1888061426637619396 Highest SMV subscore: Life Path (99.5) This means fundamental dealb",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ican man. height: 5'9\" (175 cm) weight: 162 lb (73.6 kg) bio and job born and raised in the united states. attended universit"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "25%"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$59"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$177"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X08",
+      "platform": "Manifold",
+      "question": "Elon Musk actually gifts a SpaceX share to every American child in 2027?",
+      "url": "https://manifold.markets/Ziddletwix/elon-musk-actually-gifts-a-spacex-s",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Elon Musk actually gifts a SpaceX share to every American child in 2027?\nThis market closes on December 31, 2027.\nResolution rules: Here's the context: Elon Musk (@elonmusk) on X Resolution details: They don't need to receive the money within 2027. If a consensus of credible reporting says that Musk has initiated the process within the calendar year of 2027, then I'll leave the market open and it can resolve once the money is received (even if that stretches beyond 2027). It needs to cover >90% of children (<5 years old at the start of 2027) who are American citizens during the year 2027. It is ok if a smaller % actually receive it (e.g., the parent has to put in some work to get it). I'll evaluate coverage based on my subjective sense of \"if a typical motivated parent wanted to put a bit of work in, could they actually secure this for their child). I will be ~somewhat flexible on what \"one SpaceX share\" means. Probably it will be a threshold like receiving monetary value of at least >50% the market value of a SpaceX share.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "n the calendar year of 2027, then i'll leave the market open and it can resolve once the money is received (even if that stre"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "90% of children"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "50% the market"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X09",
+      "platform": "Manifold",
+      "question": "Will the first commercially successful personal robot use legs?",
+      "url": "https://manifold.markets/spiderduckpig/will-the-first-commercially-success",
+      "close_time": "2031-12-04T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will the first commercially successful personal robot use legs?\nThis market closes on December 4, 2031.\nResolution rules: Defined as the first robot designed to have general capability with household tasks (so it can't just be like a roomba). First model to sell over 1 million units to consumers. Will it walk with legs? Resolution criteria This market resolves YES if the first general-purpose personal household robot model to sell more than 1,000,000 units to consumers uses legs (bipedal, quadrupedal, or other legged locomotion) as its primary means of movement. This market resolves NO if the first such robot to reach this milestone relies primarily on wheels, tracks, a fixed/stationary base, or another non-legged mechanism for movement. Key definitions & edge cases: General capability / household robot: The model must be designed and marketed for general-purpose domestic manipulation or multi-task assistance (e.g., tidying, handling objects, folding laundry, kitchen prep). Single-purpose appliances such as robotic vacuum cleaners (e.g., Roomba), robotic lawnmowers, or pool cleaners do not qualify. Sales threshold: The robot model (or a single continuous product family/hardware generation) must surpass 1,000,000 cumulative units delivered or sold directly to retail consumers, verified by official manufacturer financial disclosures, audited company press releases, or consensus reporting from credible business/tech outlets (e.g., Bloomberg, Reuters, The Wall Street Journal). Enterprise/industrial-only sales do not count toward the consumer threshold. Locomotion: \"Using legs\" requires articulated mechanical limbs for ambulatory locomotion. Hybrid systems (e.g., wheels mounted on the ends of legs) resolve based on the primary, default locomotion method specified by the manufacturer; if both legs and wheels are integral to standard operation, the creator may evaluate whether ambulatory stepping is essential to the design or edit the criteria if clarification is needed. Background The consumer robotics industry is divided on locomotion for home environments: Legged / Humanoid: Proponents (e.g., Tesla with Optimus, Figure, Unitree, Boston Dynamics) argue that human environments (stairs, narrow doorways, multi-level homes) are fundamentally designed for bipedal or legged navigation, making legs necessary for true general utility. Wheeled / Mobile Base: Competitors and roboticists often point to wheels or continuous tracks as significantly cheaper, more power-efficient, and safer around household occupants, avoiding the complex balance and high actuator costs associated with dynamic walking. This description was generated by AI. Review and verify everything here yourself. You can edit, replace, or delete any part of this description, including the resolution criteria. You do not need to trust the AI output.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ral capability / household robot: the model must be designed and marketed for general-purpose domestic manipulation or multi-"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "1 million units to"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "1,000,000 units to consumers"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X10",
+      "platform": "Manifold",
+      "question": "Will Cognition raise at a $70B+ valuation in 2026?",
+      "url": "https://manifold.markets/Bayesian/will-cognition-raise-at-a-70b-valua",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Cognition raise at a $70B+ valuation in 2026?\nThis market closes on December 31, 2026.\nResolution rules: AI coding startup Cognition is weighing a new funding round at a $70 billion to $80 billion valuation",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$70"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$70 billion to"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$80 billion valuation"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$70"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$80"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X11",
+      "platform": "Manifold",
+      "question": "Will Sesame Smart Glasses have a wave guide visual display?",
+      "url": "https://manifold.markets/Truthinperspective/will-sesame-smart-glasses-have-a-wa",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Sesame Smart Glasses have a wave guide visual display?\nThis market closes on December 31, 2027.\nResolution rules: Resolution criteria This market resolves to YES if the first commercially released generation (or official consumer hardware specification reveal) of Sesame smart glasses includes an optical waveguide display (such as diffractive, reflective, or holographic waveguide optics) capable of projecting visual graphics or text into the wearer\u2019s field of view. This market resolves to NO if: Sesame's first smart glasses launch without any visual display (e.g., audio/camera-only, similar to Ray-Ban Meta glasses). The glasses use a non-waveguide optical display system (e.g., birdbath optics, prism/curved mirror combiner without a planar waveguide). Sesame officially cancels or shuts down hardware development without launching smart glasses. Resolution will be determined using official product announcements, technical specification sheets, or teardowns from Sesame's official website or major consumer technology reporting (e.g., The Verge , Lowpass , Ars Technica ). Background Sesame, founded by former Oculus co-founders Brendan Iribe and Nate Mitchell, develops conversational voice agents (such as Maya, Miles, Simone, and Charlie) and announced plans to release hardware frames Made in Japan targeted for 2027. While the company has positioned the glasses around voice-first AI and premium optical craftsmanship, technical details regarding whether the frames will feature augmented-reality visual displays\u2014such as optical waveguides\u2014or remain an audio- and camera-focused form factor have not yet been disclosed. This description was generated by AI. Review and verify everything here yourself. You can edit, replace, or delete any part of this description, including the resolution criteria. You do not need to trust the AI output.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "d sesame, founded by former oculus co-founders brendan iribe and nate mitchell, develops conversational voice agents (such as"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X12",
+      "platform": "Manifold",
+      "question": "Will my Manifold net worth exceed M1000000 before 2030? \ud83e\udd5d",
+      "url": "https://manifold.markets/realTomBayes/will-my-manifold-net-worth-exceed-m",
+      "close_time": "2029-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will my Manifold net worth exceed M1000000 before 2030? \ud83e\udd5d\nThis market closes on December 31, 2029.\nResolution rules: Banking on a kiwi effect here \ud83e\udd5d",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X13",
+      "platform": "Manifold",
+      "question": "How iGaming SEO Helps Improve Search Rankings and Drive Organic Traffic",
+      "url": "https://manifold.markets/wes_hamilton/how-igaming-seo-helps-improve-searc",
+      "close_time": "2026-12-31T09:49:00+00:00",
+      "rules_found": true,
+      "scored_text": "How iGaming SEO Helps Improve Search Rankings and Drive Organic Traffic\nThis market closes on December 31, 2026.\nResolution rules: I've been exploring how online gaming platforms, sportsbooks, poker websites, and iGaming affiliates improve their search engine rankings and attract targeted audiences without depending entirely on paid advertising. From what I've learned, effective iGaming SEO combines technical optimization, keyword research, content marketing, strategic link building, and competitor analysis to strengthen organic visibility and website authority. I recently came across Igaming SEO Services , which specializes in casino SEO, sports betting SEO, poker SEO, affiliate optimization, and international SEO strategies. Has anyone here worked with specialized iGaming SEO agencies, and which strategies have delivered the best results for increasing organic traffic, improving keyword rankings, and achieving sustainable growth?",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X14",
+      "platform": "Manifold",
+      "question": "Will \"A cat-belling problem for FDT\" make the top fifty posts in LessWrong's 2026 Annual Review?",
+      "url": "https://manifold.markets/LessWrong/will-a-catbelling-problem-for-fdt-m",
+      "close_time": "2028-02-01T00:00:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will \"A cat-belling problem for FDT\" make the top fifty posts in LessWrong's 2026 Annual Review?\nThis market closes on February 1, 2028.\nResolution rules: As part of LessWrong's Annual Review , the community nominates, writes reviews, and votes on the most valuable posts. Posts are reviewable once they have been up for at least 12 months, and the 2026 Review resolves in February 2028. This market will resolve to 100% if the post A cat-belling problem for FDT is one of the top fifty posts of the 2026 Review, and 0% otherwise. The market was initialized to 14%.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "g's annual review , the community nominates, writes reviews, and votes on the most valuable posts. posts are reviewable once "
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "100% if the"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "0% otherwise"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "14%"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X15",
+      "platform": "Manifold",
+      "question": "OpenAI disproof of Exponential Time Hypothesis is substantively correct?",
+      "url": "https://manifold.markets/Ziddletwix/openai-disproof-of-exponential-time",
+      "close_time": "2027-06-01T22:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "OpenAI disproof of Exponential Time Hypothesis is substantively correct?\nThis market closes on June 1, 2027.\nResolution rules: Context: https://openai.com/index/building-scientific-understanding-with-academic-communities/ I'll resolve based on the consensus of the mathematical community at market close. For intuition (these are not binding rules, more like, rough guidelines): If it's demonstrated to be incorrect before the close date, then this can resolve NO early. If at market close there's no particular evidence to doubt its validity, by default resolves YES. If there's substantial ongoing work to verify it, I will leave the market closed and wait to resolve until it doesn't seem like that work is still ongoing. \"Substantively correct\" means that small, easily fixable errors are not sufficient for this to resolve NO. If much of the proof is correct but there's an error that requires substantial additional work to address, then it'd resolve NO. This is a necessarily subjective resolution, so be aware of that before you trade! I won't bet myself.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "al ongoing work to verify it, i will leave the market closed and wait to resolve until it doesn't seem like that work is stil"
+        },
+        {
+          "code": "LOADED_CUE",
+          "level": "REVIEW",
+          "evidence": "still"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X16",
+      "platform": "Manifold",
+      "question": "Will Nicki Minaj be the next White House Press Secretary?",
+      "url": "https://manifold.markets/spiderduckpig/will-nicki-minaj-be-the-next-white",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "rules_found": false,
+      "scored_text": "Will Nicki Minaj be the next White House Press Secretary?\nThis market closes on December 31, 2026.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "screen_leak_politics": true
+    },
+    {
+      "sample_id": "X17",
+      "platform": "Manifold",
+      "question": "Will Abdul El-Sayed win by a larger margin than James Talarico does?",
+      "url": "https://manifold.markets/Jack1/will-abdul-elsayed-win-by-a-larger",
+      "close_time": "2026-11-04T00:00:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Abdul El-Sayed win by a larger margin than James Talarico does?\nThis market closes on November 4, 2026.\nResolution rules: Resolution criteria This market resolves to YES if Abdul El-Sayed wins the November 3, 2026 Michigan U.S. Senate election by a larger margin of victory (measured in percentage points of the total vote) than James Talarico wins the November 3, 2026 Texas U.S. Senate election. It will also resolve to YES if Abdul el Sayed loses by a smaller margin than Talarico does if both lose. Otherwise, this market resolves to NO , including if: James Talarico wins by a larger percentage-point margin than Abdul El-Sayed. Both candidates win by the exact same percentage-point margin. Specific terms and data sources: Margin of victory is calculated as the candidate's share of the total votes cast minus the share received by the second-place candidate (in percentage points). Resolution will be based on the official certified general election results published by the Michigan Department of State and the Texas Secretary of State , or associated press.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "in by the exact same percentage-point margin. specific terms and data sources: margin of victory is calculated as the candida"
+        }
+      ],
+      "screen_leak_politics": true
+    },
+    {
+      "sample_id": "X18",
+      "platform": "Manifold",
+      "question": "NFL Week 8: Will Green Bay Packers beat Carolina Panthers by 5 or more points?",
+      "url": "https://manifold.markets/Web3ICP/nfl-week-8-will-green-bay-packers-b",
+      "close_time": "2026-10-30T00:12:00+00:00",
+      "rules_found": true,
+      "scored_text": "NFL Week 8: Will Green Bay Packers beat Carolina Panthers by 5 or more points?\nThis market closes on October 30, 2026.\nResolution rules: Standardized Resolution Summary Resolution Criteria This market resolves to YES if the Green Bay Packers defeat the Carolina Panthers by 5 or more points (margin of victory $\\ge 5$) in their NFL Week 8 regular-season game scheduled for Thursday, October 29, 2026. This market resolves to NO if: The Green Bay Packers win by 4 points or fewer. The game ends in a tie. The Carolina Panthers defeat the Green Bay Packers. Verification & Rules: The official result will be verified via NFL.com or ESPN. Official overtime results count toward the final score and margin of victory. If postponed or rescheduled, the market remains open until the designated regular-season game is completed. Event Details: Thursday, October 29, 2026, at Lambeau Field, Green Bay, WI (5:15 PM PDT / 8:15 PM EDT). Market description drafted with assistance from Google Gemini.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "espn. official overtime results count toward the final score and margin of victory. if postponed or rescheduled, the market r"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "4 points or fewer"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X19",
+      "platform": "Manifold",
+      "question": "Will customer service employment fall >5% in 2026?",
+      "url": "https://manifold.markets/brod/will-customer-service-employment-fa",
+      "close_time": "2027-04-30T13:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will customer service employment fall >5% in 2026?\nThis market closes on April 30, 2027.\nResolution rules: Resolves YES iff employment among customer service representatives in May 2026 (as measured by series 43-4051 in the BLS' OEWS available here ) drops 5% or more (is below 2,465,960 ) relative of observation for May 2025 (2,595,750). If the series is discontinued, the question resolves N/A. The May 2026 figures are scheduled to be released in April 2027. The BLS says the job of a 'customer service representative' is to \"Interact with customers to provide basic or scripted information in response to routine inquiries about products and services. May handle and resolve general complaints. Excludes individuals whose duties are primarily installation, sales, repair, and technical support.\" Past data:",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "5% in 2026"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "PAST_DATE",
+          "level": "FLAG",
+          "evidence": "May 2025 (parsed as 2025-05-31)"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": " information in response to routine inquiries about products and services. may handle and resolve general complaints. exclude"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "5% in 2026"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "5% or more"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X20",
+      "platform": "Manifold",
+      "question": "Will Miles Anderson win Waitaki in 2026?",
+      "url": "https://manifold.markets/Jack1/will-miles-anderson-win-waitaki-in",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Miles Anderson win Waitaki in 2026?\nThis market closes on December 31, 2026.\nResolution rules: Will Incumbent National MP Miles Anderson win Waitaki at the 2026 NZ General election? As a guide, The overhang gives them a 90-99% chance. The Overhang 2.10 - Side splitting",
+      "flags_run1": [],
+      "flags_run2": [
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "99% chance"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X21",
+      "platform": "Manifold",
+      "question": "Will Julie Anne Genter win Wellington Bays in 2026?",
+      "url": "https://manifold.markets/Jack1/will-julie-anne-genter-win-wellingt",
+      "close_time": "2026-11-24T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will Julie Anne Genter win Wellington Bays in 2026?\nThis market closes on November 24, 2026.\nResolution rules: Will Incumbent Greens MP Julie Anne Genter win Wellington Bays at the 2026 NZ General election? As a guide, The overhang gives them a 90-99% chance. The Overhang 2.10 - Side splitting",
+      "flags_run1": [],
+      "flags_run2": [
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "99% chance"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X22",
+      "platform": "Manifold",
+      "question": "EPL: Will Newcastle beat Everton?",
+      "url": "https://manifold.markets/Web3ICP/epl-will-newcastle-beat-everton",
+      "close_time": "2026-11-01T19:57:00+00:00",
+      "rules_found": true,
+      "scored_text": "EPL: Will Newcastle beat Everton?\nThis market closes on November 1, 2026.\nResolution rules: Standardized Resolution Summary Resolution Criteria This market resolves to YES if Newcastle United F.C. defeats Everton F.C. in their English Premier League Matchday 9 fixture scheduled for Monday, November 2, 2026. This market resolves to NO if: The match ends in a draw. Everton F.C. defeats Newcastle United F.C. Verification & Rules: The official score and result will be verified via PremierLeague.com or ESPN Game Center. Injury time / stoppage time counts toward the final result. If postponed or rescheduled, the market remains open until the designated regular-season fixture is completed. Event Details: Monday, November 2, 2026, at St. James' Park, Newcastle upon Tyne (8:00 PM GMT / 12:00 PM PST). Market description drafted with assistance from Google Gemini.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "wcastle united f.c. verification & rules: the official score and result will be verified via premierleague.com or espn game c"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X23",
+      "platform": "Manifold",
+      "question": "EPL: Will Aston Villa beat Fulham?",
+      "url": "https://manifold.markets/Web3ICP/epl-will-aston-villa-beat-fulham",
+      "close_time": "2026-10-31T19:57:00+00:00",
+      "rules_found": true,
+      "scored_text": "EPL: Will Aston Villa beat Fulham?\nThis market closes on October 31, 2026.\nResolution rules: Standardized Resolution Summary Resolution Criteria This market resolves to YES if Aston Villa F.C. defeats Fulham F.C. in their English Premier League Matchday 9 fixture scheduled for Saturday, October 31, 2026. This market resolves to NO if: The match ends in a draw. Fulham F.C. defeats Aston Villa F.C. Verification & Rules: The official score and result will be verified via PremierLeague.com or ESPN Game Center. Injury time / stoppage time counts toward the final result. If postponed or rescheduled, the market remains open until the designated regular-season fixture is completed. Event Details: Saturday, October 31, 2026, at Villa Park, Birmingham (8:00 PM BST / 1:00 PM PDT). Market description drafted with assistance from Google Gemini.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ts aston villa f.c. verification & rules: the official score and result will be verified via premierleague.com or espn game c"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X24",
+      "platform": "Manifold",
+      "question": "Will BLS report more than 275,600 data scientist jobs in the United States in 2030?",
+      "url": "https://manifold.markets/AdamBraff/will-bls-report-more-than-275600-da",
+      "close_time": "2031-08-31T22:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will BLS report more than 275,600 data scientist jobs in the United States in 2030?\nThis market closes on August 31, 2031.\nResolution rules: Description: There were 275,600 data scientist jobs in the United States in 2025, according to the Bureau of Labor Statistics. BLS projects 371,000 by 2035, an increase of about 35%. Gen AI could push employment either way. Making each data scientist more productive could reduce the number needed. But making analysis cheaper could increase demand enough to create more jobs. This market asks whether employment grows above its 2025 level\u2014not whether AI alone causes it to grow. Explore the economics with this interactive supply-and-demand tool . Resolution criteria: Primary source: BLS Employment Projections\u2019 National Employment Matrix, which includes self-employed workers. The baseline is fixed at 275,600 , the 2025 employment figure for data scientists, SOC 15-2051, reported in the Occupational Outlook Handbook . YES if the 2030 base-year employment estimate in the 2030\u20132040 matrix exceeds 275,600; NO otherwise. Earlier projections of 2030 employment do not count. I will use the first release of that matrix, including official corrections published by December 31, 2031 . Classification changes: A rename or clean split is acceptable if it preserves the occupation\u2019s scope; split categories will be summed. For broader mergers or other changes, I will use a BLS-published comparable estimate if available. If no comparable estimate exists, this will resolve N/A . Fallback: If the matrix is unavailable by December 31, 2031, I will compare BLS OEWS May 2030 employment with May 2025 employment for the same occupation. YES if higher; NO otherwise. I will use the figures available at that deadline, applying the same classification rule. If neither source provides comparable figures by that deadline, this will resolve N/A .",
+      "flags_run1": [],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "either way. Making each data scientist more productive could reduce the number needed. But making analysis cheaper could increase demand enough to create more jobs. This market asks whether employment grows above its 2025 level\u2014not whether AI alone causes it to grow. Explore the economics with this interactive supply-and-demand tool . Resolution criteria: Primary source: BLS Employment Projections\u2019 National Employment Matrix, which includes self-employed workers. The baseline is fixed at 275,600 , the 2025 employment figure for data scientists, SOC 15-2051, reported in the Occupational Outlook Handbook . YES if the 2030 base-year employment estimate in the 2030\u20132040 matrix exceeds 275,600; NO otherwise. Earlier projections of 2030 employment do not count. I will use the first release of that matrix, including official corrections published by December 31, 2031 . Classification changes: A rename or clean split is acceptable if it preserves the occupation\u2019s scope; split categories will be summed. For broader mergers or"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "35%"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X25",
+      "platform": "Manifold",
+      "question": "Will a moving mirror produce light that propagates below c in vacuum by the end of 2030?",
+      "url": "https://manifold.markets/matterasmachine/will-a-moving-mirror-produce-light",
+      "close_time": "2030-12-31T23:59:00+00:00",
+      "rules_found": true,
+      "scored_text": "Will a moving mirror produce light that propagates below c in vacuum by the end of 2030?\nThis market closes on December 31, 2030.\nResolution rules: I propose an experiment to test whether reflection from a moving surface changes light\u2019s propagation speed in vacuum. A laser reflects from the rim of a rotating disk, with the reflected beam travelling approximately opposite to the local direction of the rim\u2019s motion , towards a detector. The reflecting surface is therefore moving away from the detector. My model, Matter as Machine, predicts an outgoing speed of approximately c \u2212 2v , where v is the rim\u2019s local speed, under the simplified assumptions described in the proposal. The experiment would compare reference pulses with reflected pulses at different rotation speeds and propagation distances. This would help distinguish a propagation-speed change from changes in optical path length or apparatus timing. Read the proposed experiment and prediction:( https://matterasmachine.com/articles/predictions/slow-photons ). If confirmed and demonstrated to be incompatible with special relativity, this effect would constitute evidence against the theory. Such a discovery could be Nobel Prize-worthy, potentially bringing recognition to those who carry out and establish the result. Neither the outcome nor a prize is guaranteed. Resolution criteria Resolves YES if, by 31 December 2030, 23:59 UTC , publicly available results from this experiment or an equivalent moving-reflector experiment demonstrate: - An outgoing propagation speed below c in vacuum that depends on the reflector\u2019s motion. - An additional delay that increases with post-reflection propagation distance, after accounting for optical path-length changes. - Independent replication, with reported uncertainties sufficient to distinguish the effect from measurement error. A delay attributable solely to known spatial-structure effects, optical components, detector response or changing path length does not qualify. The result need not match c \u2212 2v exactly. This market concerns the existence of the specified slowdown, not confirmation of the entire Matter as Machine model. Resolves NO otherwise, including if no qualifying experiment is completed or the results remain inconclusive by the deadline. Disclosure I developed Matter as Machine and proposed the linked experiment. The prediction has not been experimentally confirmed.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ce pulses with reflected pulses at different rotation speeds and propagation distances. this would help distinguish a propaga"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X26",
+      "platform": "Polymarket",
+      "question": "Will Anthropic be the #2 AI lab at the end of November 2026?",
+      "url": "https://polymarket.com/event/will-anthropic-be-the-2-ai-lab-at-the-end-of-november-2026",
+      "close_time": "2026-12-01T04:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Anthropic be the #2 AI lab at the end of November 2026?\nThis market closes on December 1, 2026.\nResolution rules: This market will resolve according to the second-highest ranked Company based on the arena.ai Text Arena (Overall) (Style Control On) when the table under the \"Leaderboard\" tab filtered for \"Labs\" is checked on November 30, 2026, 12:00 PM ET. Results from the \"Lab Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall?rankBy=labs with style control on (Adjustments: Style Control) and filtered for \"Labs\" will be used to resolve this market. Note: Models marked \u201cAutoEval\u201d at the applicable check time will not be considered, regardless of whether they display a rank or score. AI companies will be ordered primarily by their Lab Rank at the market\u2019s check time. If the results based on the lab ranking are ambiguous or unavailable, the relevant AI companies will be ordered according to their highest-ranking AI model in the leaderboard\u2019s \u201cModels\u201d view. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of AI lab/company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, \u201cGoogle\u201d would be ranked ahead of \u201cSpaceXAI\u201d). This market will resolve based on the company that occupies second place under this ranking. The resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "nkby=labs with style control on (adjustments: style control) and filtered for \"labs\" will be used to resolve this market. not"
+        },
+        {
+          "code": "LOADED_CUE",
+          "level": "REVIEW",
+          "evidence": "still"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X27",
+      "platform": "Polymarket",
+      "question": "Exact Score: FC Porto 1 - 0 Estoril Praia?",
+      "url": "https://polymarket.com/event/por-por-est-2026-10-31-exact-score-1-0",
+      "close_time": "2026-10-31T20:30:00Z",
+      "rules_found": true,
+      "scored_text": "Exact Score: FC Porto 1 - 0 Estoril Praia?\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming Primeira Liga game between FC Porto and Estoril Praia, scheduled for October 31, 2026 at 4:30 PM ET: This market will resolve based on the final score of the FC Porto vs. Estoril Praia match originally scheduled for October 31, 2026 at 4:30 PM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "n rules: in the upcoming primeira liga game between fc porto and estoril praia, scheduled for october 31, 2026 at 4:30 pm et:"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X28",
+      "platform": "Polymarket",
+      "question": "Will the highest temperature in Chicago be 63\u00b0F or below on October 28?",
+      "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-october-28-2026-63forbelow",
+      "close_time": "2026-10-28T12:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will the highest temperature in Chicago be 63\u00b0F or below on October 28?\nThis market closes on October 28, 2026.\nResolution rules: This market will resolve to the temperature range that contains the highest temperature reported at Chicago O'Hare Intl Airport (KORD) on 28 Oct '26. The qualifying value is the highest temperature reported in the hourly temperature remark of any routine (METAR) observation for Chicago O'Hare Intl Airport (KORD) on that date, in tenths of a degree Celsius as reported. A report whose line begins with SPECI is a special observation and does not count. Every other report is routine, including one issued off the nominal hour and one that carries no METAR or SPECI label. For How to Read the METAR Report, see: https://polymarket-upload.s3.us-east-2.amazonaws.com/market_products/Weather/How+to+Read+the+METAR+Report.pdf The hourly temperature remark is the group beginning with the letter T followed by exactly eight digits. After the T, one digit for sign (0 positive, 1 negative) and three for tenths of a degree Celsius give the temperature; the following four are the dew point and are not used. T01390133 is 13.9\u00b0C; T10171022 is \u22121.7\u00b0C. If a routine observation does not carry the hourly temperature remark, the temperature group in the body of that observation governs for that observation, in whole degrees Celsius as reported. It appears as temperature and dew point separated by a slash, with M marking a negative value: 18/12 is 18\u00b0C; M11/M17 is \u221211\u00b0C. An observation that reports no temperature in either place is disregarded. Each market in this event states its range in whole degrees Fahrenheit. The qualifying value is converted using \u00b0F = \u00b0C \u00d7 9/5 + 32 and rounded to the nearest whole degree, with a value ending in exactly half rounded up to the next higher whole degree, and that whole Fahrenheit value determines which range contains it. For example, 18.3\u00b0C is 64.94\u00b0F and counts as 65\u00b0F; 17.8\u00b0C is 64.04\u00b0F and counts as 64\u00b0F; 19\u00b0C is 66.2\u00b0F and counts as 66\u00b0F; \u221222.5\u00b0C is exactly \u22128.5\u00b0F and counts as \u22128\u00b0F. An observation counts if its time stamp, converted to the station's local time (including any daylight-saving shift in effect), falls on the observation date. This market will resolve at the issuance of the first METAR observation for the station on the day following the observation date or by 11:59 PM ET on the day following the observation date, whichever comes first. Resolution is determined from the observations the resolution source shows for the observation date. In the event that the Aviation Weather Center has published no routine observation reporting a temperature for the observation date by 11:59 PM ET on the day following the observation date, the Weather Underground Daily Observations table will be used as the resolution source. In the event that neither source has published data sufficient to determine a temperature for the observation date by 11:59 PM ET on the day following the observation date, this market will resolve to the lowest bracket. The report the resolution source shows for a given observation time is the one that counts, wheth",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "either place is disregarded. Each market in this event states its range in whole degrees Fahrenheit. The qualifying value is converted using \u00b0F = \u00b0C \u00d7 9/5 + 32 and rounded to the nearest whole degree, with a value ending in exactly half rounded up to the next higher whole degree, and that whole Fahrenheit value determines which range contains it. For example, 18.3\u00b0C is 64.94\u00b0F and counts as 65\u00b0F; 17.8\u00b0C is 64.04\u00b0F and counts as 64\u00b0F; 19\u00b0C is 66.2\u00b0F and counts as 66\u00b0F; \u221222.5\u00b0C is exactly \u22128.5\u00b0F and counts as \u22128\u00b0F. An observation counts if its time stamp, converted to the station's local time (including any daylight-saving shift in effect), falls on the observation date. This market will resolve at the issuance of the first METAR observation for the station on the day following the observation date or"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X29",
+      "platform": "Polymarket",
+      "question": "Will Connor Bedard record 30+ goals in the 2026-27 regular season?",
+      "url": "https://polymarket.com/event/will-connor-bedard-record-30-goals-in-the-2026-27-regular-season",
+      "close_time": "2027-04-30T03:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Connor Bedard record 30+ goals in the 2026-27 regular season?\nThis market closes on April 30, 2027.\nResolution rules: This market will resolve to \"Yes\" if the listed player records 30 or more goals during the 2026-27 NHL regular season. Otherwise, the associated market will resolve to \"No\". If at any point it becomes impossible for the listed player to record 30 or more goals during the 2026-27 NHL regular season, the associated market will resolve to \"No\". If the 2026-27 NHL regular season is cancelled, postponed after April 30, 2027, 11:59 PM ET, or it cannot be determined whether the listed player has recorded 30 or more goals within that timeframe, this market will resolve to \"No\". The primary resolution source will be official information from the NHL; however, a consensus of credible reporting may also be used.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X30",
+      "platform": "Polymarket",
+      "question": "Will FC Andorra win on 2026-11-01?",
+      "url": "https://polymarket.com/event/es2-cdt-and-2026-11-01-and",
+      "close_time": "2026-11-01T20:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will FC Andorra win on 2026-11-01?\nThis market closes on November 1, 2026.\nResolution rules: In the upcoming game, scheduled for November 1, 2026 If FC Andorra wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X31",
+      "platform": "Polymarket",
+      "question": "Will Bijan Robinson have 4.5+ rushing touchdowns in the 2026-27 NFL regular season?",
+      "url": "https://polymarket.com/event/bijan-robinson-4pt5-rushing-touchdowns-2026-27",
+      "close_time": "2027-01-27T04:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Bijan Robinson have 4.5+ rushing touchdowns in the 2026-27 NFL regular season?\nThis market closes on January 27, 2027.\nResolution rules: This market will resolve to \"Yes\" if the number of rushing touchdowns Bijan Robinson records during the 2026-27 NFL regular season equals or exceeds 4.5. Otherwise, this market will resolve to \"No\". If Bijan Robinson does not play in the 2026-27 NFL regular season for any reason, this market will resolve to \"No\". If the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games. If the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing touchdowns Bijan Robinson recorded within that timeframe, this market will resolve to \"50-50\". The resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X32",
+      "platform": "Polymarket",
+      "question": "Will CA Atlanta vs. CA Ferrocarril Midland end in a draw?",
+      "url": "https://polymarket.com/event/argpn-atl-afm-2026-10-31-draw",
+      "close_time": "2026-10-31T18:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will CA Atlanta vs. CA Ferrocarril Midland end in a draw?\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming game, scheduled for October 31, 2026 If the game ends in a draw, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X33",
+      "platform": "Polymarket",
+      "question": "Will Central Coast Mariners FC win on 2026-11-01?",
+      "url": "https://polymarket.com/event/aus-vic-ccm-2026-11-01-ccm",
+      "close_time": "2026-11-01T04:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Central Coast Mariners FC win on 2026-11-01?\nThis market closes on November 1, 2026.\nResolution rules: In the upcoming game, scheduled for November 1, 2026 If Central Coast Mariners FC wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X34",
+      "platform": "Polymarket",
+      "question": "Will Osters IF win on 2026-11-02?",
+      "url": "https://polymarket.com/event/swe2-ost-hel-2026-11-02-ost",
+      "close_time": "2026-11-02T18:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Osters IF win on 2026-11-02?\nThis market closes on November 2, 2026.\nResolution rules: In the upcoming game, scheduled for November 2, 2026 If Osters IF wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X35",
+      "platform": "Polymarket",
+      "question": "Will Micron Technology, Inc. (MU) hit (LOW) $600 in October?",
+      "url": "https://polymarket.com/event/will-mu-dip-to-600-in-october-2026",
+      "close_time": "2026-11-01T03:59:59.999Z",
+      "rules_found": true,
+      "scored_text": "Will Micron Technology, Inc. (MU) hit (LOW) $600 in October?\nThis market closes on November 1, 2026.\nResolution rules: This market will resolve to \"Yes\" if, at any point after market creation and during October 2026, any 1-minute candle for Micron Technology, Inc. (MU) has a final \"High\" or \"Low\" price equal to or beyond (above for \u2191 High Prices, below for \u2193 Low Prices) the listed price. Otherwise, this market will resolve to \"No\". Only prices achieved during the regular trading hours of the primary exchange on which the listed security trades (typically 9:30 AM \u2013 4:00 PM ET) will be considered. Prices occurring during pre-market or after-hours trading will not qualify. Prices will be used exactly as published by Pyth, without rounding. In the event of a stock split, reverse stock split, or similar corporate action affecting the listed company during the listed time frame, this market will resolve based on split-adjusted prices as displayed on Pyth. The target price will be adjusted proportionally to reflect any stock splits. Resolution will be based on the historical price data as shown on Pyth after any adjustments have been applied. The resolution source for this market is Pyth \u2014 specifically, the Micron Technology, Inc. (MU) \"High\" and \"Low\" prices available at https://pythdata.app/explore/Equity.US.MU%2FUSD, with the chart settings configured for 1-minute candles. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter. Any timestamp within the listed market time frame may be used to view the relevant candle data (e.g., https://pythdata.app/explore/Equity.US.MU%2FUSD?t=1773432000) If the relevant Pyth data is unavailable due to a system outage, data failure, or other technical disruption that prevents verification of the required 1-minute candle data, the official daily high/low price published by the primary exchange on which the listed security trades will be used to determine whether the listed price was reached during the applicable trading session.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$600"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "will resolve to \"yes\" if, at any point after market creation and during october 2026, any 1-minute candle for micron technolo"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$600"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X36",
+      "platform": "Polymarket",
+      "question": "Will Seedy Jatta score the most goals in the 2026-27 UEFA Europa League?",
+      "url": "https://polymarket.com/event/will-seedy-jatta-score-the-most-goals-in-the-2026-27-uefa-europa-league",
+      "close_time": "2027-06-09T23:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Seedy Jatta score the most goals in the 2026-27 UEFA Europa League?\nThis market closes on June 9, 2027.\nResolution rules: This market will resolve to the player who scores the most goals through all main tournament rounds of the 2026-27 UEFA Europa League competition. In the event of a tie, this market will resolve according to the official leader as determined by UEFA. If multiple leaders are announced, this market will resolve to the player whose listed last name comes first alphabetically. If the 2026-27 Europa League competition is cancelled, postponed after June 9, 2027, 11:59 PM ET, or there is otherwise no official leader declared within that timeframe, this market will resolve to \"Other\". The resolution source for this market will be official information from UEFA (https://www.uefa.com/uefaeuropaleague/statistics/players/goals/); however, a consensus of credible reporting may also be used.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X37",
+      "platform": "Polymarket",
+      "question": "Will Hyperliquid HIP-3 open interest hit $7B in 2026?",
+      "url": "https://polymarket.com/event/will-hyperliquid-hip-3-open-interest-hit-7b-in-2026",
+      "close_time": "2027-01-02T04:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Hyperliquid HIP-3 open interest hit $7B in 2026?\nThis market closes on January 2, 2027.\nResolution rules: This market will resolve to \u201cYes\u201d if Hyperliquid HIP-3 open interest is equal to or greater than the amount specified in the title at any point in 2026. Otherwise, it will resolve to \u201cNo.\u201d The resolution source is Artemis Analytics, using the Hyperliquid page available at: https://classic.artemis.ai/asset/Hyperliquid?tab=hip_3 The value used will be the \u201cTotal\u201d open interest shown when hovering over a daily bar in the \u201cHIP-3 DEXs by Open Interest\u201d chart. A daily value is considered finalized once the following day\u2019s data point is published. If the resolution source becomes permanently unavailable, the market will resolve based on other reliable public data sources.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$7"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$7"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X38",
+      "platform": "Polymarket",
+      "question": "Real Betis Balompi\u00e9 vs. M\u00e1laga CF: Both Teams to Score",
+      "url": "https://polymarket.com/event/lal-bet-mala-2026-10-31-btts",
+      "close_time": "2026-10-31T17:30:00Z",
+      "rules_found": true,
+      "scored_text": "Real Betis Balompi\u00e9 vs. M\u00e1laga CF: Both Teams to Score\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming La Liga game between Real Betis Balompi\u00e9 and M\u00e1laga CF, scheduled for October 31 at 1:30 PM ET: This market will resolve to \"Yes\" if both Real Betis Balompi\u00e9 and M\u00e1laga CF each score at least one goal during the game. This market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals). If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50\u201350. If the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "either team fails to score (i.e., if one or both teams finish with zero goals). If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50\u201350. If the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or"
+        },
+        {
+          "code": "LOADED_CUE",
+          "level": "REVIEW",
+          "evidence": "fails to"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X39",
+      "platform": "Polymarket",
+      "question": "Will Wigan Athletic FC win on 2026-10-31?",
+      "url": "https://polymarket.com/event/el1-wig-bro-2026-10-31-wig",
+      "close_time": "2026-10-31T15:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Wigan Athletic FC win on 2026-10-31?\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming game, scheduled for October 31, 2026 If Wigan Athletic FC wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X40",
+      "platform": "Polymarket",
+      "question": "Will CA Gimnasia y Esgrima de Mendoza win on 2026-11-01?",
+      "url": "https://polymarket.com/event/arg-lan-gye-2026-11-01-gye",
+      "close_time": "2026-11-01T23:45:00Z",
+      "rules_found": true,
+      "scored_text": "Will CA Gimnasia y Esgrima de Mendoza win on 2026-11-01?\nThis market closes on November 1, 2026.\nResolution rules: In the upcoming game, scheduled for November 1, 2026 If CA Gimnasia y Esgrima de Mendoza wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X41",
+      "platform": "Polymarket",
+      "question": "Will Kilmarnock FC win on 2026-10-31?",
+      "url": "https://polymarket.com/event/scop-kil-joh-2026-10-31-kil",
+      "close_time": "2026-10-31T15:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Kilmarnock FC win on 2026-10-31?\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming game, scheduled for October 31, 2026 If Kilmarnock FC wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X42",
+      "platform": "Polymarket",
+      "question": "Will Smith College exclude trans women in 2026?",
+      "url": "https://polymarket.com/event/will-smith-college-exclude-trans-women-in-2026-20260626143843566",
+      "close_time": "2027-01-01T04:59:00Z",
+      "rules_found": true,
+      "scored_text": "Will Smith College exclude trans women in 2026?\nThis market closes on January 1, 2027.\nResolution rules: Smith College is an all-women's college in Massachusetts that is currently undergoing a federal civil rights investigation for its policies relating to transgender women. This market will resolve to \"Yes\" if Smith College changes its policies to exclude the future admission of or to unenroll current students who were born male and identify as transgender women from its Northampton campus by December 31, 2026 at 11:59PM ET. Otherwise this market will resolve to \"No.\" The existence of or potential for individualized waivers from a general policy shall not be sufficient to prevent this market from resolving to \"Yes\". An official announcement made within this market\u2019s timeframe will qualify for a \"Yes\" resolution regardless of when the policy goes into effect. An announcement that prohibits transgender women from enrolling at its campus in Northampton, Massachusetts will count, even if it includes provisions allowing transgender women to enroll at satellite locations or remotely. The resolution source will be official statements from Smith College or its authorized representatives; however, a consensus of credible reporting will also be used.",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ission of or to unenroll current students who were born male and identify as transgender women from its northampton campus by"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X43",
+      "platform": "Polymarket",
+      "question": "Will Rayo Vallecano de Madrid win on 2026-11-08?",
+      "url": "https://polymarket.com/event/lal-rso-ray-2026-11-08-ray",
+      "close_time": "2026-11-08T15:15:00Z",
+      "rules_found": true,
+      "scored_text": "Will Rayo Vallecano de Madrid win on 2026-11-08?\nThis market closes on November 8, 2026.\nResolution rules: In the upcoming game, scheduled for November 8, 2026 If Rayo Vallecano de Madrid wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X44",
+      "platform": "Polymarket",
+      "question": "Will UD Poblense vs. AD Ceuta FC end in a draw?",
+      "url": "https://polymarket.com/event/cdr-ud6-ad-2026-10-28-draw",
+      "close_time": "2026-10-28T18:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will UD Poblense vs. AD Ceuta FC end in a draw?\nThis market closes on October 28, 2026.\nResolution rules: In the upcoming game, scheduled for October 28, 2026 If the game ends in a draw, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X45",
+      "platform": "Polymarket",
+      "question": "Sam Altman out as OpenAI CEO before 2027?",
+      "url": "https://polymarket.com/event/sam-altman-out-as-openai-ceo-before-2027",
+      "close_time": "2027-01-01T04:59:00Z",
+      "rules_found": true,
+      "scored_text": "Sam Altman out as OpenAI CEO before 2027?\nThis market closes on January 1, 2027.\nResolution rules: This market will resolve according to the named people no longer serving as CEOs of their respective companies for any length of time between November 17, 2025 and December 31, 2026, 11:59 PM ET. An announcement of the named CEO's resignation/firing before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/firing goes into effect. This market's primary resolution source will be official information from the named CEOs and their respective companies, however a consensus of credible reporting sources will also be used.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "e companies for any length of time between november 17, 2025 and december 31, 2026, 11:59 pm et. an announcement of the named"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X46",
+      "platform": "Polymarket",
+      "question": "Will Aarhus GF win on 2026-11-01?",
+      "url": "https://polymarket.com/event/den-bro-agf-2026-11-01-agf",
+      "close_time": "2026-11-01T17:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Aarhus GF win on 2026-11-01?\nThis market closes on November 1, 2026.\nResolution rules: In the upcoming game, scheduled for November 1, 2026 If Aarhus GF wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X47",
+      "platform": "Polymarket",
+      "question": "Will CA San Miguel vs. Deportivo Madryn end in a draw?",
+      "url": "https://polymarket.com/event/argpn-casm-dma-2026-10-31-draw",
+      "close_time": "2026-10-31T18:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will CA San Miguel vs. Deportivo Madryn end in a draw?\nThis market closes on October 31, 2026.\nResolution rules: In the upcoming game, scheduled for October 31, 2026 If the game ends in a draw, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X48",
+      "platform": "Polymarket",
+      "question": "Will Athletic Club win on 2026-11-02?",
+      "url": "https://polymarket.com/event/bra2-ath-csc-2026-11-02-ath",
+      "close_time": "2026-11-02T21:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Athletic Club win on 2026-11-02?\nThis market closes on November 2, 2026.\nResolution rules: In the upcoming game, scheduled for November 2, 2026 If Athletic Club wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "flags_run1": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ],
+      "flags_run2": [],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X49",
+      "platform": "Polymarket",
+      "question": "Will Gold (XAUUSD) hit (LOW) $3,850 Week of October 26 2026?",
+      "url": "https://polymarket.com/event/will-xauusd-dip-to-3850-by-october-26-2026",
+      "close_time": "2026-10-30T21:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Gold (XAUUSD) hit (LOW) $3,850 Week of October 26 2026?\nThis market closes on October 30, 2026.\nResolution rules: This market will resolve to \"Yes\" if, at any point after market creation and during a trading session of the week of October 26 2026, any 1-minute candle for Gold (XAUUSD) has a final \"High\" or \"Low\" price equal to or beyond (above for \u2191 High Prices, below for \u2193 Low Prices) the listed price. Otherwise, this market will resolve to \"No\". Only prices achieved during an applicable trading session of the specified timeframe's business days will be considered. The trading session for a given business day typically begins at 6:00 PM ET on the prior calendar date. Under the standard schedule, trading is open from 6:00:00 PM ET Sunday through 5:00:00 PM ET Friday, with a daily break from 5:00:00 PM ET to 6:00:00 PM ET, except where modified by holiday or special-session hours. Prices will be used exactly as published by Pyth, without rounding. If Gold (XAUUSD) does not trade at all during the listed time frame, this market will resolve to \"No\". In the event of a contract specification change, feed change, or similar structural modification affecting the market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth. The resolution source for this market is Pyth \u2014 specifically, the Gold (XAUUSD) \"High\" and \"Low\" prices available at https://pythdata.app/explore/Metal.XAU%2FUSD, with the chart settings configured for 1-minute candles. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter. If the relevant Pyth data is unavailable due to a system outage, data failure, or other technical disruption that prevents verification of the required 1-minute candle data, the official daily high/low price published for the relevant CME COMEX futures contract for the underlying metal\u2014COMEX Gold Futures (GC)\u2014may be used to determine whether the listed price was reached during the applicable trading session.",
+      "flags_run1": [
+        {
+          "code": "PAST_DATE",
+          "level": "FLAG",
+          "evidence": "October 26 2026 (parsed as 2026-10-26)"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$3,850"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "PAST_DATE",
+          "level": "FLAG",
+          "evidence": "October 26 2026 (parsed as 2026-10-26)"
+        },
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "will resolve to \"yes\" if, at any point after market creation and during a trading session of the week of october 26 2026, any"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$3,850"
+        }
+      ],
+      "screen_leak_politics": false
+    },
+    {
+      "sample_id": "X50",
+      "platform": "Polymarket",
+      "question": "Will Luma AI have the best Text-to-Image AI at the end of October 2026?",
+      "url": "https://polymarket.com/event/will-luma-ai-have-the-best-text-to-image-ai-at-the-end-of-october-2026-20260811194840626",
+      "close_time": "2026-10-31T16:00:00Z",
+      "rules_found": true,
+      "scored_text": "Will Luma AI have the best Text-to-Image AI at the end of October 2026?\nThis market closes on October 31, 2026.\nResolution rules: This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Text-to-Image Leaderboard when the table under \"Text-to-Image Arena\" filtered for \"Models\" is checked on October 31, 2026, 12:00 PM ET. Results from the \"Rank\" column under the \"Text-to-Image Arena\" Leaderboard tab at https://arena.ai/leaderboard/text-to-image (Overall) filtered for \"Models\" will be used to resolve this market. Note: Models marked \u201cAutoEval\u201d at the applicable check time will not be considered, regardless of whether they display a rank or score. Models will be ordered primarily by their leaderboard rank at the market\u2019s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., \u201cGoogle\u201d would be ranked ahead of \u201cSpaceXAI\u201d). This market will resolve based on the company that occupies first place under this ranking. The resolution source for this market is the arena.ai Text-to-Image Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "flags_run1": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ],
+      "flags_run2": [
+        {
+          "code": "DOUBLE_BARRELED_REVIEW",
+          "level": "REVIEW",
+          "evidence": "ket will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes avail"
+        },
+        {
+          "code": "LOADED_CUE",
+          "level": "REVIEW",
+          "evidence": "still"
+        }
+      ],
+      "screen_leak_politics": false
+    }
+  ]
+}

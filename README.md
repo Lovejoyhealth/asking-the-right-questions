@@ -35,6 +35,16 @@ checker for the machine's side of that rule.
 Their models write the market, play the market, and fix the market.
 The referee is the only thing in the room that isn't theirs.
 
+## External check (Oct 28)
+
+The same scorer, run on 50 live public market questions (Manifold +
+Polymarket). Scored fairly — each question with its market's own
+rulebook attached — the moderated platform came back with no serious
+flags, and 11 of 24 in-scope listings on the unmoderated platform
+named nothing that settles them. Full method, both runs (including
+the first run that failed, and why), and the data:
+[EXTERNAL_SAMPLE.md](EXTERNAL_SAMPLE.md).
+
 ## Prior work — declared, not hidden
 
 The scoring engine is the author's pre-existing work, built and tested
@@ -45,10 +55,14 @@ being built during the event.
 
 ## Layout
 
-- `src/` — the event build: Spark generation, the answering crowd, the
-  settleability score, the rewrite loop (lands day by day, Oct 27 – 31).
+- `src/` — the event build: Spark question generation, the split-ballot
+  answer run, the settleability scorer, the engine runner, the rewrite
+  loop, and the scorer's golden tests.
+- `data/` — every dataset behind the results: the 48 questions and
+  their scores, the 1,200 answers, the engine outputs, the rewrite
+  pairs, and the external sample of 50 live public questions.
 - `docs/` — the build plan and the demo video outline.
-- `demo/` — the one-page demo (lands Oct 31 – Nov 1).
+- `demo/` — the one-page demo.
 
 ## Rights
 

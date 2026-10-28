@@ -1,0 +1,903 @@
+{
+  "run_date": "2026-10-28",
+  "method": "First 25 open yes/no questions per platform in volume order after a fixed politics/war keyword screen; scored with the repo's deterministic scorer with TODAY set to the run date. Wording/settleability check only.",
+  "pool_notes": {
+    "Manifold": {
+      "pool_after_filters": 319,
+      "screened_out_before_quota": 10
+    },
+    "Polymarket": {
+      "pool_fetched": 100,
+      "screened_out_before_quota": 3
+    }
+  },
+  "sample": [
+    {
+      "platform": "Manifold",
+      "question": "Will 0xDe89112492A292c194D2501b2721D4Bc6cED2A75 RECEIVE more than 69.00 USDC Base by October 30th 11:59 pm UTC",
+      "url": "https://manifold.markets/JasonMendoza2008/will-0xde89112492a292c194d2501b2721-llsQnQt0nq",
+      "close_time": "2026-10-30T23:58:00+00:00",
+      "liquidity": 10000,
+      "sample_id": "X01",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Ethan Klein's affair is a cover for something worse.",
+      "url": "https://manifold.markets/Technocrat/ethan-kleins-affair-is-a-cover-for",
+      "close_time": "2027-11-02T14:50:00+00:00",
+      "liquidity": 10000,
+      "sample_id": "X02",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will there be a massive internet outage before 2028?",
+      "url": "https://manifold.markets/Plant/will-there-be-a-massive-internet-ou",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "liquidity": 10000,
+      "sample_id": "X03",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "In three months, will I think setting up this Manifold news reader was worth it?",
+      "url": "https://manifold.markets/TonyBaloney/in-three-months-will-i-think-settin",
+      "close_time": "2027-01-21T02:54:00+00:00",
+      "liquidity": 10000,
+      "sample_id": "X04",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Is Cheryl Scott from ABC CHICAGO pregnant????!?!??? \ud83e\udd30",
+      "url": "https://manifold.markets/Pedro6LNOI/is-cheryl-scott-from-abc-chicago-pr-CtdC9sL5Oh",
+      "close_time": "2026-12-31T23:30:00+00:00",
+      "liquidity": 6000,
+      "sample_id": "X05",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will this story end up on \"Last Week Tonight\"?",
+      "url": "https://manifold.markets/MikeLewis/will-this-story-end-up-on-last-week",
+      "close_time": "2026-11-21T23:59:00+00:00",
+      "liquidity": 5100,
+      "sample_id": "X06",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Sun get a girlfriend before October 12, 2027?",
+      "url": "https://manifold.markets/sun0/will-sun-enter-into-a-relationship",
+      "close_time": "2027-10-11T15:00:00+00:00",
+      "liquidity": 5100,
+      "sample_id": "X07",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Elon Musk actually gifts a SpaceX share to every American child in 2027?",
+      "url": "https://manifold.markets/Ziddletwix/elon-musk-actually-gifts-a-spacex-s",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "liquidity": 2000,
+      "sample_id": "X08",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will the first commercially successful personal robot use legs?",
+      "url": "https://manifold.markets/spiderduckpig/will-the-first-commercially-success",
+      "close_time": "2031-12-04T23:59:00+00:00",
+      "liquidity": 1100,
+      "sample_id": "X09",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Cognition raise at a $70B+ valuation in 2026?",
+      "url": "https://manifold.markets/Bayesian/will-cognition-raise-at-a-70b-valua",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X10",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$70"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Sesame Smart Glasses have a wave guide visual display?",
+      "url": "https://manifold.markets/Truthinperspective/will-sesame-smart-glasses-have-a-wa",
+      "close_time": "2027-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X11",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will my Manifold net worth exceed M1000000 before 2030? \ud83e\udd5d",
+      "url": "https://manifold.markets/realTomBayes/will-my-manifold-net-worth-exceed-m",
+      "close_time": "2029-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X12",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "How iGaming SEO Helps Improve Search Rankings and Drive Organic Traffic",
+      "url": "https://manifold.markets/wes_hamilton/how-igaming-seo-helps-improve-searc",
+      "close_time": "2026-12-31T09:49:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X13",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will \"A cat-belling problem for FDT\" make the top fifty posts in LessWrong's 2026 Annual Review?",
+      "url": "https://manifold.markets/LessWrong/will-a-catbelling-problem-for-fdt-m",
+      "close_time": "2028-02-01T00:00:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X14",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "OpenAI disproof of Exponential Time Hypothesis is substantively correct?",
+      "url": "https://manifold.markets/Ziddletwix/openai-disproof-of-exponential-time",
+      "close_time": "2027-06-01T22:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X15",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Nicki Minaj be the next White House Press Secretary?",
+      "url": "https://manifold.markets/spiderduckpig/will-nicki-minaj-be-the-next-white",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X16",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Abdul El-Sayed win by a larger margin than James Talarico does?",
+      "url": "https://manifold.markets/Jack1/will-abdul-elsayed-win-by-a-larger",
+      "close_time": "2026-11-04T00:00:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X17",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "NFL Week 8: Will Green Bay Packers beat Carolina Panthers by 5 or more points?",
+      "url": "https://manifold.markets/Web3ICP/nfl-week-8-will-green-bay-packers-b",
+      "close_time": "2026-10-30T00:12:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X18",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will customer service employment fall >5% in 2026?",
+      "url": "https://manifold.markets/brod/will-customer-service-employment-fa",
+      "close_time": "2027-04-30T13:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X19",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "5% in 2026"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Miles Anderson win Waitaki in 2026?",
+      "url": "https://manifold.markets/Jack1/will-miles-anderson-win-waitaki-in",
+      "close_time": "2026-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X20",
+      "flags": []
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will Julie Anne Genter win Wellington Bays in 2026?",
+      "url": "https://manifold.markets/Jack1/will-julie-anne-genter-win-wellingt",
+      "close_time": "2026-11-24T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X21",
+      "flags": []
+    },
+    {
+      "platform": "Manifold",
+      "question": "EPL: Will Newcastle beat Everton?",
+      "url": "https://manifold.markets/Web3ICP/epl-will-newcastle-beat-everton",
+      "close_time": "2026-11-01T19:57:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X22",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "EPL: Will Aston Villa beat Fulham?",
+      "url": "https://manifold.markets/Web3ICP/epl-will-aston-villa-beat-fulham",
+      "close_time": "2026-10-31T19:57:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X23",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will BLS report more than 275,600 data scientist jobs in the United States in 2030?",
+      "url": "https://manifold.markets/AdamBraff/will-bls-report-more-than-275600-da",
+      "close_time": "2031-08-31T22:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X24",
+      "flags": []
+    },
+    {
+      "platform": "Manifold",
+      "question": "Will a moving mirror produce light that propagates below c in vacuum by the end of 2030?",
+      "url": "https://manifold.markets/matterasmachine/will-a-moving-mirror-produce-light",
+      "close_time": "2030-12-31T23:59:00+00:00",
+      "liquidity": 1000,
+      "sample_id": "X25",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Anthropic be the #2 AI lab at the end of November 2026?",
+      "url": "https://polymarket.com/event/will-anthropic-be-the-2-ai-lab-at-the-end-of-november-2026",
+      "close_time": "2026-12-01T04:59:00Z",
+      "volume": "9999.316676999999",
+      "sample_id": "X26",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Exact Score: FC Porto 1 - 0 Estoril Praia?",
+      "url": "https://polymarket.com/event/por-por-est-2026-10-31-exact-score-1-0",
+      "close_time": "2026-10-31T20:30:00Z",
+      "volume": "99.993078",
+      "sample_id": "X27",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will the highest temperature in Chicago be 63\u00b0F or below on October 28?",
+      "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-october-28-2026-63forbelow",
+      "close_time": "2026-10-28T12:00:00Z",
+      "volume": "99.992",
+      "sample_id": "X28",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Connor Bedard record 30+ goals in the 2026-27 regular season?",
+      "url": "https://polymarket.com/event/will-connor-bedard-record-30-goals-in-the-2026-27-regular-season",
+      "close_time": "2027-04-30T03:59:00Z",
+      "volume": "99.99",
+      "sample_id": "X29",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will FC Andorra win on 2026-11-01?",
+      "url": "https://polymarket.com/event/es2-cdt-and-2026-11-01-and",
+      "close_time": "2026-11-01T20:00:00Z",
+      "volume": "99.985913",
+      "sample_id": "X30",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Bijan Robinson have 4.5+ rushing touchdowns in the 2026-27 NFL regular season?",
+      "url": "https://polymarket.com/event/bijan-robinson-4pt5-rushing-touchdowns-2026-27",
+      "close_time": "2027-01-27T04:59:00Z",
+      "volume": "99.985824",
+      "sample_id": "X31",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will CA Atlanta vs. CA Ferrocarril Midland end in a draw?",
+      "url": "https://polymarket.com/event/argpn-atl-afm-2026-10-31-draw",
+      "close_time": "2026-10-31T18:00:00Z",
+      "volume": "99.984547",
+      "sample_id": "X32",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Central Coast Mariners FC win on 2026-11-01?",
+      "url": "https://polymarket.com/event/aus-vic-ccm-2026-11-01-ccm",
+      "close_time": "2026-11-01T04:00:00Z",
+      "volume": "9.998371",
+      "sample_id": "X33",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Osters IF win on 2026-11-02?",
+      "url": "https://polymarket.com/event/swe2-ost-hel-2026-11-02-ost",
+      "close_time": "2026-11-02T18:00:00Z",
+      "volume": "99.98304999999999",
+      "sample_id": "X34",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Micron Technology, Inc. (MU) hit (LOW) $600 in October?",
+      "url": "https://polymarket.com/event/will-mu-dip-to-600-in-october-2026",
+      "close_time": "2026-11-01T03:59:59.999Z",
+      "volume": "99.980302",
+      "sample_id": "X35",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$600"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Seedy Jatta score the most goals in the 2026-27 UEFA Europa League?",
+      "url": "https://polymarket.com/event/will-seedy-jatta-score-the-most-goals-in-the-2026-27-uefa-europa-league",
+      "close_time": "2027-06-09T23:59:00Z",
+      "volume": "99.98",
+      "sample_id": "X36",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Hyperliquid HIP-3 open interest hit $7B in 2026?",
+      "url": "https://polymarket.com/event/will-hyperliquid-hip-3-open-interest-hit-7b-in-2026",
+      "close_time": "2027-01-02T04:59:00Z",
+      "volume": "9997.939040000003",
+      "sample_id": "X37",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$7"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Real Betis Balompi\u00e9 vs. M\u00e1laga CF: Both Teams to Score",
+      "url": "https://polymarket.com/event/lal-bet-mala-2026-10-31-btts",
+      "close_time": "2026-10-31T17:30:00Z",
+      "volume": "99.978262",
+      "sample_id": "X38",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Wigan Athletic FC win on 2026-10-31?",
+      "url": "https://polymarket.com/event/el1-wig-bro-2026-10-31-wig",
+      "close_time": "2026-10-31T15:00:00Z",
+      "volume": "99.978261",
+      "sample_id": "X39",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will CA Gimnasia y Esgrima de Mendoza win on 2026-11-01?",
+      "url": "https://polymarket.com/event/arg-lan-gye-2026-11-01-gye",
+      "close_time": "2026-11-01T23:45:00Z",
+      "volume": "99.976179",
+      "sample_id": "X40",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Kilmarnock FC win on 2026-10-31?",
+      "url": "https://polymarket.com/event/scop-kil-joh-2026-10-31-kil",
+      "close_time": "2026-10-31T15:00:00Z",
+      "volume": "99.972974",
+      "sample_id": "X41",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Smith College exclude trans women in 2026?",
+      "url": "https://polymarket.com/event/will-smith-college-exclude-trans-women-in-2026-20260626143843566",
+      "close_time": "2027-01-01T04:59:00Z",
+      "volume": "9997.172742",
+      "sample_id": "X42",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Rayo Vallecano de Madrid win on 2026-11-08?",
+      "url": "https://polymarket.com/event/lal-rso-ray-2026-11-08-ray",
+      "close_time": "2026-11-08T15:15:00Z",
+      "volume": "9.997012999999999",
+      "sample_id": "X43",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will UD Poblense vs. AD Ceuta FC end in a draw?",
+      "url": "https://polymarket.com/event/cdr-ud6-ad-2026-10-28-draw",
+      "close_time": "2026-10-28T18:00:00Z",
+      "volume": "9.996841",
+      "sample_id": "X44",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Sam Altman out as OpenAI CEO before 2027?",
+      "url": "https://polymarket.com/event/sam-altman-out-as-openai-ceo-before-2027",
+      "close_time": "2027-01-01T04:59:00Z",
+      "volume": "99966.96877299999",
+      "sample_id": "X45",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Aarhus GF win on 2026-11-01?",
+      "url": "https://polymarket.com/event/den-bro-agf-2026-11-01-agf",
+      "close_time": "2026-11-01T17:00:00Z",
+      "volume": "99.965518",
+      "sample_id": "X46",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will CA San Miguel vs. Deportivo Madryn end in a draw?",
+      "url": "https://polymarket.com/event/argpn-casm-dma-2026-10-31-draw",
+      "close_time": "2026-10-31T18:00:00Z",
+      "volume": "99.964287",
+      "sample_id": "X47",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Athletic Club win on 2026-11-02?",
+      "url": "https://polymarket.com/event/bra2-ath-csc-2026-11-02-ath",
+      "close_time": "2026-11-02T21:00:00Z",
+      "volume": "99.96237599999999",
+      "sample_id": "X48",
+      "flags": [
+        {
+          "code": "NO_DATE",
+          "level": "FLAG",
+          "evidence": "no date phrase found in the question text"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Gold (XAUUSD) hit (LOW) $3,850 Week of October 26 2026?",
+      "url": "https://polymarket.com/event/will-xauusd-dip-to-3850-by-october-26-2026",
+      "close_time": "2026-10-30T21:00:00Z",
+      "volume": "999.618956",
+      "sample_id": "X49",
+      "flags": [
+        {
+          "code": "PAST_DATE",
+          "level": "FLAG",
+          "evidence": "October 26 2026 (parsed as 2026-10-26)"
+        },
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        },
+        {
+          "code": "NUMERIC_CLAIM_REVIEW",
+          "level": "REVIEW",
+          "evidence": "$3,850"
+        }
+      ]
+    },
+    {
+      "platform": "Polymarket",
+      "question": "Will Luma AI have the best Text-to-Image AI at the end of October 2026?",
+      "url": "https://polymarket.com/event/will-luma-ai-have-the-best-text-to-image-ai-at-the-end-of-october-2026-20260811194840626",
+      "close_time": "2026-10-31T16:00:00Z",
+      "volume": "999.59625",
+      "sample_id": "X50",
+      "flags": [
+        {
+          "code": "NO_SOURCE_CUE",
+          "level": "FLAG",
+          "evidence": "no settling-authority cue from the scorer's cue list appears in the question text"
+        }
+      ]
+    }
+  ]
+}
