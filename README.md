@@ -40,7 +40,7 @@ The referee is the only thing in the room that isn't theirs.
 The same scorer, run on 50 live public market questions (Manifold +
 Polymarket). Scored fairly — each question with its market's own
 rulebook attached — the moderated platform came back with no serious
-flags, and 11 of 24 in-scope listings on the unmoderated platform
+flags, and 7 of 23 in-scope listings on the unmoderated platform
 named nothing that settles them. Full method, both runs (including
 the first run that failed, and why), and the data:
 [EXTERNAL_SAMPLE.md](EXTERNAL_SAMPLE.md).

@@ -59,14 +59,22 @@ hand-checked one by one:
   flagged all 25; with their own rules attached, every listing names
   its settling source. The checker does not cry wolf on a moderated
   platform.
-- **Manifold: 11 in-scope listings (of 24) name no settling source
+- **Manifold: 7 in-scope listings (of 23) name no settling source
   anywhere in the listing** — question plus rules combined
-  (X01, X02, X04, X05, X06, X07, X10, X12, X13, X14, X15). X06 has no
-  rules text at all. Several are personal or spam listings that are
-  not settleable questions at all (a celebrity-gossip item, an SEO
-  headline). Manifold resolves by creator judgment, which the listing
-  never states in so many words; the finding is about what the
-  listing says, and it says nothing.
+  (X02, X05, X06, X07, X10, X12, X13). X06 has no rules text at all.
+  Several are personal or spam listings that are not settleable
+  questions at all (a celebrity-gossip item, an SEO headline).
+- **Four Manifold flags cleared on the full-rules hand-check** (the
+  scorer's word list has no cue for what these listings name): X01
+  names BaseScan as its "Source of Truth" with a verification URL;
+  X04 and X15 state explicitly that the creator resolves on stated
+  criteria; X14 resolves on the named LessWrong 2026 Annual Review
+  vote. Flagged by the word list, cleared by a reader. (Correction,
+  Oct 28: an earlier version of this page said 11 of 24. That count
+  read the flags without reading each listing's full rules text, and
+  its denominator was wrong — both politics leaks were Manifold, so
+  in-scope Manifold is 23. The corrected count above was verified by
+  two independent full-rules reads.)
 - **Both run-2 PAST_DATE flags are artifacts, excluded:** X49 is the
   run-1 "week of October 26" misread again; X19's "May 2025" is a data
   baseline inside the rules text, not a deadline.
@@ -77,12 +85,11 @@ hand-checked one by one:
 
 "We ran the audit on 50 live public market questions. Read fairly —
 with each market's own rulebook attached — the moderated platform
-(Polymarket, 25 questions) came back with no serious flags, and 11 of
-24 in-scope listings on the unmoderated platform (Manifold) named
+(Polymarket, 25 questions) came back with no serious flags, and 7 of
+23 in-scope listings on the unmoderated platform (Manifold) named
 nothing that settles them."
 
 ## Status
 
 Run 1 = logged null (wrong-shaped test). Run 2 = the fair test, with a
-modest, hand-verified finding. Whether the external sample is staged
-into the public repo is Brian's call (tonight vs. Nov 3 review).
+modest, hand-verified finding (count corrected Oct 28, see above).
